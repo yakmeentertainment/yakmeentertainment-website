@@ -112,7 +112,7 @@ function openPlayer(i,fromLink){
   const apk=$('papk');if(p.apk){apk.hidden=false;apk.href=p.apk;}else apk.hidden=true;
   pstage.className='pstage'+(p.shape==='portrait'?' portrait':'');
   pstage.innerHTML='';const f=document.createElement('iframe');f.className='pframe';f.src=p.play;f.title=p.title;
-  f.allow='fullscreen; autoplay';f.setAttribute('allowfullscreen','');pstage.appendChild(f);
+  f.allow='fullscreen; autoplay; accelerometer; gyroscope; screen-wake-lock';f.setAttribute('allowfullscreen','');pstage.appendChild(f);
   player.hidden=false;document.body.classList.add('locked');
   if(!fromLink)history.pushState({player:i},'','#play-'+slug(p.title));
   setTimeout(()=>f.focus(),50);
