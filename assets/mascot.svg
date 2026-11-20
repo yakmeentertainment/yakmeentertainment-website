@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" id="mascot" role="img" aria-label="Cartoon YakMe face">
+<defs>
+  <radialGradient id="mSkin" cx="50%" cy="45%" r="60%">
+    <stop offset="0" stop-color="#e6ad8e"/><stop offset=".7" stop-color="#d4977a"/><stop offset="1" stop-color="#bf7f63"/>
+  </radialGradient>
+  <linearGradient id="mHair" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a3a2e"/><stop offset="1" stop-color="#2e231b"/>
+  </linearGradient>
+  <linearGradient id="mBone" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f6f1e2"/><stop offset="1" stop-color="#d9cfb4"/>
+  </linearGradient>
+  <!-- skull shows on the viewer's right half with a soft, ragged edge -->
+  <linearGradient id="mHalf" x1="0" y1="0" x2="1" y2="0">
+    <stop offset=".44" stop-color="#000"/><stop offset=".53" stop-color="#fff"/>
+  </linearGradient>
+  <filter id="mRough" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="2" seed="7"/>
+    <feDisplacementMap in="SourceGraphic" scale="14"/>
+  </filter>
+  <clipPath id="mEyeL"><ellipse cx="110" cy="186" rx="17" ry="9"/></clipPath><clipPath id="mEyeR"><ellipse cx="190" cy="186" rx="17" ry="9"/></clipPath>
+  <clipPath id="mHeadClip">
+    <path d="M150 62C215 62 240 95 244 140C252 180 258 225 250 262C240 315 200 352 150 354C100 352 60 315 50 262C42 225 48 180 56 140C60 95 85 62 150 62Z"/>
+  </clipPath>
+  <mask id="mSkullMask" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="380">
+    <rect width="300" height="380" fill="url(#mHalf)" filter="url(#mRough)"/>
+  </mask>
+  <filter id="mGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style>
+  #mascot .bob{transform-origin:150px 330px;animation:mBob 2.6s ease-in-out infinite}
+  #mascot .lid{transform-box:fill-box;transform-origin:50% 0;transform:scaleY(1);animation:mBlink 4.2s infinite}
+  #mascot .lid.r{animation-delay:.04s}
+  #mascot .brow{animation:mBrow 2.6s ease-in-out infinite}
+  #mascot .grin{transform-box:fill-box;transform-origin:50% 0;animation:mGrin 2.6s ease-in-out infinite}
+  #mascot.laugh .bob{animation:mLaugh .32s ease-in-out 4,mBob 2.6s ease-in-out 1.3s infinite}
+  #mascot.laugh .grin{animation:mWide .32s ease-in-out 4,mGrin 2.6s ease-in-out 1.3s infinite}
+  @keyframes mBob{0%,100%{transform:translateY(0) rotate(-1.2deg)}50%{transform:translateY(-5px) rotate(1.2deg)}}
+  @keyframes mBlink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(2.6)}}
+  @keyframes mBrow{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+  @keyframes mGrin{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.08)}}
+  @keyframes mLaugh{0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(-7px) rotate(-3deg)}75%{transform:translateY(-7px) rotate(3deg)}}
+  @keyframes mWide{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.35)}}
+  @media (prefers-reduced-motion:reduce){#mascot *{animation:none!important}}
+</style>
+
+<g class="bob">
+  <g id="mFace">
+    <!-- neck shadow -->
+    <ellipse cx="150" cy="356" rx="70" ry="14" fill="#000" opacity=".25"/>
+    <!-- ears -->
+    <g fill="#c98a6c" stroke="#5a3626" stroke-width="3">
+      <ellipse cx="50" cy="205" rx="17" ry="28"/><ellipse cx="250" cy="205" rx="17" ry="28"/>
+    </g>
+    <g fill="#a86a50" opacity=".6"><ellipse cx="52" cy="206" rx="7" ry="14"/><ellipse cx="248" cy="206" rx="7" ry="14"/></g>
+    <!-- head -->
+    <path d="M150 62C215 62 240 95 244 140C252 180 258 225 250 262C240 315 200 352 150 354C100 352 60 315 50 262C42 225 48 180 56 140C60 95 85 62 150 62Z" fill="url(#mSkin)" stroke="#5a3626" stroke-width="3.5"/>
+    <g clip-path="url(#mHeadClip)">
+      <!-- cheek blush -->
+      <ellipse cx="88" cy="232" rx="24" ry="15" fill="#e8737a" opacity=".32"/>
+      <ellipse cx="212" cy="232" rx="24" ry="15" fill="#e8737a" opacity=".32"/>
+      <!-- beard along the jaw (salt and pepper) -->
+      <path d="M36 214C52 222 60 252 74 282C92 316 118 326 150 326C182 326 208 316 226 282C240 252 248 222 264 214L268 380L32 380Z" fill="#46362b" opacity=".82"/>
+      <g fill="#7d7268" opacity=".55"><circle cx="70" cy="290" r="1.6"/><circle cx="84" cy="312" r="1.4"/><circle cx="104" cy="330" r="1.6"/><circle cx="126" cy="338" r="1.3"/><circle cx="150" cy="342" r="1.6"/><circle cx="174" cy="338" r="1.3"/><circle cx="196" cy="330" r="1.6"/><circle cx="216" cy="312" r="1.4"/><circle cx="230" cy="290" r="1.6"/><circle cx="60" cy="262" r="1.3"/><circle cx="240" cy="262" r="1.3"/><circle cx="140" cy="348" r="1.2"/><circle cx="162" cy="347" r="1.2"/></g>
+      <path d="M58 262C70 300 100 330 150 338C200 330 230 300 242 262" fill="none" stroke="#8d8378" stroke-width="2" stroke-dasharray="2 6" opacity=".8"/>
+      <path d="M70 290C90 318 120 336 150 342C180 336 210 318 230 290" fill="none" stroke="#a49a8f" stroke-width="2" stroke-dasharray="1 7" opacity=".7"/>
+      <!-- forehead crease -->
+      <path d="M128 124Q150 118 172 124" fill="none" stroke="#a8694f" stroke-width="2" opacity=".45"/>
+    </g>
+    <!-- hair: short, spiky, swept up, with gray -->
+    <path d="M54 152C48 116 58 90 76 74C78 64 88 56 98 56C102 46 114 42 124 46C130 38 144 36 152 42C160 36 174 38 180 46C190 42 202 46 206 56C216 56 224 64 226 74C244 90 252 116 246 152
+             C240 132 232 118 222 112C212 106 198 104 186 108L176 118C168 106 158 100 150 100C142 100 132 106 124 118L114 108C102 104 88 106 78 112C68 118 60 132 54 152Z" fill="url(#mHair)" stroke="#231a14" stroke-width="3" stroke-linejoin="round"/>
+    <g stroke="#9c948a" stroke-width="2" stroke-linecap="round" opacity=".75">
+      <path d="M92 70l8 14M112 56l4 16M132 48l2 16M150 46v18M168 48l-2 16M188 56l-4 16M208 70l-8 14M80 92l8 10M220 92l-8 10M122 76l4 10M178 76l-4 10"/>
+    </g>
+    <!-- eyebrows: thick, raised (happy) -->
+    <g class="brow" fill="#2f241c">
+      <path d="M80 160Q104 140 134 150Q136 158 130 160Q104 152 84 168Z"/>
+      <path d="M220 160Q196 140 166 150Q164 158 170 160Q196 152 216 168Z"/>
+    </g>
+    <!-- eyes: heavy lids, brown, smiling -->
+    <g>
+      <ellipse cx="110" cy="186" rx="18" ry="10" fill="#fff" stroke="#5a3626" stroke-width="2.5"/>
+      <ellipse cx="190" cy="186" rx="18" ry="10" fill="#fff" stroke="#5a3626" stroke-width="2.5"/>
+      <circle cx="112" cy="187" r="7.5" fill="#5b3a22"/><circle cx="192" cy="187" r="7.5" fill="#5b3a22"/>
+      <circle cx="112" cy="187" r="3.6" fill="#140c08"/><circle cx="192" cy="187" r="3.6" fill="#140c08"/>
+      <circle cx="115" cy="189" r="1.8" fill="#fff"/><circle cx="195" cy="189" r="1.8" fill="#fff"/>
+      <!-- heavy upper lids (resting low; drop fully to blink) -->
+      <g clip-path="url(#mEyeL)"><path class="lid" d="M89 182Q110 186 131 182L131 172L89 172Z" fill="#d39477"/></g>
+      <g clip-path="url(#mEyeR)"><path class="lid r" d="M169 182Q190 186 211 182L211 172L169 172Z" fill="#d39477"/></g>
+      <path d="M88 181Q110 187 132 181" fill="none" stroke="#5a3626" stroke-width="3" stroke-linecap="round"/>
+      <path d="M168 181Q190 187 212 181" fill="none" stroke="#5a3626" stroke-width="3" stroke-linecap="round"/>
+      <!-- smile cheeks pushing up under eyes -->
+      <path d="M92 200Q110 208 128 200" fill="none" stroke="#a8694f" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M172 200Q190 208 208 200" fill="none" stroke="#a8694f" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M84 190l-8 4M216 190l8 4" stroke="#a8694f" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- nose: broad, round tip -->
+    <path d="M141 186C140 206 132 216 127 226C122 238 132 246 142 243C146 248 154 248 158 243C168 246 178 238 173 226C168 216 160 206 159 186" fill="#d08f72" stroke="#5a3626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="150" cy="226" rx="9" ry="7" fill="#f0c0a6" opacity=".7"/>
+    <ellipse cx="139" cy="238" rx="4.5" ry="3" fill="#5a3626" opacity=".75"/><ellipse cx="161" cy="238" rx="4.5" ry="3" fill="#5a3626" opacity=".75"/>
+    <!-- big grin -->
+    <g class="grin">
+      <path d="M108 268Q150 278 192 268Q186 312 150 314Q114 312 108 268Z" fill="#6b1d1d" stroke="#3a1a12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M112 270Q150 280 188 270L186 282Q150 290 114 282Z" fill="#fff"/>
+      <path d="M126 274v12M138 276v13M150 277v13M162 276v13M174 274v12" stroke="#d9d2c5" stroke-width="1.5"/>
+      <path d="M128 304Q150 292 172 304Q160 313 150 313Q140 313 128 304Z" fill="#e0646b"/>
+    </g>
+    <!-- soul patch -->
+    <path d="M144 322Q150 334 156 322Q150 326 144 322Z" fill="#46362b"/>
+    <!-- horseshoe mustache (lifts with the grin) -->
+    <path d="M150 252C136 248 118 252 106 262C98 270 98 290 102 306C104 312 110 312 110 304C110 290 114 278 124 272C134 266 144 266 150 270C156 266 166 266 176 272C186 278 190 290 190 304C190 312 196 312 198 306C202 290 202 270 194 262C182 252 164 248 150 252Z" fill="#3f3128" stroke="#231a14" stroke-width="2.5" stroke-linejoin="round"/>
+    <g stroke="#8f867c" stroke-width="1.6" stroke-linecap="round" opacity=".8"><path d="M120 262l4 6M134 258l2 6M166 258l-2 6M180 262l-4 6M104 282l4 2M196 282l-4 2"/></g>
+  </g>
+
+  <!-- x-ray skull, revealed on the right half -->
+  <g id="mSkull" mask="url(#mSkullMask)" filter="url(#mGlow)">
+    <g clip-path="url(#mHeadClip)">
+      <path d="M150 74C214 74 240 118 240 170C240 206 228 228 214 240L214 262C214 272 206 278 196 278L104 278C94 278 86 272 86 262L86 240C72 228 60 206 60 170C60 118 86 74 150 74Z" fill="url(#mBone)" stroke="#8a7f66" stroke-width="3"/>
+      <!-- sockets -->
+      <path d="M86 188C86 166 102 160 116 162C132 164 140 176 136 194C132 210 118 214 104 212C92 210 86 200 86 188Z" fill="#1a1414"/>
+      <path d="M214 188C214 166 198 160 184 162C168 164 160 176 164 194C168 210 182 214 196 212C208 210 214 200 214 188Z" fill="#1a1414"/>
+      <circle cx="192" cy="190" r="4" fill="#ff5a3c"><animate attributeName="opacity" values="1;.3;1" dur="1.2s" repeatCount="indefinite"/></circle>
+      <!-- nasal hole -->
+      <path d="M150 210L138 240Q150 246 162 240Z" fill="#1a1414"/>
+      <!-- cheekbone lines -->
+      <path d="M98 226Q112 236 128 230M202 226Q188 236 172 230" fill="none" stroke="#8a7f66" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- grinning teeth + jaw -->
+      <path d="M104 262Q150 276 196 262L196 300Q192 334 150 338Q108 334 104 300Z" fill="url(#mBone)" stroke="#8a7f66" stroke-width="3"/>
+      <path d="M108 268Q150 282 192 268L190 296Q150 306 110 296Z" fill="#fbf8ee" stroke="#8a7f66" stroke-width="2"/>
+      <path d="M120 272v26M132 275v27M144 276v28M156 276v28M168 275v27M180 272v26M110 284Q150 294 190 284" stroke="#8a7f66" stroke-width="2" fill="none"/>
+      <!-- crack -->
+      <path d="M182 92l-8 18 10 8-6 16" fill="none" stroke="#8a7f66" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</g>
+</svg>
