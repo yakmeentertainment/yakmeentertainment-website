@@ -28,6 +28,16 @@ const PROJECTS = [
     shape: "portrait"
   },
   {
+    section: "games",
+    title: "Dad Punt",
+    blurb: "The kids left their stuffed animals all over the floor again, and Dad has had enough. Pick a stuffie, then swipe up (or shake your phone) to see how far Dad can punt it. Six stuffies with their own physics: a belly-sliding penguin, a chonky panda, a floaty tiny tree, a floppy octopus, a T-Rex and a super bouncy bunny. Clear the hedge and find the trampoline.",
+    tags: ["Arcade", "6 stuffies", "Best on phone"],
+    thumb: "assets/dad-punt-thumb.jpg",
+    play: "/games-dad-punt/",
+    apk: "",
+    shape: "portrait"
+  },
+  {
     section: "apps",
     title: "Stadium Wayfinder",
     blurb: "Pick a stadium, then get turn-by-turn directions to your section, the closest food and drinks, or a fair spot to meet a friend. 13 venues, including the United Center, Soldier Field, Wrigley, Lambeau, Fenway, MSG and SoFi.",
