@@ -21,14 +21,15 @@ const ICON_ARROW='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" str
 /* ---------- header + footer ---------- */
 const site=$('site');
 const header=document.createElement('header');header.className='topbar';
-header.innerHTML=`<a class="logo" href="index.html"><img src="assets/face.webp" alt=""><b>YAKME</b></a>
+header.innerHTML=`<a class="logo" href="index.html"><img src="assets/face.webp" alt=""><b>YAKME<small> ENTERTAINMENT</small></b></a>
   <nav class="nav" aria-label="Pages">
     <a href="index.html"${PAGE==='home'?' class="active" aria-current="page"':''}>Home</a>
     ${Object.entries(SECTIONS).map(([k,v])=>`<a href="${v.file}"${PAGE===k?' class="active" aria-current="page"':''}>${v.name}</a>`).join('')}
   </nav>`;
 site.prepend(header);
 const footer=document.createElement('footer');
-footer.innerHTML=`<b>YAKME</b><br>© ${new Date().getFullYear()} YakMe. All rights reserved.`;
+footer.innerHTML=`<b>YAKME ENTERTAINMENT</b><br>© ${new Date().getFullYear()} YakMe Entertainment. All rights reserved.`;
+const st=document.createElement('style');st.textContent='.logo b small{font-size:.6em;letter-spacing:.18em;color:var(--glow)}@media(max-width:600px){.logo b{font-size:20px}}';document.head.append(st);
 site.append(footer);
 
 /* ---------- home: three tiles ---------- */
