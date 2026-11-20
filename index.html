@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#02040f">
 <link rel="icon" href="assets/face.webp">
 <link rel="stylesheet" href="assets/site.css">
-<style>.brand{font-size:clamp(20px,6.2vw,60px)}</style>
+<style>.brand{font-size:clamp(20px,6.2vw,60px)}.stage{width:calc(var(--h)*.79)}#mascotHost svg{width:100%;height:100%;display:block;overflow:visible}#mFace{opacity:var(--fo);filter:brightness(var(--fb))}#mSkull{opacity:var(--sk)}.hero h1 .ent{display:block;font-size:.4em;letter-spacing:.32em;padding-left:.32em;margin-top:.25em;color:var(--glow)}</style>
 </head>
 <body class="locked" data-page="home">
 
@@ -16,17 +16,14 @@
 <div id="splash" role="dialog" aria-label="YakMe Entertainment">
   <div class="brand" id="brand" aria-hidden="true"></div>
   <div class="stage" id="stage">
-    <div class="comp">
-      <img class="face" id="face" alt="" src="assets/face.webp">
-      <img class="skull" id="skull" alt="" src="assets/skull.webp">
-    </div>
+    <div class="comp" id="mascotHost"></div>
   </div>
   <div class="enter-slot"><button id="enter" type="button">Enter</button></div>
 </div>
 
 <div class="site" id="site" aria-hidden="true">
   <div class="hero">
-    <h1>YakMe</h1>
+    <h1>YakMe<span class="ent">Entertainment</span></h1>
     <p>Games, animations and apps. Play right here in your browser, or grab the Android APK.</p>
   </div>
   <div class="tiles" id="tiles"></div>
@@ -37,8 +34,8 @@
 <script>
 const CONFIG = {
   companyName: "YakMe Entertainment",
-  faceScale: 0.5,
-  skullOpacity: 0.5,
+  faceScale: 0.62,
+  skullOpacity: 0.9,
   skullHoldSeconds: 2,
   enterDelayMs: 600          // ENTER fades in this long after the name lands
 };
@@ -57,7 +54,8 @@ const KEYS=[
 ];
 const TEXT_AT=T_FLASH+0.1, END_T=T_FLASH_END;
 root.setProperty('--scale',CONFIG.faceScale);
-const splash=$('splash'),brand=$('brand'),face=$('face'),skull=$('skull'),enter=$('enter');
+const splash=$('splash'),brand=$('brand'),enter=$('enter');let face={style:{}},skull={style:{}},mascot=null,laughed=false;
+function laugh(){if(!laughed&&mascot){laughed=true;mascot.classList.add('laugh');}}
 
 [...CONFIG.companyName].forEach((ch,i)=>{const s=document.createElement('span');
   if(ch===' '){s.className='sp';s.innerHTML='&nbsp;'}else s.textContent=ch;
@@ -81,12 +79,12 @@ function render(t){
 let t0=0,raf=0,done=false,textShown=false,entered=false;
 function showText(){if(!textShown){textShown=true;brand.classList.add('show')}}
 function finish(){
-  if(done)return;done=true;cancelAnimationFrame(raf);render(END_T);showText();
+  if(done)return;done=true;cancelAnimationFrame(raf);render(END_T);showText();laugh();
   setTimeout(()=>{enter.classList.add('on');enter.focus({preventScroll:true});},CONFIG.enterDelayMs+700);
 }
 function frame(now){
   if(!t0)t0=now;const t=(now-t0)/1000;
-  if(t>=TEXT_AT)showText();
+  if(t>=T_SK_GONE)laugh();if(t>=TEXT_AT)showText();
   if(t>=END_T){finish();return;}
   render(t);raf=requestAnimationFrame(frame);
 }
@@ -106,7 +104,11 @@ enter.addEventListener('click',e=>{e.stopPropagation();enterSite();});
 document.addEventListener('keydown',e=>{if(!entered&&done&&(e.key==='Enter'||e.key===' ')){e.preventDefault();enterSite();}});
 let seen=false;try{seen=sessionStorage.getItem('yakmeEntered')==='1'}catch(e){}
 if(seen){entered=true;splash.style.display='none';document.body.classList.remove('locked');$('site').removeAttribute('aria-hidden');}
-else if(face.complete)boot();else{face.addEventListener('load',boot);face.addEventListener('error',boot);}
+else{
+  fetch('assets/mascot.svg').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
+    $('mascotHost').innerHTML=t;mascot=$('mascot');face=$('mFace');skull=$('mSkull');boot();
+  }).catch(()=>{$('mascotHost').innerHTML='<img class="face" id="face" alt="" src="assets/face.webp"><img class="skull" id="skull" alt="" src="assets/skull.webp">';face=$('face');skull=$('skull');document.querySelector('.stage').style.width='calc(var(--h)*.6)';boot();});
+}
 
 })();
 </script>
