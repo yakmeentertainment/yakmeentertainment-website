@@ -29,6 +29,7 @@
   </filter>
 </defs>
 <style>
+  #mSkull{opacity:var(--sk,0)}
   #mascot .bob{transform-origin:150px 330px;animation:mBob 2.6s ease-in-out infinite}
   #mascot .lid{transform-box:fill-box;transform-origin:50% 0;transform:scaleY(1);animation:mBlink 4.2s infinite}
   #mascot .lid.r{animation-delay:.04s}
