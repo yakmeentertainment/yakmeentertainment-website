@@ -40,7 +40,7 @@ const PROJECTS = [
   {
     section: "games",
     title: "Pitmaster: Smoke-Off",
-    blurb: "Babysit the smoker all night: add logs, work the vent and keep the temp in the green while raccoons, rain and the nosy neighbors Dillon and Tyler get in your way. Then shake your phone to build up pressure and sauce the meat in the morning, without hitting Uncle Gary's white shirt. Five cooks, from chicken thighs to a whole hog.",
+    blurb: "Babysit the smoker all night: add logs, work the vent and keep the temp in the green while raccoons, rain and the nosy neighbors Dillon and Tyler get in your way. Then shake your phone to build up pressure and sauce the meat in the morning, without hitting Uncle Marty's white shirt. Five cooks, from chicken thighs to a whole hog.",
     tags: ["Strategy", "5 cooks", "Best on phone"],
     thumb: "assets/pitmaster-thumb.jpg",
     play: "/games-pitmaster/",
