@@ -1,0 +1,791 @@
+{
+  "schema": 1,
+  "id": "lambeau-field",
+  "version": "fd4a8b832361",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "every section, gate positions, club seat colors, compass (2026)",
+      "ref": "reference/seating-chart-2026.pdf"
+    },
+    {
+      "what": "gate positions around the building outline",
+      "ref": "reference/gates-entry-parking-map-2026.pdf"
+    },
+    {
+      "what": "gate list with nearest sections",
+      "ref": "reference/gates-entry.md"
+    },
+    {
+      "what": "elevators, escalators, the three ramps to the upper concourse",
+      "ref": "reference/accessibility-guide.md"
+    },
+    {
+      "what": "club seats 403–435 belong to the Associated Bank Club",
+      "ref": "reference/premium-access-outdoor-club-seats.pdf"
+    },
+    {
+      "what": "north indoor club seats 470–492 and 670–694 belong to the Associated Bank Club",
+      "ref": "reference/premium-access-indoor-club-seats.pdf"
+    },
+    {
+      "what": "upper-concourse stands numbered after east 100s sections (109-U, 119-U, 131-U)",
+      "ref": "reference/dining-guide-by-location-2026.pdf"
+    }
+  ],
+  "name": "Lambeau Field",
+  "city": "Green Bay",
+  "region": "WI",
+  "disclaimer": "Unofficial, not affiliated with Lambeau Field or the Green Bay Packers.",
+  "streets": {
+    "north": "LOMBARDI AVE",
+    "south": "VALLEY VIEW RD"
+  },
+  "numbering": {
+    "direction": "cw",
+    "startF": 0.9872
+  },
+  "geometry": {
+    "shapeExp": 3.2,
+    "refRing": [
+      116,
+      145
+    ],
+    "court": [
+      50,
+      94
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "100 Level",
+      "sub": "Main concourse (1st floor)",
+      "short": "100",
+      "sections": [
+        "100",
+        "101",
+        "103",
+        "105",
+        "107",
+        "109",
+        "111",
+        "113",
+        "115",
+        "117",
+        "119",
+        "121",
+        "123",
+        "125",
+        "127",
+        "129",
+        "131",
+        "133",
+        "135",
+        "137",
+        "138",
+        "136",
+        "134",
+        "132",
+        "130",
+        "128",
+        "126",
+        "124",
+        "122",
+        "120",
+        "118",
+        "116",
+        "114",
+        "112",
+        "110",
+        "108",
+        "106",
+        "104",
+        "102"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          40,
+          62
+        ],
+        "seatOut": [
+          96,
+          124
+        ],
+        "concIn": [
+          100,
+          128
+        ],
+        "concOut": [
+          122,
+          152
+        ],
+        "tower": [
+          136,
+          166
+        ]
+      },
+      "viewBox": [
+        -196,
+        -212,
+        392,
+        424
+      ],
+      "fontSize": 7
+    },
+    {
+      "level": 2,
+      "name": "300 Level",
+      "sub": "Upper concourse (3rd floor)",
+      "short": "300",
+      "span": {
+        "startF": 0.409,
+        "endF": 0.082
+      },
+      "loop": true,
+      "sections": [
+        "345",
+        "347",
+        "349",
+        "351",
+        "353",
+        "354",
+        "352",
+        "350",
+        "348",
+        "346",
+        "344",
+        "342",
+        "340",
+        "338",
+        "336",
+        "334",
+        "332",
+        "330",
+        "328",
+        "326",
+        "324",
+        "322",
+        "320",
+        "318",
+        "316",
+        "314",
+        "312",
+        "310",
+        "308",
+        "306",
+        "304",
+        "302",
+        "300",
+        "301",
+        "303",
+        "305",
+        "307"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          100,
+          128
+        ],
+        "seatOut": [
+          126,
+          156
+        ],
+        "concIn": [
+          130,
+          160
+        ],
+        "concOut": [
+          150,
+          182
+        ],
+        "tower": [
+          164,
+          196
+        ]
+      },
+      "viewBox": [
+        -222,
+        -240,
+        444,
+        480
+      ],
+      "fontSize": 6.5,
+      "unverified": [
+        "the upper concourse also runs behind the east side, where the club seats replace the 300s (stands there are numbered 109-U, 119-U, 131-U), so it is modeled as a full loop"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Club Level",
+      "sub": "Associated Bank Club (4th floor)",
+      "short": "C4",
+      "span": {
+        "startF": 0.88,
+        "endF": 0.41
+      },
+      "sections": [
+        "470",
+        "472",
+        "474",
+        "476",
+        "478",
+        "480",
+        "482",
+        "484",
+        "486",
+        "488",
+        "490",
+        "492",
+        "403",
+        "405",
+        "407",
+        "409",
+        "411",
+        "413",
+        "415",
+        "417",
+        "419",
+        "421",
+        "423",
+        "425",
+        "427",
+        "429",
+        "431",
+        "433",
+        "435"
+      ],
+      "restricted": {
+        "label": "Associated Bank Club",
+        "needs": "a club seat ticket (Sections 403–435, 470–492 or 670–694)"
+      },
+      "rings": {
+        "seatIn": [
+          126,
+          156
+        ],
+        "seatOut": [
+          146,
+          178
+        ],
+        "concIn": [
+          150,
+          182
+        ],
+        "concOut": [
+          168,
+          202
+        ],
+        "tower": [
+          182,
+          216
+        ]
+      },
+      "viewBox": [
+        -240,
+        -262,
+        480,
+        524
+      ],
+      "fontSize": 7,
+      "unverified": [
+        "the north indoor club seats (470–492) and the east outdoor club seats (403–435) share one 4th-floor club concourse"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "South End 400s",
+      "sub": "South End Zone, 4th floor",
+      "short": "S4",
+      "span": {
+        "startF": 0.41,
+        "endF": 0.64
+      },
+      "sections": [
+        "443s",
+        "445s",
+        "447s",
+        "449s",
+        "450s",
+        "448s",
+        "446s",
+        "444s",
+        "442s",
+        "440s",
+        "438s",
+        "436s",
+        "434s",
+        "432s"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          130,
+          160
+        ],
+        "seatOut": [
+          150,
+          186
+        ],
+        "concIn": [
+          154,
+          190
+        ],
+        "concOut": [
+          170,
+          208
+        ],
+        "tower": [
+          184,
+          222
+        ]
+      },
+      "viewBox": [
+        -240,
+        -262,
+        480,
+        524
+      ],
+      "fontSize": 6.5,
+      "unverified": [
+        "one concourse runs end to end behind 443s–432s, past the Miller Lite Deck and Lounge"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Club Level 6",
+      "sub": "North indoor club (6th floor)",
+      "short": "C6",
+      "span": {
+        "startF": 0.855,
+        "endF": 0.125
+      },
+      "sections": [
+        "670",
+        "672",
+        "674",
+        "676",
+        "678",
+        "680",
+        "682",
+        "684",
+        "686",
+        "688",
+        "690",
+        "692",
+        "694"
+      ],
+      "restricted": {
+        "label": "Associated Bank Club",
+        "needs": "a club seat ticket (Sections 403–435, 470–492 or 670–694)"
+      },
+      "rings": {
+        "seatIn": [
+          150,
+          182
+        ],
+        "seatOut": [
+          172,
+          206
+        ],
+        "concIn": [
+          176,
+          210
+        ],
+        "concOut": [
+          192,
+          228
+        ],
+        "tower": [
+          206,
+          242
+        ]
+      },
+      "viewBox": [
+        -264,
+        -290,
+        528,
+        580
+      ],
+      "fontSize": 7
+    },
+    {
+      "level": 6,
+      "name": "South End 600s",
+      "sub": "South End Zone, 6th floor",
+      "short": "S6",
+      "span": {
+        "startF": 0.385,
+        "endF": 0.645
+      },
+      "sections": [
+        "635s",
+        "637s",
+        "639s",
+        "641s",
+        "643s",
+        "645s",
+        "647s",
+        "648s",
+        "646s",
+        "644s",
+        "642s",
+        "640s",
+        "638s",
+        "636s",
+        "634s",
+        "632s",
+        "630s"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          154,
+          190
+        ],
+        "seatOut": [
+          174,
+          214
+        ],
+        "concIn": [
+          178,
+          218
+        ],
+        "concOut": [
+          194,
+          236
+        ],
+        "tower": [
+          208,
+          250
+        ]
+      },
+      "viewBox": [
+        -264,
+        -296,
+        528,
+        592
+      ],
+      "fontSize": 6.5,
+      "unverified": [
+        "one concourse runs end to end behind 635s–630s"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "South End 700s",
+      "sub": "South End Zone, 7th floor",
+      "short": "S7",
+      "span": {
+        "startF": 0.37,
+        "endF": 0.655
+      },
+      "sections": [
+        "735s",
+        "737s",
+        "739s",
+        "741s",
+        "743s",
+        "745s",
+        "747s",
+        "749s",
+        "750s",
+        "748s",
+        "746s",
+        "744s",
+        "742s",
+        "740s",
+        "738s",
+        "736s",
+        "734s",
+        "732s",
+        "730s"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          178,
+          218
+        ],
+        "seatOut": [
+          200,
+          244
+        ],
+        "concIn": [
+          204,
+          248
+        ],
+        "concOut": [
+          220,
+          266
+        ],
+        "tower": [
+          234,
+          280
+        ]
+      },
+      "viewBox": [
+        -290,
+        -326,
+        580,
+        652
+      ],
+      "fontSize": 6.5,
+      "unverified": [
+        "the dining guide splits the 7th floor into West and East; modeled as one concourse joined along the south (744s–745s)"
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "GUW",
+      "name": "UW Health Gate",
+      "label": "UW",
+      "f": 0,
+      "levels": [
+        1,
+        3,
+        5
+      ],
+      "stairs": {
+        "levels": [
+          3,
+          5
+        ]
+      },
+      "unverified": [
+        "premium entrance; which floors its lobby reaches",
+        "club stairs between the 4th- and 6th-floor clubs"
+      ]
+    },
+    {
+      "id": "GML",
+      "name": "Miller Lite Gate",
+      "label": "ML",
+      "f": 0.11,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "position read off the seating chart (northeast, by 307 / 405 / 694)"
+      ]
+    },
+    {
+      "id": "GSX",
+      "name": "Special Exceptions Gate",
+      "label": "SX",
+      "f": 0.15,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "position: only described as northeast, near the Ticket Office"
+      ]
+    },
+    {
+      "id": "GAF",
+      "name": "American Family Insurance Gate",
+      "label": "AF",
+      "f": 0.26,
+      "levels": [
+        1,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          3
+        ]
+      },
+      "unverified": [
+        "Atrium entrance; the Atrium escalators run from the lower level to the 4th-floor Associated Bank Club"
+      ]
+    },
+    {
+      "id": "GON",
+      "name": "Oneida Nation Gate",
+      "label": "ON",
+      "f": 0.375,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "ramp": {
+        "levels": [
+          1,
+          2
+        ]
+      },
+      "unverified": [
+        "position read off the chart; the ramp to the upper concourse is official"
+      ]
+    },
+    {
+      "id": "GSB",
+      "name": "Potawatomi Sportsbook Gate",
+      "label": "PS",
+      "f": 0.5,
+      "levels": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          6,
+          7
+        ]
+      },
+      "stairs": {
+        "levels": [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      },
+      "unverified": [
+        "escalator from the lobby to the 6th floor and on to the 7th (official pages differ)",
+        "stairs from the lobby to every South End floor and the upper concourse"
+      ]
+    },
+    {
+      "id": "GFF",
+      "name": "Fleet Farm Gate",
+      "label": "FF",
+      "f": 0.63,
+      "levels": [
+        1,
+        2
+      ],
+      "ramp": {
+        "levels": [
+          1,
+          2
+        ]
+      },
+      "unverified": [
+        "position read off the chart; the ramp to the upper concourse is official"
+      ]
+    },
+    {
+      "id": "GAB",
+      "name": "Associated Bank Gate",
+      "label": "AB",
+      "f": 0.75,
+      "levels": [
+        1,
+        2
+      ],
+      "unverified": [
+        "reaches the upper concourse only by the west elevator"
+      ]
+    },
+    {
+      "id": "GKT",
+      "name": "Kwik Trip Gate",
+      "label": "KT",
+      "f": 0.87,
+      "levels": [
+        1,
+        2
+      ],
+      "ramp": {
+        "levels": [
+          1,
+          2
+        ]
+      },
+      "unverified": [
+        "position read off the chart; the ramp to the upper concourse is official"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EUW",
+      "nearGate": "GUW",
+      "f": 0.015,
+      "levels": [
+        1,
+        3,
+        5
+      ],
+      "unverified": [
+        "premium elevators at the UW Health Gate; floors served"
+      ]
+    },
+    {
+      "id": "EAT",
+      "nearGate": "GAF",
+      "f": 0.25,
+      "levels": [
+        1,
+        3
+      ],
+      "unverified": [
+        "elevator in the center of the Atrium; floors served"
+      ]
+    },
+    {
+      "id": "EON",
+      "nearGate": "GON",
+      "f": 0.385,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "unverified": [
+        "east elevator near the Oneida Nation Gate; floors served"
+      ]
+    },
+    {
+      "id": "ESB",
+      "nearGate": "GSB",
+      "f": 0.49,
+      "levels": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "unverified": [
+        "South Gate lobby elevators; floors served"
+      ]
+    },
+    {
+      "id": "EW",
+      "nearGate": "GAB",
+      "f": 0.745,
+      "levels": [
+        1,
+        2
+      ],
+      "unverified": [
+        "west elevator near the Game Day Store (under Section 120); floors served"
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30,
+    "rampRide": 150,
+    "rampRideSecs": 90,
+    "stairsRide": 120,
+    "stairsRideSecs": 60
+  }
+}

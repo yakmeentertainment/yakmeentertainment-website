@@ -1,0 +1,370 @@
+{
+  "schema": 1,
+  "id": "united-center",
+  "version": "679f9e5466c2",
+  "lastVerified": "2026-11-08",
+  "sources": [
+    {
+      "what": "seating chart (section order, all levels)",
+      "ref": "reference/seating-chart.jpg"
+    },
+    {
+      "what": "venue accessibility guide (elevators next to Gates 3 and 7)",
+      "ref": "venue website"
+    },
+    {
+      "what": "gate positions and escalators",
+      "ref": "venue seating charts and accessibility guide"
+    }
+  ],
+  "name": "United Center",
+  "city": "Chicago",
+  "region": "IL",
+  "disclaimer": "Unofficial prototype, not affiliated with the United Center.",
+  "streets": {
+    "north": "MADISON ST  ·  NORTH",
+    "south": "ADAMS ST"
+  },
+  "numbering": {
+    "direction": "cw",
+    "startF": 0
+  },
+  "geometry": {
+    "shapeExp": 3.2,
+    "refRing": [
+      145,
+      116
+    ],
+    "court": [
+      94,
+      50
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "100 Level",
+      "sub": "Lower bowl",
+      "short": "100",
+      "sections": [
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "119",
+        "120",
+        "121",
+        "122"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          62,
+          40
+        ],
+        "seatOut": [
+          128,
+          100
+        ],
+        "concIn": [
+          132,
+          104
+        ],
+        "concOut": [
+          158,
+          128
+        ],
+        "tower": [
+          172,
+          142
+        ]
+      },
+      "viewBox": [
+        -212,
+        -196,
+        424,
+        392
+      ],
+      "fontSize": 9
+    },
+    {
+      "level": 2,
+      "name": "200 Level",
+      "sub": "Club level",
+      "short": "200",
+      "sections": [
+        "201",
+        "202",
+        "203",
+        "204",
+        "205",
+        "206",
+        "207",
+        "208",
+        "209",
+        "210",
+        "211",
+        "212",
+        "213",
+        "214",
+        "215",
+        "216",
+        "217",
+        "218",
+        "219",
+        "220",
+        "221",
+        "222",
+        "223",
+        "224",
+        "225",
+        "226",
+        "227",
+        "228",
+        "229",
+        "230",
+        "231",
+        "232",
+        "233",
+        "234"
+      ],
+      "restricted": {
+        "label": "Club Level",
+        "needs": "a 200 Level ticket or club pass"
+      },
+      "rings": {
+        "seatIn": [
+          132,
+          104
+        ],
+        "seatOut": [
+          165,
+          132
+        ],
+        "concIn": [
+          169,
+          136
+        ],
+        "concOut": [
+          190,
+          156
+        ],
+        "tower": [
+          204,
+          170
+        ]
+      },
+      "viewBox": [
+        -240,
+        -222,
+        480,
+        444
+      ],
+      "fontSize": 7.6
+    },
+    {
+      "level": 3,
+      "name": "300 Level",
+      "sub": "Upper bowl",
+      "short": "300",
+      "sections": [
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "324",
+        "325",
+        "326",
+        "327",
+        "328",
+        "329",
+        "330",
+        "331",
+        "332",
+        "333",
+        "334"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          169,
+          136
+        ],
+        "seatOut": [
+          228,
+          194
+        ],
+        "concIn": [
+          232,
+          198
+        ],
+        "concOut": [
+          252,
+          216
+        ],
+        "tower": [
+          266,
+          230
+        ]
+      },
+      "viewBox": [
+        -302,
+        -286,
+        604,
+        572
+      ],
+      "fontSize": 9.5
+    }
+  ],
+  "gates": [
+    {
+      "id": "G2",
+      "name": "Gate 2",
+      "label": "2",
+      "f": 0.95,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "stairs": true
+      }
+    },
+    {
+      "id": "G3",
+      "name": "Gate 3",
+      "label": "3",
+      "f": 0.05,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "stairs": true
+      }
+    },
+    {
+      "id": "G4",
+      "name": "Gate 4",
+      "label": "4",
+      "f": 0.25,
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "G6",
+      "name": "Gate 6",
+      "label": "6",
+      "f": 0.45,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "stairs": true
+      }
+    },
+    {
+      "id": "G7",
+      "name": "Gate 7",
+      "label": "7",
+      "f": 0.55,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "stairs": true
+      }
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EG3",
+      "nearGate": "G3",
+      "f": 0.085,
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "EG7",
+      "nearGate": "G7",
+      "f": 0.515,
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30
+  }
+}

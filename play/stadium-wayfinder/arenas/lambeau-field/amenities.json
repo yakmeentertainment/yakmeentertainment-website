@@ -1,0 +1,2718 @@
+{
+  "schema": 1,
+  "id": "lambeau-field",
+  "version": "cd2a8da07f82",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "every stand and its menu, 2026 (Delaware North); the stand number is the nearest section",
+      "ref": "reference/dining-guide-by-location-2026.pdf"
+    },
+    {
+      "what": "same menus indexed by item and by specialty",
+      "ref": "reference/dining-guide-by-item-2026.pdf"
+    },
+    {
+      "what": "restrooms by nearest section (Packers A–Z guide)",
+      "ref": "reference/restrooms.md"
+    }
+  ],
+  "stands": [
+    {
+      "id": "heavenly-roasted-nuts-101",
+      "name": "Heavenly Roasted Nuts",
+      "kind": "food",
+      "section": "101",
+      "items": [
+        "Almonds",
+        "Pecans",
+        "Cashews",
+        "Roasted nut combo",
+        "Turtle Stick",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "pack-n-cheese-101",
+      "name": "Pack N Cheese",
+      "kind": "food",
+      "section": "101",
+      "items": [
+        "Pack N Cheese Brat",
+        "Pack N Cheese Original",
+        "Pack N Cheese Sloppy Joe",
+        "Mac and cheese",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "philly-cheese-steak-102",
+      "name": "Philly Cheese Steak",
+      "kind": "food",
+      "section": "102",
+      "items": [
+        "Philly Cheesesteak",
+        "Jumbo Brat",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "nacho-102",
+      "name": "Nacho",
+      "kind": "food",
+      "section": "102",
+      "items": [
+        "Walking Taco (beef or chicken)",
+        "Guacamole",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "crown-royal-103",
+      "name": "Crown Royal",
+      "kind": "bar",
+      "section": "103",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "vizzy-104",
+      "name": "Vizzy",
+      "kind": "bar",
+      "section": "104",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Water"
+      ]
+    },
+    {
+      "id": "1919-111",
+      "name": "1919",
+      "kind": "food",
+      "section": "111",
+      "items": [
+        "Double Bourbon Bacon Burger",
+        "Triple Bourbon Bacon Burger",
+        "Jumbo Brat",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "miller-experience-cocktails-112",
+      "name": "Miller Experience Cocktails",
+      "kind": "bar",
+      "section": "112",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "cocktails-113",
+      "name": "Cocktails",
+      "kind": "bar",
+      "section": "113",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "leinies-113",
+      "name": "Leinie's",
+      "kind": "bar",
+      "section": "113",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Water"
+      ]
+    },
+    {
+      "id": "miller-experience-114",
+      "name": "Miller Experience",
+      "kind": "bar",
+      "section": "114",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Water"
+      ]
+    },
+    {
+      "id": "heavenly-roasted-nuts-123",
+      "name": "Heavenly Roasted Nuts",
+      "kind": "food",
+      "section": "123",
+      "items": [
+        "Almonds",
+        "Pecans",
+        "Cashews",
+        "Roasted nut combo",
+        "Turtle Stick",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "beers-and-cocktails-125",
+      "name": "Beers and Cocktails",
+      "kind": "bar",
+      "section": "125",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "miller-marketplace-126",
+      "name": "Miller Marketplace",
+      "kind": "bar",
+      "section": "126",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Water"
+      ]
+    },
+    {
+      "id": "grab-n-go-127",
+      "name": "Grab N Go",
+      "kind": "food",
+      "section": "127",
+      "items": [
+        "Popcorn",
+        "Chips",
+        "Beef Jerky",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "miller-lite-and-cocktails-128",
+      "name": "Miller Lite and Cocktails",
+      "kind": "bar",
+      "section": "128",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "liquor-132",
+      "name": "Liquor",
+      "kind": "bar",
+      "section": "132",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "grill-135",
+      "name": "Grill",
+      "kind": "food",
+      "section": "135",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "grab-n-go-136",
+      "name": "Grab N Go",
+      "kind": "food",
+      "section": "136",
+      "items": [
+        "Philly Cheesesteak",
+        "Jumbo Brat",
+        "Chips",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "cocktail-138",
+      "name": "Cocktail",
+      "kind": "bar",
+      "section": "138",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "miller-lite-bar-100",
+      "name": "Miller Lite Bar",
+      "kind": "bar",
+      "section": "100",
+      "items": [
+        "Chips",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "the Miller Lite Endzone Bar, above the Endzone Market at the north end behind Section 100"
+      ]
+    },
+    {
+      "id": "miller-lite-market-100",
+      "name": "Miller Lite Market",
+      "kind": "food",
+      "section": "100",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "920 Burger",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Brat Eggrolls",
+        "Cheese Curds",
+        "Cheese Fries",
+        "Seasonal Salad",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Pickles",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "draft-picks-105",
+      "name": "Draft Picks",
+      "kind": "food",
+      "section": "105",
+      "items": [
+        "Candy",
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Sweet Treat Combo",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "fox-river-market-bbq-105",
+      "name": "Fox River Market BBQ",
+      "kind": "food",
+      "section": "105",
+      "items": [
+        "Horse Collar",
+        "Pulled Pork Sandwich",
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Pack N Cheese Original",
+        "Pack N Cheese BBQ Pork",
+        "Pretzel with Cheese Cup",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Popcorn",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "fox-river-market-106",
+      "name": "Fox River Market",
+      "kind": "food",
+      "section": "106",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Curds",
+        "Cheese Fries",
+        "Midwest Grilled Cheese",
+        "Fried Pickles",
+        "Loaded Big Pretzel",
+        "Gelato",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "going-deep-pizza-107",
+      "name": "Going Deep Pizza",
+      "kind": "food",
+      "section": "107",
+      "items": [
+        "Pepperoni Pizza",
+        "Cheese Pizza",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "draft-picks-108",
+      "name": "Draft Picks",
+      "kind": "food",
+      "section": "108",
+      "items": [
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Candy",
+        "Sweet Treat Combo",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "stadium-snacks-115",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "115",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheddarwurst",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "920-burger-farm-fresh-116",
+      "name": "920 Burger Farm Fresh",
+      "kind": "food",
+      "section": "116",
+      "items": [
+        "Jumbo Brat",
+        "920 Burger",
+        "Beyond Burger",
+        "Hot Honey Chicken Tenders",
+        "Chicken Tenders",
+        "Cheesy Chicken Nuggets",
+        "Cheese Fries",
+        "Gluten-free bun",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "draft-picks-116",
+      "name": "Draft Picks",
+      "kind": "food",
+      "section": "116",
+      "items": [
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "going-deep-pizza-atrium-117",
+      "name": "Going Deep Pizza (Atrium)",
+      "kind": "food",
+      "section": "117",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ],
+      "unverified": [
+        "faces the Atrium, on the outside of the concourse"
+      ]
+    },
+    {
+      "id": "going-deep-pizza-concourse-117",
+      "name": "Going Deep Pizza (Concourse)",
+      "kind": "food",
+      "section": "117",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "throwbacks-117",
+      "name": "Throwbacks",
+      "kind": "bar",
+      "section": "117",
+      "items": [
+        "Nachos",
+        "Popcorn",
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "stadium-snacks-118",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "118",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheddarwurst",
+        "Nachos",
+        "Pretzel with Cheese",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "draft-picks-119",
+      "name": "Draft Picks",
+      "kind": "food",
+      "section": "119",
+      "items": [
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "going-deep-pizza-120",
+      "name": "Going Deep Pizza",
+      "kind": "food",
+      "section": "120",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "meat-packing-atrium-121",
+      "name": "Meat Packing (Atrium)",
+      "kind": "food",
+      "section": "121",
+      "items": [
+        "920 Burger",
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheesy Chicken Nuggets",
+        "Cheese Fries",
+        "Cheese Curds",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ],
+      "unverified": [
+        "faces the Atrium, on the outside of the concourse"
+      ]
+    },
+    {
+      "id": "meat-packing-concourse-121",
+      "name": "Meat Packing (Concourse)",
+      "kind": "food",
+      "section": "121",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "stadium-snacks-121",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "121",
+      "items": [
+        "Cheddarwurst",
+        "Stadium Hot Dog",
+        "Brat",
+        "Nachos",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "throwbacks-122",
+      "name": "Throwbacks",
+      "kind": "bar",
+      "section": "122",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "going-deep-pizza-123",
+      "name": "Going Deep Pizza",
+      "kind": "food",
+      "section": "123",
+      "items": [
+        "Pepperoni Pizza",
+        "Cheese Pizza",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "grilled-cheese-chicken-124",
+      "name": "Grilled Cheese Chicken",
+      "kind": "food",
+      "section": "124",
+      "items": [
+        "Bratzilla Grilled Cheese",
+        "Midwest Grilled Cheese",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Fries",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "draft-picks-124",
+      "name": "Draft Picks",
+      "kind": "food",
+      "section": "124",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "throwbacks-131",
+      "name": "Throwbacks",
+      "kind": "bar",
+      "section": "131",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "draft-picks-131",
+      "name": "Draft Picks",
+      "kind": "food",
+      "section": "131",
+      "items": [
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Candy",
+        "Sweet Treat Bucket",
+        "Sweet Treat Combo",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "draft-picks-132",
+      "name": "Draft Picks",
+      "kind": "food",
+      "section": "132",
+      "items": [
+        "Popcorn",
+        "Pretzel with Cheese Cup",
+        "Candy",
+        "Sweet Treat Bucket",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "fox-river-market-bbq-133",
+      "name": "Fox River Market BBQ",
+      "kind": "food",
+      "section": "133",
+      "items": [
+        "Horse Collar",
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Pulled Pork Sandwich",
+        "Pack N Cheese Original",
+        "Pack N Cheese BBQ Pork",
+        "Gelato",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "fox-river-market-134",
+      "name": "Fox River Market",
+      "kind": "food",
+      "section": "134",
+      "items": [
+        "Loaded Big Pretzel",
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Hot Honey Chicken Tenders",
+        "Chicken Tenders",
+        "Cheese Curds",
+        "Fried Pickles",
+        "Cheese Fries",
+        "Candy",
+        "Chips",
+        "Popcorn",
+        "Peanuts",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "fox-river-market-138",
+      "name": "Fox River Market",
+      "kind": "food",
+      "section": "138",
+      "items": [
+        "920 Burger",
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Midwest Grilled Cheese",
+        "Seasonal Salad",
+        "Cheese Fries",
+        "Cheese Curds",
+        "Peanuts",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Pickles",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "liquor-303",
+      "name": "Liquor",
+      "kind": "bar",
+      "section": "303",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "beer-and-cocktails-304",
+      "name": "Beer and Cocktails",
+      "kind": "bar",
+      "section": "304",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "liquor-307",
+      "name": "Liquor",
+      "kind": "bar",
+      "section": "307",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water",
+        "Hot chocolate"
+      ],
+      "unverified": [
+        "portable P309-O; there is no Section 309 on the 300 Level, so it is placed at 307, the nearest one"
+      ]
+    },
+    {
+      "id": "heavenly-roasted-nuts-300-level-by-115",
+      "name": "Heavenly Roasted Nuts",
+      "kind": "food",
+      "level": 2,
+      "items": [
+        "Almonds",
+        "Pecans",
+        "Cashews",
+        "Roasted nut combo",
+        "Turtle Stick",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "portable P315, on the upper concourse behind the east 100s (no 300-level seats there); the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "beer-318",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "318",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Water"
+      ]
+    },
+    {
+      "id": "beer-300-level-by-119",
+      "name": "Beer",
+      "kind": "bar",
+      "level": 2,
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Water"
+      ],
+      "unverified": [
+        "portable P319-O, on the upper concourse behind the east 100s (no 300-level seats there); the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "beer-and-cocktails-322",
+      "name": "Beer and Cocktails",
+      "kind": "bar",
+      "section": "322",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "nacho-324",
+      "name": "Nacho",
+      "kind": "food",
+      "section": "324",
+      "items": [
+        "Walking Taco (beef or chicken)",
+        "Guacamole",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "grab-n-go-326",
+      "name": "Grab N Go",
+      "kind": "food",
+      "section": "326",
+      "items": [
+        "Popcorn",
+        "Chips",
+        "Beef Jerky",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "beer-300-level-by-127",
+      "name": "Beer",
+      "kind": "bar",
+      "level": 2,
+      "items": [
+        "Beer",
+        "Water",
+        "Coffee",
+        "Hot chocolate"
+      ],
+      "unverified": [
+        "portable P327-O, on the upper concourse behind the east 100s (no 300-level seats there); the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "beer-328",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "328",
+      "items": [
+        "Beer",
+        "Water",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "beer-and-cocktails-330",
+      "name": "Beer and Cocktails",
+      "kind": "bar",
+      "section": "330",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "liquor-300-level-by-131",
+      "name": "Liquor",
+      "kind": "bar",
+      "level": 2,
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ],
+      "unverified": [
+        "portable P331-O, on the upper concourse behind the east 100s (no 300-level seats there); the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "beer-334",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "334",
+      "items": [
+        "Beer",
+        "Water"
+      ]
+    },
+    {
+      "id": "philly-cheesesteak-342",
+      "name": "Philly Cheesesteak",
+      "kind": "food",
+      "section": "342",
+      "items": [
+        "Philly Cheesesteak",
+        "Jumbo Brat",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "beer-346",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "346",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "grill-347",
+      "name": "Grill",
+      "kind": "food",
+      "section": "347",
+      "items": [
+        "Fried Cookie Dough",
+        "Fried Brownie Bites",
+        "Jumbo Cookie",
+        "Gelato",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "beer-349",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "349",
+      "items": [
+        "Beer",
+        "Water",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "bloody-mary-352",
+      "name": "Bloody Mary",
+      "kind": "bar",
+      "section": "352",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "grill-300",
+      "name": "Grill",
+      "kind": "food",
+      "section": "300",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "920 Burger",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Curds",
+        "Cheese Fries",
+        "Pretzel Stick",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "brews-302",
+      "name": "Brews",
+      "kind": "bar",
+      "section": "302",
+      "items": [
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "slice-pizza-305",
+      "name": "Slice Pizza",
+      "kind": "food",
+      "section": "305",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Chicken Bacon Ranch Sub",
+        "Hot Italian Sub",
+        "Brat Eggrolls",
+        "Cheese Curds",
+        "Fried Pickles",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Popcorn",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "seared-308",
+      "name": "Seared",
+      "kind": "food",
+      "section": "308",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheddarwurst",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Midwest Grilled Cheese",
+        "Cheese Fries",
+        "Cheese Curds",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "brews-307",
+      "name": "Brews",
+      "kind": "bar",
+      "section": "307",
+      "items": [
+        "Popcorn",
+        "Peanuts",
+        "Candy",
+        "Chips",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "stand 109-U (309 Brews); there is no Section 309 on the 300 Level, so it is placed at 307, the nearest one"
+      ]
+    },
+    {
+      "id": "slice-pizza-312",
+      "name": "Slice Pizza",
+      "kind": "food",
+      "section": "312",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Pack N Cheese Original",
+        "Pack N Cheese Brat",
+        "Pack N Cheese Sloppy Joe",
+        "Loaded Big Pretzel",
+        "Seasonal Salad",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Pickles",
+        "Gelato",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "verizon-loft-300-level-by-115",
+      "name": "Verizon Loft",
+      "kind": "bar",
+      "level": 2,
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "stand 315, on the upper concourse on the east side (no 300-level seats there); the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "links-300-level-by-119",
+      "name": "Links",
+      "kind": "food",
+      "level": 2,
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "920 Burger",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Fries",
+        "Cheese Curds",
+        "Pretzel Sticks",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "stand 119-U (319 Links), on the upper concourse behind Section 119 (no 300-level seats there); the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "fox-river-market-326",
+      "name": "Fox River Market",
+      "kind": "food",
+      "section": "326",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "920 Burger",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Fries",
+        "Cheese Curds",
+        "Pretzel Stick",
+        "Bratzilla Grilled Cheese",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "slice-pizza-300-level-by-131",
+      "name": "Slice Pizza",
+      "kind": "food",
+      "level": 2,
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Seasonal Salad",
+        "Pack N Cheese Original",
+        "Pack N Cheese Brat",
+        "Pack N Cheese Sloppy Joe",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Pickles",
+        "Gelato",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "stand 131-U (331 Slice/Pizza), on the upper concourse behind Section 131 (no 300-level seats there); the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "fry-sausage-links-340",
+      "name": "Fry Sausage Links",
+      "kind": "food",
+      "section": "340",
+      "items": [
+        "Horse Collar",
+        "Cheesy Chicken Nuggets",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Curds",
+        "Fried Pickles",
+        "Cheese Fries",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "bar-354",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "354",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "grill-354",
+      "name": "Grill",
+      "kind": "food",
+      "section": "354",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "920 Burger",
+        "Cheese Fries",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Curds",
+        "Pretzel Stick",
+        "Popcorn",
+        "Candy",
+        "Chips",
+        "Peanuts",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "grill-miller-deck-443s",
+      "name": "Grill Miller Deck",
+      "kind": "food",
+      "section": "443s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "920 Burger",
+        "Pack N Cheese Original",
+        "Pack N Cheese Sloppy Joe",
+        "Cheese Curds",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ],
+      "unverified": [
+        "stand 435-O is listed under the South End Zone 4th floor, so it is placed at 443s (Miller Lite Deck), not at club Section 435"
+      ]
+    },
+    {
+      "id": "ale-mary-436s",
+      "name": "Ale Mary",
+      "kind": "bar",
+      "section": "436s",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Cocktails",
+        "Water"
+      ]
+    },
+    {
+      "id": "miller-lite-deck-443s",
+      "name": "Miller Lite Deck",
+      "kind": "bar",
+      "section": "443s",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Water"
+      ]
+    },
+    {
+      "id": "gridiron-grill-440s",
+      "name": "Gridiron Grill",
+      "kind": "food",
+      "section": "440s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Fries",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "stadium-snacks-630s",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "630s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheddarwurst",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "gridiron-grill-635s",
+      "name": "Gridiron Grill",
+      "kind": "food",
+      "section": "635s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "920 Burger",
+        "Cheese Curds",
+        "Fried Pickles",
+        "Popcorn",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "grill-ale-mary-642s",
+      "name": "Grill Ale Mary",
+      "kind": "food",
+      "section": "642s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Midwest Grilled Cheese",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheesy Chicken Nuggets",
+        "Cheese Fries",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "ale-mary-643s",
+      "name": "Ale Mary",
+      "kind": "bar",
+      "section": "643s",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Cocktails",
+        "Water"
+      ]
+    },
+    {
+      "id": "ale-mary-730s",
+      "name": "Ale Mary",
+      "kind": "bar",
+      "section": "730s",
+      "items": [
+        "Peanuts",
+        "Popcorn",
+        "Beer",
+        "Non-alcoholic beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "stadium-snacks-730s",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "730s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheddarwurst",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "block-and-brew-736s",
+      "name": "Block and Brew",
+      "kind": "bar",
+      "section": "736s",
+      "items": [
+        "Peanuts",
+        "Candy",
+        "Popcorn",
+        "Sweet Treat Combo",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water"
+      ]
+    },
+    {
+      "id": "bbq-742s",
+      "name": "BBQ",
+      "kind": "food",
+      "section": "742s",
+      "items": [
+        "Pulled Pork Sandwich",
+        "Loaded Big Pretzel",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "gridiron-grill-742s",
+      "name": "Gridiron Grill",
+      "kind": "food",
+      "section": "742s",
+      "items": [
+        "Jumbo Brat",
+        "920 Burger",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Cheese Fries",
+        "Cheese Curds",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "ale-mary-744s",
+      "name": "Ale Mary",
+      "kind": "bar",
+      "section": "744s",
+      "items": [
+        "Peanuts",
+        "Popcorn",
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Bloody Marys",
+        "Wine",
+        "Water"
+      ]
+    },
+    {
+      "id": "stadium-snacks-746s",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "746s",
+      "items": [
+        "Walking Taco (beef or chicken)",
+        "Philly Cheesesteak",
+        "Nachos",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "stadium-snacks-750s",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "750s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheddarwurst",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "lambeau-links-735s",
+      "name": "Lambeau Links",
+      "kind": "food",
+      "section": "735s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Nachos",
+        "Popcorn",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "stadium-snacks-735s",
+      "name": "Stadium Snacks",
+      "kind": "food",
+      "section": "735s",
+      "items": [
+        "Jumbo Brat",
+        "Jumbo Hot Dog",
+        "Cheddarwurst",
+        "Pretzel with Cheese Cup",
+        "Beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "pack-n-cheese-743s",
+      "name": "Pack N Cheese",
+      "kind": "food",
+      "section": "743s",
+      "items": [
+        "Pack N Cheese Original",
+        "Pack N Cheese Brat",
+        "Pack N Cheese Sloppy Joe",
+        "Mac and cheese",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "goin-deep-pizza-743s",
+      "name": "Goin' Deep Pizza",
+      "kind": "food",
+      "section": "743s",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "ale-mary-745s",
+      "name": "Ale Mary",
+      "kind": "bar",
+      "section": "745s",
+      "items": [
+        "Peanuts",
+        "Popcorn",
+        "Beer",
+        "Cocktails",
+        "Bloody Marys",
+        "Water"
+      ]
+    },
+    {
+      "id": "block-and-brew-747s",
+      "name": "Block and Brew",
+      "kind": "bar",
+      "section": "747s",
+      "items": [
+        "Peanuts",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water"
+      ]
+    },
+    {
+      "id": "rival-recipes-413",
+      "name": "Rival Recipes",
+      "kind": "food",
+      "section": "413",
+      "items": [
+        "Brat",
+        "Garlic Parm Dry Rub",
+        "Rotating Rival Flavor",
+        "Steak Sandwich",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "taco-verde-415",
+      "name": "Taco Verde",
+      "kind": "food",
+      "section": "415",
+      "items": [
+        "Taco Trio",
+        "Taco Bowl",
+        "Nacho Bowl",
+        "Chips",
+        "Queso",
+        "Salsa",
+        "Guacamole",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "sweet-spot-484",
+      "name": "Sweet Spot",
+      "kind": "food",
+      "section": "484",
+      "items": [
+        "Frozen Tundra Sundae",
+        "Candy",
+        "Chocolate Overload Cake",
+        "Big Carrot Cake",
+        "Turtle Cheesecake",
+        "Pudding Cup",
+        "Gelato",
+        "Cookies",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "bar-419",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "419",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Wine",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "bar-423",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "423",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Wine",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "bar-470",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "470",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Wine",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "bar-480",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "480",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Wine",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "the-standard-bar-club-level",
+      "name": "The Standard Bar",
+      "kind": "bar",
+      "level": 3,
+      "items": [
+        "Cocktails",
+        "Wine",
+        "Water"
+      ],
+      "unverified": [
+        "4th-floor club bar; the dining guide doesn't say where"
+      ]
+    },
+    {
+      "id": "cenex-grab-and-go-407",
+      "name": "Cenex Grab and Go",
+      "kind": "food",
+      "section": "407",
+      "items": [
+        "Chicken Tender Basket with Fries",
+        "Brat",
+        "Hot Dog",
+        "Cheese Curds",
+        "Cheese Fries",
+        "Pretzel",
+        "Pickles",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "melotte-marketplace-427",
+      "name": "Melotte Marketplace",
+      "kind": "food",
+      "section": "427",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "920 Double Burger",
+        "Banh Mi Sandwich",
+        "Pulled Pork Sandwich",
+        "Cheese Curds",
+        "Hot Dog",
+        "Brat",
+        "Noodle Bowl",
+        "Pretzel Sticks with Cheese",
+        "Fried Pickles",
+        "Cheese Fries",
+        "Chicken Tender Basket with Fries",
+        "Gelato",
+        "Chocolate Overload Cake",
+        "Turtle Cheesecake",
+        "Carrot Cake",
+        "Pudding Cups",
+        "Cookie Cups",
+        "Brownie Bites",
+        "Cookies",
+        "Candy",
+        "Popcorn",
+        "Chips",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "1919-express-472",
+      "name": "1919 Express",
+      "kind": "food",
+      "section": "472",
+      "items": [
+        "Wisco Burger",
+        "Chicken Tenders",
+        "1919 Brat",
+        "Chili",
+        "Cheese Fries",
+        "1919 Cheese Curds",
+        "Pickle Brat",
+        "Fried Pickles",
+        "Triple Onion Burger",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "miller-lite-haus-486",
+      "name": "Miller Lite Haus",
+      "kind": "food",
+      "section": "486",
+      "items": [
+        "Brat",
+        "Jumbo Pretzel",
+        "Brat Grilled Cheese",
+        "Mega Grilled Cheese",
+        "Horse Collar",
+        "Chips",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ]
+    },
+    {
+      "id": "elevator-bar-club-level",
+      "name": "Elevator Bar",
+      "kind": "bar",
+      "level": 3,
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Wine",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "4th-floor club bar, probably by the club elevators; the dining guide doesn't say where"
+      ]
+    },
+    {
+      "id": "long-bar-club-level",
+      "name": "Long Bar",
+      "kind": "bar",
+      "level": 3,
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Wine",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "4th-floor club bar; the dining guide doesn't say where"
+      ]
+    },
+    {
+      "id": "sweet-spot-678",
+      "name": "Sweet Spot",
+      "kind": "food",
+      "section": "678",
+      "items": [
+        "Frozen Tundra Sundae",
+        "Cookies",
+        "Candy",
+        "Gelato",
+        "Chocolate and Caramel Beignets",
+        "Chocolate Overload Cake",
+        "Big Carrot Cake",
+        "Turtle Cheesecake",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "against-the-grain-688",
+      "name": "Against the Grain",
+      "kind": "food",
+      "section": "688",
+      "items": [
+        "Tenderloin Sandwich",
+        "Chicken Bacon Ranch Sandwich",
+        "Beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "miller-lite-express-674",
+      "name": "Miller Lite Express",
+      "kind": "food",
+      "section": "674",
+      "items": [
+        "Brat",
+        "Hot Dog",
+        "Cheddarwurst",
+        "Seasonal Soup or Chili",
+        "Pack N Cheese Original",
+        "Pack N Cheese Sloppy Joe",
+        "Big BBQ Sandwich",
+        "Jumbo Pretzel",
+        "Chips",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "e-bar-680",
+      "name": "E Bar",
+      "kind": "bar",
+      "section": "680",
+      "items": [
+        "Cocktails",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "w-bar-684",
+      "name": "W Bar",
+      "kind": "bar",
+      "section": "684",
+      "items": [
+        "Cocktails",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "cenex-kitchen-686",
+      "name": "Cenex Kitchen",
+      "kind": "food",
+      "section": "686",
+      "items": [
+        "Cheese Pizza",
+        "Pepperoni Pizza",
+        "Chicken Tender Basket with Fries",
+        "Cheese Fries",
+        "Cheese Curds",
+        "920 Double Burger",
+        "Brat",
+        "Hot Dog",
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "rival-recipes-690",
+      "name": "Rival Recipes",
+      "kind": "food",
+      "section": "690",
+      "items": [
+        "Gameday Special",
+        "Wrap of the Game",
+        "Seasonal Salad",
+        "Fruit Cup",
+        "Brat",
+        "Pickles",
+        "Beer",
+        "Water",
+        "Soda"
+      ]
+    },
+    {
+      "id": "north-loft-bar-7th-floor",
+      "name": "North Loft Bar",
+      "kind": "bar",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Cocktails",
+        "Wine",
+        "Water",
+        "Soda"
+      ],
+      "unverified": [
+        "stand 701 on the 7th floor at the north end, a premium area this map doesn't have yet"
+      ]
+    },
+    {
+      "id": "900-loft-rooftop",
+      "name": "900 Loft",
+      "kind": "bar",
+      "items": [
+        "Seltzer",
+        "Cocktails",
+        "Water"
+      ],
+      "unverified": [
+        "South End Zone 900 Loft (rooftop), a floor this map doesn't have yet"
+      ]
+    },
+    {
+      "id": "johnsonville-tailgate-village-outside",
+      "name": "Johnsonville Tailgate Village",
+      "kind": "food",
+      "items": [
+        "Jumbo Hot Dog",
+        "Jumbo Brat",
+        "Polish Sausage",
+        "920 Burger",
+        "Loaded Big Pretzel",
+        "Cheese Fries",
+        "Cheese Curds",
+        "Chicken Tenders",
+        "Hot Honey Chicken Tenders",
+        "Brat Eggroll",
+        "Fried Pickles",
+        "Cinnamon Roll Sandwich",
+        "Pulled Pork Sandwich",
+        "Pickle Crunch Brat",
+        "Ice Cream (seasonal)",
+        "Beer",
+        "Non-alcoholic beer",
+        "Water",
+        "Soda",
+        "Coffee",
+        "Hot chocolate"
+      ],
+      "unverified": [
+        "\"JTV\" in the dining guide, taken to be the Johnsonville Tailgate Village outside the stadium, not inside the bowl"
+      ]
+    },
+    {
+      "id": "johnsonville-tailgate-village-bar-outside",
+      "name": "Johnsonville Tailgate Village Bar",
+      "kind": "bar",
+      "items": [
+        "Beer",
+        "Non-alcoholic beer",
+        "Seltzer",
+        "Cocktails",
+        "Water",
+        "Hot chocolate"
+      ],
+      "unverified": [
+        "\"JTV\" bar and portable in the dining guide, taken to be the Johnsonville Tailgate Village outside the stadium, not inside the bowl"
+      ]
+    },
+    {
+      "id": "womens-restroom-103",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "103",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-105",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "105",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-108",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "108",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-114",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "114",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-123",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "123",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-126",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "126",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-131",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "131",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-132",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "132",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-135",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "135",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-136",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "136",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "mens-restroom-102",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "102",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-104",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "104",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-105",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "105",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-106",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "106",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-107",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "107",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-112",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "112",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-115",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "115",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-128",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "128",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-131",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "131",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-134",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "134",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-135",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "135",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-138",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "138",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "womens-restroom-318",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "318",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-330",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "330",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-342",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "342",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-347",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "347",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "womens-restroom-350",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "section": "350",
+      "items": [
+        "Restroom",
+        "Women's"
+      ]
+    },
+    {
+      "id": "mens-restroom-312",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "312",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-334",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "334",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-345",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "345",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-346",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "346",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "mens-restroom-351",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "section": "351",
+      "items": [
+        "Restroom",
+        "Men's"
+      ]
+    },
+    {
+      "id": "womens-restroom-300-level-by-115",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "level": 2,
+      "items": [
+        "Restroom",
+        "Women's"
+      ],
+      "unverified": [
+        "listed as upper concourse \"115\": behind the east 100s, where there are no 300-level seats; the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "womens-restroom-300-level-by-127",
+      "name": "Women's Restroom",
+      "kind": "restroom",
+      "level": 2,
+      "items": [
+        "Restroom",
+        "Women's"
+      ],
+      "unverified": [
+        "listed as upper concourse \"127\": behind the east 100s, where there are no 300-level seats; the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "mens-restroom-300-level-by-111",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "level": 2,
+      "items": [
+        "Restroom",
+        "Men's"
+      ],
+      "unverified": [
+        "listed as upper concourse \"111\": behind the east 100s, where there are no 300-level seats; the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "mens-restroom-300-level-by-123",
+      "name": "Men's Restroom",
+      "kind": "restroom",
+      "level": 2,
+      "items": [
+        "Restroom",
+        "Men's"
+      ],
+      "unverified": [
+        "listed as upper concourse \"123\": behind the east 100s, where there are no 300-level seats; the app can't route to it yet"
+      ]
+    },
+    {
+      "id": "family-restroom-111",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "111",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-134",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "134",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-431",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "431",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-atrium",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "level": 1,
+      "items": [
+        "Restroom",
+        "Family restroom",
+        "Adult changing table"
+      ],
+      "unverified": [
+        "in the Atrium, Level 1; exact spot unknown"
+      ]
+    },
+    {
+      "id": "family-restroom-438s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "438s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-446s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "446s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-636s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "636s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-639s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "639s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-644s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "644s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-736s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "736s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-739s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "739s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-746s",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "746s",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    }
+  ],
+  "popular": [
+    "Brat",
+    "Cheese curds",
+    "Pizza",
+    "Burger",
+    "Hot dog",
+    "Pack N Cheese",
+    "Chicken tenders",
+    "Beer",
+    "Bloody Marys",
+    "Hot chocolate"
+  ]
+}

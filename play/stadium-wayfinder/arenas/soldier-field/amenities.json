@@ -1,0 +1,1344 @@
+{
+  "schema": 1,
+  "id": "soldier-field",
+  "version": "6349e0788f4d",
+  "lastVerified": "2026-11-08",
+  "sources": [
+    {
+      "what": "food and drink stands by section, 2026 (unofficial; agrees with the Levy and Bears releases where they overlap)",
+      "ref": "reference/dining-guide-homeaway-app-2026.md"
+    },
+    {
+      "what": "official Bears announcements and press quotes of the 2024 Levy release (Mr. Beef 134, Tavern Burger 126, Pizza Soldato sections)",
+      "ref": "reference/dining-news-bears-levy-2024-2025.md"
+    },
+    {
+      "what": "family and all-gender restrooms by section (Bears A-Z guide)",
+      "ref": "reference/gameday-guide-chicagobears-com.md"
+    }
+  ],
+  "stands": [
+    {
+      "id": "chi-eats-108",
+      "name": "Chi Eats",
+      "kind": "food",
+      "section": "108",
+      "items": [
+        "Italian beef",
+        "Hot dogs",
+        "Nachos",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "chi-eats-110",
+      "name": "Chi Eats",
+      "kind": "food",
+      "section": "110",
+      "items": [
+        "Italian beef",
+        "Hot dogs",
+        "Nachos",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "chi-eats-343",
+      "name": "Chi Eats",
+      "kind": "food",
+      "section": "343",
+      "items": [
+        "Italian beef",
+        "Hot dogs",
+        "Nachos",
+        "Cheesesteak"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "taqueria-77-114",
+      "name": "Taqueria 77",
+      "kind": "food",
+      "section": "114",
+      "items": [
+        "Tacos",
+        "Barbacoa tacos",
+        "Chicken nachos",
+        "Quesadillas"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "taqueria-77-205",
+      "name": "Taqueria 77",
+      "kind": "food",
+      "section": "205",
+      "items": [
+        "Tacos",
+        "Barbacoa tacos",
+        "Chicken nachos",
+        "Quesadillas"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "mr-beef-134",
+      "name": "Mr. Beef",
+      "kind": "food",
+      "section": "134",
+      "items": [
+        "Italian beef",
+        "Beef combo",
+        "Chips"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "italian-beef-213",
+      "name": "Italian Beef",
+      "kind": "food",
+      "section": "213",
+      "items": [
+        "Italian beef",
+        "Beef combo",
+        "Sausage"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "italian-beef-431",
+      "name": "Italian Beef",
+      "kind": "food",
+      "section": "431",
+      "items": [
+        "Italian beef",
+        "Beef combo",
+        "Sausage",
+        "Deli sandwiches",
+        "Pretzels",
+        "Chips"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "shoreline-bbq-213",
+      "name": "Shoreline BBQ",
+      "kind": "food",
+      "section": "213",
+      "items": [
+        "BBQ",
+        "Brisket sandwich",
+        "Pulled pork",
+        "BBQ nachos",
+        "Mac and cheese"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "shoreline-bbq-343",
+      "name": "Shoreline BBQ",
+      "kind": "food",
+      "section": "343",
+      "items": [
+        "BBQ",
+        "Brisket nachos"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "wisepak-sushi-304",
+      "name": "Wisepak Sushi",
+      "kind": "food",
+      "section": "304",
+      "items": [
+        "Sushi",
+        "Poke bowl",
+        "Sushi burrito"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "mollys-mac-and-cheese-306",
+      "name": "Molly's Mac & Cheese",
+      "kind": "food",
+      "section": "306",
+      "items": [
+        "Mac and cheese",
+        "Grilled cheese",
+        "Kids' meal",
+        "Popcorn",
+        "Cookies"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "mannys-deli-310",
+      "name": "Manny's Deli",
+      "kind": "food",
+      "section": "310",
+      "items": [
+        "Corned beef",
+        "Pastrami",
+        "Reuben",
+        "Turkey sandwich",
+        "Grilled cheese",
+        "Chips"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bbq-312",
+      "name": "BBQ",
+      "kind": "food",
+      "section": "312",
+      "items": [
+        "BBQ",
+        "Brisket sandwich",
+        "Ribs",
+        "Rib tips",
+        "Nachos"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "kosher-grill-325",
+      "name": "Kosher Grill",
+      "kind": "food",
+      "section": "325",
+      "items": [
+        "Kosher burger",
+        "Pastrami",
+        "Polish sausage",
+        "Chips"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "ditka-sausage-103",
+      "name": "Ditka Sausage",
+      "kind": "food",
+      "section": "103",
+      "items": [
+        "Spicy Ditka Polish",
+        "Polish sausage",
+        "Hot dogs"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "ditka-sausage-228",
+      "name": "Ditka Sausage",
+      "kind": "food",
+      "section": "228",
+      "items": [
+        "Spicy Ditka Polish",
+        "Polish sausage",
+        "Hot dogs",
+        "Chicago dogs"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "cover-3-grill-115",
+      "name": "Cover 3 Grill",
+      "kind": "food",
+      "section": "115",
+      "items": [
+        "Chicago dogs",
+        "Hot dogs",
+        "Ditka sausage",
+        "Spicy Ditka Polish"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "dr-pepper-food-portable-119",
+      "name": "Dr Pepper Food Portable",
+      "kind": "food",
+      "section": "119",
+      "items": [
+        "Hot dogs",
+        "Spicy Ditka Polish"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-119",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "119",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-132",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "132",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-151",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "151",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels",
+        "Nachos",
+        "Popcorn"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-231",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "231",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels",
+        "Hot dogs"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-322",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "322",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-351",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "351",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-435",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "435",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-soldato-443",
+      "name": "Pizza Soldato (Connie's Pizza)",
+      "kind": "food",
+      "section": "443",
+      "items": [
+        "Pizza",
+        "Cheese pizza",
+        "Sausage pizza",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "606-sausage-co-122",
+      "name": "606 Sausage Co.",
+      "kind": "food",
+      "section": "122",
+      "items": [
+        "Sausage",
+        "Bratwurst",
+        "Polish sausage",
+        "Rib sandwich",
+        "Veggie dog",
+        "Andouille"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "606-sausage-co-143",
+      "name": "606 Sausage Co.",
+      "kind": "food",
+      "section": "143",
+      "items": [
+        "Sausage",
+        "Bratwurst",
+        "Polish sausage",
+        "Rib sandwich",
+        "Veggie dog",
+        "Andouille"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "606-sausage-co-319",
+      "name": "606 Sausage Co.",
+      "kind": "food",
+      "section": "319",
+      "items": [
+        "Sausage",
+        "Bratwurst",
+        "Polish sausage",
+        "Rib sandwich",
+        "Veggie dog",
+        "Andouille"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "606-sausage-co-343",
+      "name": "606 Sausage Co.",
+      "kind": "food",
+      "section": "343",
+      "items": [
+        "Sausage",
+        "Bratwurst",
+        "Polish sausage",
+        "Rib sandwich",
+        "Veggie dog",
+        "Andouille"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-123",
+      "name": "The Works",
+      "kind": "food",
+      "section": "123",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-126",
+      "name": "The Works",
+      "kind": "food",
+      "section": "126",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-146",
+      "name": "The Works",
+      "kind": "food",
+      "section": "146",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-306",
+      "name": "The Works",
+      "kind": "food",
+      "section": "306",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-323",
+      "name": "The Works",
+      "kind": "food",
+      "section": "323",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-352",
+      "name": "The Works",
+      "kind": "food",
+      "section": "352",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-434",
+      "name": "The Works",
+      "kind": "food",
+      "section": "434",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-438",
+      "name": "The Works",
+      "kind": "food",
+      "section": "438",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-440",
+      "name": "The Works",
+      "kind": "food",
+      "section": "440",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "the-works-444",
+      "name": "The Works",
+      "kind": "food",
+      "section": "444",
+      "items": [
+        "Hot dogs",
+        "Chicago dogs",
+        "Polish sausage",
+        "Nachos",
+        "Popcorn",
+        "Pretzels",
+        "Ice cream"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-125",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "125",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-150",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "150",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-214",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "214",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-302",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "302",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-316",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "316",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-340",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "340",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-349",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "349",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-433",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "433",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "holabirds-chicken-441",
+      "name": "Holabirds Chicken",
+      "kind": "food",
+      "section": "441",
+      "items": [
+        "Chicken tenders",
+        "Chicken",
+        "Fries",
+        "Pizza",
+        "Burgers",
+        "Kids' meal"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "tavern-burger-126",
+      "name": "Tavern Burger",
+      "kind": "food",
+      "section": "126",
+      "items": [
+        "Burgers",
+        "Tavern burger",
+        "Fries"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "loop-loft-143",
+      "name": "Loop Loft",
+      "kind": "food",
+      "section": "143",
+      "items": [
+        "Chicago dogs",
+        "Polish sausage",
+        "Pretzels",
+        "Beer",
+        "Cocktails",
+        "Wine"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bungalow-burger-144",
+      "name": "Bungalow Burger",
+      "kind": "food",
+      "section": "144",
+      "items": [
+        "Burgers",
+        "Smashburger",
+        "Veggie burger",
+        "Gluten-free burger",
+        "Hot dogs",
+        "Kids' meal",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bungalow-burger-204",
+      "name": "Bungalow Burger",
+      "kind": "food",
+      "section": "204",
+      "items": [
+        "Burgers",
+        "Smashburger",
+        "Veggie burger",
+        "Gluten-free burger",
+        "Hot dogs",
+        "Kids' meal",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bungalow-burger-242",
+      "name": "Bungalow Burger",
+      "kind": "food",
+      "section": "242",
+      "items": [
+        "Burgers",
+        "Smashburger",
+        "Veggie burger",
+        "Gluten-free burger",
+        "Hot dogs",
+        "Kids' meal",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bungalow-burger-355",
+      "name": "Bungalow Burger",
+      "kind": "food",
+      "section": "355",
+      "items": [
+        "Burgers",
+        "Smashburger",
+        "Veggie burger",
+        "Gluten-free burger",
+        "Hot dogs",
+        "Kids' meal",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bungalow-burger-431",
+      "name": "Bungalow Burger",
+      "kind": "food",
+      "section": "431",
+      "items": [
+        "Burgers",
+        "Smashburger",
+        "Veggie burger",
+        "Gluten-free burger",
+        "Hot dogs",
+        "Kids' meal",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bungalow-burger-439",
+      "name": "Bungalow Burger",
+      "kind": "food",
+      "section": "439",
+      "items": [
+        "Burgers",
+        "Smashburger",
+        "Veggie burger",
+        "Gluten-free burger",
+        "Hot dogs",
+        "Kids' meal",
+        "Pretzels"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "grid-iron-grill-149",
+      "name": "Grid Iron Grill",
+      "kind": "food",
+      "section": "149",
+      "items": [
+        "Pierogi",
+        "Polish sausage",
+        "Nachos"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "4-star-favs-152",
+      "name": "4 Star Favs Grab & Go",
+      "kind": "food",
+      "section": "152",
+      "items": [
+        "Hot dogs",
+        "Nachos",
+        "Pretzels",
+        "Popcorn",
+        "Chips"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "pizza-206",
+      "name": "Pizza",
+      "kind": "food",
+      "section": "206",
+      "items": [
+        "Pizza",
+        "Italian beef and sausage pizza",
+        "Chopped salad",
+        "Wine"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "chicago-dog-portable-210",
+      "name": "Chicago Dog Portable",
+      "kind": "food",
+      "section": "210",
+      "items": [
+        "Chicago dogs",
+        "Hot dogs",
+        "Chips"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "chicago-dog-portable-308",
+      "name": "Chicago Dog Portable",
+      "kind": "food",
+      "section": "308",
+      "items": [
+        "Chicago dogs",
+        "Hot dogs",
+        "Chips"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "nacho-portable-325",
+      "name": "Nacho Portable",
+      "kind": "food",
+      "section": "325",
+      "items": [
+        "Nachos",
+        "Loaded nachos"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "bovine-and-swine-343",
+      "name": "Bovine & Swine",
+      "kind": "food",
+      "section": "343",
+      "items": [
+        "Sausage",
+        "Andouille",
+        "Bratwurst",
+        "Jalapeño cheddar sausage"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "polish-portable-353",
+      "name": "Polish Portable",
+      "kind": "food",
+      "section": "353",
+      "items": [
+        "Polish sausage",
+        "Pierogi"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "polish-portable-434",
+      "name": "Polish Portable",
+      "kind": "food",
+      "section": "434",
+      "items": [
+        "Polish sausage"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "food-portable-440",
+      "name": "Food Portable",
+      "kind": "food",
+      "section": "440",
+      "items": [
+        "Italian beef",
+        "Spicy Ditka Polish",
+        "Hot dogs"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "frozen-portable-103",
+      "name": "Frozen Portable",
+      "kind": "bar",
+      "section": "103",
+      "items": [
+        "Frozen cocktails",
+        "Cocktails"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "frozen-portable-115",
+      "name": "Frozen Portable",
+      "kind": "bar",
+      "section": "115",
+      "items": [
+        "Frozen cocktails",
+        "Cocktails"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "frozen-portable-243",
+      "name": "Frozen Portable",
+      "kind": "bar",
+      "section": "243",
+      "items": [
+        "Frozen cocktails",
+        "Cocktails"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "frozen-portable-441",
+      "name": "Frozen Portable",
+      "kind": "bar",
+      "section": "441",
+      "items": [
+        "Frozen cocktails",
+        "Cocktails"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "dr-pepper-bar-119",
+      "name": "Dr Pepper Bar",
+      "kind": "bar",
+      "section": "119",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Wine"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "cocktail-portable-325",
+      "name": "Cocktail Portable",
+      "kind": "bar",
+      "section": "325",
+      "items": [
+        "Cocktails"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "cocktail-portable-342",
+      "name": "Cocktail Portable",
+      "kind": "bar",
+      "section": "342",
+      "items": [
+        "Cocktails"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "blue-moon-trailer-342",
+      "name": "Blue Moon Trailer",
+      "kind": "bar",
+      "section": "342",
+      "items": [
+        "Beer",
+        "Blue Moon",
+        "Cocktails"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "lemonade-433",
+      "name": "Lemonade",
+      "kind": "bar",
+      "section": "433",
+      "items": [
+        "Lemonade"
+      ],
+      "unverified": [
+        "from an unofficial 2026 guide (homeaway.app); check against the Bears app"
+      ]
+    },
+    {
+      "id": "family-restroom-121",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "121",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-146",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "146",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-154",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "154",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-202",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "202",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-216",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "216",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-320",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "320",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-354",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "354",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-435",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "435",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-437",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "437",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-439",
+      "name": "Family restroom",
+      "kind": "restroom",
+      "section": "439",
+      "items": [
+        "Family restroom",
+        "All-gender restroom",
+        "Restroom"
+      ]
+    }
+  ],
+  "popular": [
+    "Italian beef",
+    "Hot dogs",
+    "Pizza",
+    "Burgers",
+    "Chicken tenders",
+    "Beer",
+    "Restroom"
+  ]
+}

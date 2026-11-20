@@ -1,0 +1,475 @@
+{
+  "schema": 1,
+  "id": "crypto-com-arena",
+  "version": "c40af9243b58",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "every section by level, Premier (PR) seats, the 200 Level ends, the San Manuel Club at the east end (unofficial RateYourSeats chart, updated 2026-09-18)",
+      "ref": "reference/seating-chart-basketball-unofficial.jpg"
+    },
+    {
+      "what": "same sections, hockey layout (unofficial)",
+      "ref": "reference/seating-chart-hockey-unofficial.jpg"
+    },
+    {
+      "what": "levels of the arena, entrances and their street corners, elevators to all public areas (official accessibility page and A-Z guide)",
+      "ref": "reference/accessibility-guide-2026.md"
+    },
+    {
+      "what": "Premier seats reached from Suite Level A through the VIP entrances (official premium pages)",
+      "ref": "reference/premium-access-2026.md"
+    },
+    {
+      "what": "official site",
+      "ref": "https://www.cryptoarena.com"
+    }
+  ],
+  "name": "Crypto.com Arena",
+  "city": "Los Angeles",
+  "region": "CA",
+  "disclaimer": "Unofficial, not affiliated with Crypto.com Arena, the Los Angeles Lakers, Kings or Sparks.",
+  "streets": {
+    "north": "CHICK HEARN CT (11TH ST)",
+    "south": "12TH ST"
+  },
+  "numbering": {
+    "direction": "cw",
+    "startF": 0.474
+  },
+  "geometry": {
+    "shapeExp": 3,
+    "refRing": [
+      150,
+      126
+    ],
+    "court": [
+      94,
+      50
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "100 Level",
+      "sub": "Main Concourse · 200 Level",
+      "short": "100",
+      "sections": [
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "119"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          62,
+          40
+        ],
+        "seatOut": [
+          118,
+          96
+        ],
+        "concIn": [
+          122,
+          100
+        ],
+        "concOut": [
+          146,
+          124
+        ],
+        "tower": [
+          190,
+          168
+        ]
+      },
+      "tiers": [
+        {
+          "sections": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210"
+          ],
+          "seatIn": [
+            150,
+            128
+          ],
+          "seatOut": [
+            176,
+            154
+          ],
+          "span": {
+            "startF": 0.64,
+            "endF": 0.86
+          }
+        },
+        {
+          "sections": [
+            "214",
+            "215",
+            "216",
+            "217",
+            "218",
+            "219"
+          ],
+          "seatIn": [
+            150,
+            128
+          ],
+          "seatOut": [
+            176,
+            154
+          ],
+          "span": {
+            "startF": 0.14,
+            "endF": 0.36
+          }
+        }
+      ],
+      "unverified": [
+        "the 200 Level sections (205-210 west end, 214-219 east end) are entered from the Main Concourse, as the A-Z guide's '100 and 200 Level tickets' suggests; drawn behind the concourse ('Go up into')",
+        "the Main Concourse is a full loop"
+      ],
+      "viewBox": [
+        -204,
+        -182,
+        408,
+        364
+      ],
+      "fontSize": 8
+    },
+    {
+      "level": 2,
+      "name": "Premier Level",
+      "sub": "Suite Level A · PR seats",
+      "short": "PR",
+      "sections": [
+        "PR1",
+        "PR2",
+        "PR3",
+        "PR4",
+        "PR5",
+        "PR6",
+        "PR7",
+        "PR8",
+        "T1",
+        "T2",
+        "PR9",
+        "PR10",
+        "T3",
+        "T4",
+        "PR11",
+        "PR12",
+        "PR13",
+        "PR14",
+        "PR15",
+        "PR16",
+        "PR17",
+        "PR18"
+      ],
+      "restricted": {
+        "label": "Premier Level",
+        "needs": "a Premier (PR) seat or Suite Level A ticket"
+      },
+      "span": {
+        "startF": 0.33,
+        "endF": 0.16
+      },
+      "loop": true,
+      "rings": {
+        "seatIn": [
+          120,
+          98
+        ],
+        "seatOut": [
+          140,
+          118
+        ],
+        "concIn": [
+          144,
+          122
+        ],
+        "concOut": [
+          162,
+          140
+        ],
+        "tower": [
+          178,
+          156
+        ]
+      },
+      "unverified": [
+        "PR seats run along both sidelines only; the data spreads PR1-PR18 and boxes T1-T4 evenly from the southeast corner clockwise to the northeast corner, so PR9 and PR10 sit nearer the west end than they really are",
+        "the Suite Level A concourse runs all the way around (suites at both ends)",
+        "order of the T1-T4 boxes among PR8-PR11"
+      ],
+      "viewBox": [
+        -196,
+        -174,
+        392,
+        348
+      ],
+      "fontSize": 6
+    },
+    {
+      "level": 3,
+      "name": "300 Level",
+      "sub": "Upper Concourse",
+      "short": "300",
+      "sections": [
+        "329",
+        "330",
+        "331",
+        "332",
+        "333",
+        "334",
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "324"
+      ],
+      "restricted": null,
+      "span": {
+        "startF": 0.31,
+        "endF": 0.2
+      },
+      "loop": true,
+      "rings": {
+        "seatIn": [
+          150,
+          128
+        ],
+        "seatOut": [
+          198,
+          174
+        ],
+        "concIn": [
+          202,
+          178
+        ],
+        "concOut": [
+          222,
+          198
+        ],
+        "tower": [
+          236,
+          212
+        ]
+      },
+      "unverified": [
+        "sections 325-328 are gone; the San Manuel Club / UCLA Health block fills the east end (f 0.20-0.31) and isn't modeled as seats",
+        "the Upper Concourse continues behind the San Manuel Club (a full loop)"
+      ],
+      "viewBox": [
+        -256,
+        -232,
+        512,
+        464
+      ],
+      "fontSize": 8
+    }
+  ],
+  "gates": [
+    {
+      "id": "GKB",
+      "name": "Kobe Bryant Entrance",
+      "label": "KOBE",
+      "f": 0.875,
+      "levels": [
+        1,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          3
+        ]
+      },
+      "unverified": [
+        "northwest corner (Chick Hearn Ct and Georgia St), from the street grid; the charts have no compass",
+        "escalators here run from the Main Concourse to the Upper Concourse"
+      ]
+    },
+    {
+      "id": "GSP",
+      "name": "Star Plaza Entrance",
+      "label": "STAR",
+      "f": 0.09,
+      "levels": [
+        1,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          3
+        ]
+      },
+      "unverified": [
+        "northeast corner (Chick Hearn Ct and Figueroa St), from the street grid",
+        "escalators here run from the Main Concourse to the Upper Concourse"
+      ]
+    },
+    {
+      "id": "GSV",
+      "name": "Star Plaza VIP Entry",
+      "label": "VIP",
+      "f": 0.15,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2
+        ]
+      },
+      "unverified": [
+        "next to the Team LA Store, east of the Star Plaza Entrance",
+        "an escalator from the Main Concourse level to Suite Level A (Premier)"
+      ]
+    },
+    {
+      "id": "GFG",
+      "name": "Figueroa Entrance",
+      "label": "FIG",
+      "f": 0.375,
+      "levels": [
+        1,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          3
+        ]
+      },
+      "unverified": [
+        "southeast corner (12th St and Figueroa St), from the street grid",
+        "escalators here run from the Main Concourse to the Upper Concourse"
+      ]
+    },
+    {
+      "id": "GSW",
+      "name": "Southwest VIP Entry",
+      "label": "SW VIP",
+      "f": 0.62,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2
+        ]
+      },
+      "unverified": [
+        "southwest side, next to the LA Convention Center",
+        "an escalator from the Main Concourse level to Suite Level A (Premier)"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EKB",
+      "nearGate": "GKB",
+      "f": 0.89,
+      "levels": [
+        1,
+        3
+      ],
+      "unverified": [
+        "position: the venue only says elevators reach all public areas"
+      ]
+    },
+    {
+      "id": "EFG",
+      "nearGate": "GFG",
+      "f": 0.39,
+      "levels": [
+        1,
+        3
+      ],
+      "unverified": [
+        "position: the venue only says elevators reach all public areas"
+      ]
+    },
+    {
+      "id": "ESV",
+      "nearGate": "GSV",
+      "f": 0.165,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "unverified": [
+        "position, and that it stops at the Main, Premier and Upper Concourses"
+      ]
+    },
+    {
+      "id": "ESW",
+      "nearGate": "GSW",
+      "f": 0.605,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "unverified": [
+        "position, and that it stops at the Main, Premier and Upper Concourses"
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30
+  }
+}

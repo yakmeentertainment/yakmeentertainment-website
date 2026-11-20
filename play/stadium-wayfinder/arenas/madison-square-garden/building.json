@@ -1,0 +1,511 @@
+{
+  "schema": 1,
+  "id": "madison-square-garden",
+  "version": "85462cfafe4e",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "every section and its place around the bowl, tower escalator and elevator icons (official msg.com seat map, Knicks layout)",
+      "ref": "reference/seating-chart-knicks-2026-27.svg"
+    },
+    {
+      "what": "same seat map, Rangers and concert layouts",
+      "ref": "reference/seating-chart-rangers-2026-27.svg"
+    },
+    {
+      "what": "street entrances: Chase A and B on 8th Ave, Chase C and D on 33rd St, 7th Ave via Chase Square (official entrance map, Feb 2026)",
+      "ref": "reference/gates-entry-2026.png"
+    },
+    {
+      "what": "elevators and escalators in Towers A-D reach all public areas; Tower D elevators by Section 206; concourse names (official accessibility page)",
+      "ref": "reference/accessibility-guide-2026.md"
+    },
+    {
+      "what": "clubs and suite levels (official premium pages)",
+      "ref": "reference/premium-access-2026.md"
+    },
+    {
+      "what": "official site",
+      "ref": "https://www.msg.com/madison-square-garden"
+    }
+  ],
+  "name": "Madison Square Garden",
+  "city": "New York",
+  "region": "NY",
+  "disclaimer": "Unofficial, not affiliated with Madison Square Garden, the New York Knicks or the New York Rangers.",
+  "streets": {
+    "north": "W 33RD ST",
+    "south": "W 31ST ST"
+  },
+  "numbering": {
+    "direction": "ccw",
+    "startF": 0.56
+  },
+  "geometry": {
+    "shapeExp": 2.2,
+    "refRing": [
+      150,
+      156
+    ],
+    "court": [
+      50,
+      94
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "100 Level",
+      "sub": "Kalshi Concourse",
+      "short": "100",
+      "sections": [
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "119",
+        "120"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          42,
+          64
+        ],
+        "seatOut": [
+          108,
+          116
+        ],
+        "concIn": [
+          112,
+          120
+        ],
+        "concOut": [
+          132,
+          140
+        ],
+        "tower": [
+          160,
+          168
+        ]
+      },
+      "tiers": [
+        {
+          "sections": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "seatIn": [
+            28,
+            50
+          ],
+          "seatOut": [
+            38,
+            60
+          ]
+        }
+      ],
+      "unverified": [
+        "the floor and courtside sections 1-12 are reached from the Kalshi Concourse through the 100 Level aisles (some courtside seats may enter through a club instead)",
+        "Section 119 is mislabeled in the seat-map file (its id reads 110); placed between 118 and 120",
+        "the Kalshi Concourse is a full loop"
+      ],
+      "viewBox": [
+        -196,
+        -204,
+        392,
+        408
+      ],
+      "fontSize": 8
+    },
+    {
+      "level": 2,
+      "name": "200 Level",
+      "sub": "Pepsi Concourse",
+      "short": "200",
+      "sections": [
+        "201",
+        "202",
+        "203",
+        "204",
+        "206",
+        "207",
+        "208",
+        "209",
+        "210",
+        "211",
+        "212",
+        "213",
+        "214",
+        "215",
+        "216",
+        "217",
+        "218",
+        "219",
+        "220",
+        "221",
+        "222",
+        "223",
+        "224",
+        "225",
+        "226",
+        "227"
+      ],
+      "restricted": null,
+      "span": {
+        "startF": 0.65,
+        "endF": 0.61
+      },
+      "loop": true,
+      "rings": {
+        "seatIn": [
+          114,
+          122
+        ],
+        "seatOut": [
+          150,
+          156
+        ],
+        "concIn": [
+          154,
+          160
+        ],
+        "concOut": [
+          172,
+          178
+        ],
+        "tower": [
+          196,
+          202
+        ]
+      },
+      "unverified": [
+        "there is no Section 205 on the seat map (204 is wide); left out",
+        "the Pepsi Concourse runs all the way around, past the short gap between 227 and 201 in the southwest corner"
+      ],
+      "viewBox": [
+        -232,
+        -238,
+        464,
+        476
+      ],
+      "fontSize": 7
+    },
+    {
+      "level": 3,
+      "name": "300 Level",
+      "sub": "Hyundai Bridges",
+      "short": "300",
+      "sections": [
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "324",
+        "325",
+        "326",
+        "327",
+        "328"
+      ],
+      "restricted": null,
+      "span": {
+        "startF": 0.68,
+        "endF": 0.64
+      },
+      "loop": true,
+      "rings": {
+        "seatIn": [
+          160,
+          166
+        ],
+        "seatOut": [
+          180,
+          186
+        ],
+        "concIn": [
+          184,
+          190
+        ],
+        "concOut": [
+          200,
+          206
+        ],
+        "tower": [
+          220,
+          226
+        ]
+      },
+      "unverified": [
+        "the 300 sections (Hyundai Bridges) have their own walkway that goes all the way around; the seat map shows 301-328 ringing the bowl above the 200 Level",
+        "the seat map's second set of 300 labels (301L-328L) is taken as a label layer, not extra sections"
+      ],
+      "viewBox": [
+        -254,
+        -260,
+        508,
+        520
+      ],
+      "fontSize": 7
+    },
+    {
+      "level": 4,
+      "name": "400 Level",
+      "sub": "Bud Light Blue Seats",
+      "short": "400",
+      "sections": [
+        "413",
+        "414",
+        "415",
+        "416",
+        "417",
+        "418",
+        "419",
+        "420"
+      ],
+      "restricted": null,
+      "span": {
+        "startF": 0.84,
+        "endF": 0.15
+      },
+      "rings": {
+        "seatIn": [
+          166,
+          172
+        ],
+        "seatOut": [
+          192,
+          198
+        ],
+        "concIn": [
+          196,
+          202
+        ],
+        "concOut": [
+          210,
+          216
+        ],
+        "tower": [
+          228,
+          234
+        ]
+      },
+      "unverified": [
+        "the 400s (413-420) are only at one end of the bowl, taken here as the north (33rd St) end",
+        "the 400 Level walkway runs end to end behind 413-420 and is reached from Towers B and C"
+      ],
+      "viewBox": [
+        -262,
+        -268,
+        524,
+        536
+      ],
+      "fontSize": 8
+    }
+  ],
+  "gates": [
+    {
+      "id": "GA",
+      "name": "Tower A",
+      "label": "A",
+      "f": 0.625,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unverified": [
+        "southwest corner (8th Ave and 31st St); tower letters aren't on the seat map, so A-D are assigned clockwise from here to fit Tower D being by Section 206",
+        "closest street door: Chase A Entrance on 8th Ave",
+        "the escalators stop at the 100, 200 and 300 Levels"
+      ]
+    },
+    {
+      "id": "GB",
+      "name": "Tower B",
+      "label": "B",
+      "f": 0.875,
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "unverified": [
+        "northwest corner (8th Ave and 33rd St)",
+        "closest street doors: Chase B (8th Ave) and Chase C (8th Ave and 33rd St)",
+        "the escalators also reach the 400 Level"
+      ]
+    },
+    {
+      "id": "GC",
+      "name": "Tower C",
+      "label": "C",
+      "f": 0.125,
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "unverified": [
+        "northeast corner (7th Ave and 33rd St)",
+        "closest street doors: Chase D Entrance on 33rd St",
+        "the escalators also reach the 400 Level"
+      ]
+    },
+    {
+      "id": "GD",
+      "name": "Tower D",
+      "label": "D",
+      "f": 0.375,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unverified": [
+        "southeast corner (7th Ave and 31st St); the official page puts the Tower D elevators by Section 206",
+        "closest street doors: 7th Ave Entrance and the Lexus VIP entrances through Chase Square",
+        "the escalators stop at the 100, 200 and 300 Levels"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EA",
+      "nearGate": "GA",
+      "f": 0.57,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "unverified": [
+        "position from the seat-map elevator icon; levels from 'all public areas'"
+      ]
+    },
+    {
+      "id": "EB",
+      "nearGate": "GB",
+      "f": 0.89,
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unverified": [
+        "position from the seat-map elevator icon; levels from 'all public areas'"
+      ]
+    },
+    {
+      "id": "EC",
+      "nearGate": "GC",
+      "f": 0.14,
+      "levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unverified": [
+        "position from the seat-map elevator icon; levels from 'all public areas'"
+      ]
+    },
+    {
+      "id": "ED",
+      "nearGate": "GD",
+      "f": 0.42,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "unverified": [
+        "by Section 206 (official); levels from 'all public areas'"
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30
+  }
+}

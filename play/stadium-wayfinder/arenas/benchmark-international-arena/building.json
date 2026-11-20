@@ -1,0 +1,401 @@
+{
+  "schema": 1,
+  "id": "benchmark-international-arena",
+  "version": "02cce988b178",
+  "lastVerified": "2026-11-08",
+  "sources": [
+    {
+      "what": "100 Level map: sections, gates, escalators, stairs, elevators, restrooms, food (2026)",
+      "ref": "reference/concourse-map-100-level-2026.jpg"
+    },
+    {
+      "what": "200 Level (Club) map (2026)",
+      "ref": "reference/concourse-map-200-level-2026.jpg"
+    },
+    {
+      "what": "300 Level (Terrace) map (2026)",
+      "ref": "reference/concourse-map-300-level-2026.jpg"
+    },
+    {
+      "what": "elevators and the levels they reach, Club Level access (venue site)",
+      "ref": "reference/accessibility-and-guide-benchmarkintlarena-com.md"
+    }
+  ],
+  "name": "Benchmark International Arena",
+  "city": "Tampa",
+  "region": "FL",
+  "disclaimer": "Unofficial, not affiliated with Benchmark International Arena or the Tampa Bay Lightning.",
+  "streets": {
+    "north": "CHANNELSIDE DR",
+    "south": "OLD WATER ST"
+  },
+  "numbering": {
+    "direction": "cw",
+    "startF": 0.728
+  },
+  "geometry": {
+    "shapeExp": 3.2,
+    "refRing": [
+      116,
+      145
+    ],
+    "court": [
+      50,
+      94
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "100 Level",
+      "sub": "Promenade",
+      "short": "100",
+      "sections": [
+        "101",
+        "102",
+        "103",
+        "104",
+        "106",
+        "108",
+        "109",
+        "110",
+        "112",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "120",
+        "122",
+        "123",
+        "124",
+        "126",
+        "128",
+        "129",
+        "130"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          40,
+          62
+        ],
+        "seatOut": [
+          100,
+          128
+        ],
+        "concIn": [
+          104,
+          132
+        ],
+        "concOut": [
+          128,
+          158
+        ],
+        "tower": [
+          142,
+          172
+        ]
+      },
+      "viewBox": [
+        -196,
+        -212,
+        392,
+        424
+      ],
+      "fontSize": 9
+    },
+    {
+      "level": 2,
+      "name": "200 Level",
+      "sub": "Club Level",
+      "short": "200",
+      "sections": [
+        "201",
+        "202",
+        "203",
+        "204",
+        "205",
+        "206",
+        "207",
+        "208",
+        "209",
+        "210",
+        "211",
+        "212",
+        "213",
+        "214",
+        "215",
+        "216",
+        "217",
+        "218",
+        "219",
+        "CLB 1",
+        "CLB 2",
+        "CLB 3",
+        "CLB 4",
+        "CLB 5",
+        "CLB 6",
+        "CLB 7",
+        "CLB 8",
+        "228",
+        "229",
+        "230"
+      ],
+      "restricted": {
+        "label": "Club Level",
+        "needs": "a Club Level or Suite Level ticket"
+      },
+      "unverified": [
+        "Sections 208 and 209 at the north end aren't labeled on the map (stands and the family restroom are listed at 208)"
+      ],
+      "rings": {
+        "seatIn": [
+          104,
+          132
+        ],
+        "seatOut": [
+          132,
+          165
+        ],
+        "concIn": [
+          136,
+          169
+        ],
+        "concOut": [
+          156,
+          190
+        ],
+        "tower": [
+          170,
+          204
+        ]
+      },
+      "viewBox": [
+        -222,
+        -240,
+        444,
+        480
+      ],
+      "fontSize": 7
+    },
+    {
+      "level": 3,
+      "name": "300 Level",
+      "sub": "Terrace",
+      "short": "300",
+      "sections": [
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "324",
+        "325",
+        "326",
+        "327",
+        "328",
+        "329",
+        "330"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          136,
+          169
+        ],
+        "seatOut": [
+          194,
+          228
+        ],
+        "concIn": [
+          198,
+          232
+        ],
+        "concOut": [
+          216,
+          252
+        ],
+        "tower": [
+          230,
+          266
+        ]
+      },
+      "viewBox": [
+        -286,
+        -302,
+        572,
+        604
+      ],
+      "fontSize": 9
+    }
+  ],
+  "gates": [
+    {
+      "id": "GA",
+      "name": "Gate A",
+      "label": "A",
+      "f": 0.678,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unverified": [
+        "the southwest corner stairwell reaches all three levels"
+      ]
+    },
+    {
+      "id": "GB",
+      "name": "Gate B",
+      "label": "B",
+      "f": 0.822,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unverified": [
+        "the northwest corner stairwell reaches all three levels"
+      ]
+    },
+    {
+      "id": "GC",
+      "name": "Gate C",
+      "label": "C",
+      "f": 0.183,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unverified": [
+        "the northeast corner stairwell reaches all three levels"
+      ]
+    },
+    {
+      "id": "NE",
+      "name": "North End",
+      "label": "N ESC",
+      "f": 0.979,
+      "levels": [
+        1,
+        3
+      ],
+      "entrance": false,
+      "escalator": {
+        "levels": [
+          1,
+          3
+        ]
+      },
+      "unverified": [
+        "the escalators skip the Club Level (none are shown on the 200 map)"
+      ]
+    },
+    {
+      "id": "SE",
+      "name": "South End",
+      "label": "S ESC",
+      "f": 0.52,
+      "levels": [
+        1,
+        3
+      ],
+      "entrance": false,
+      "escalator": {
+        "levels": [
+          1,
+          3
+        ]
+      },
+      "unverified": [
+        "the escalators skip the Club Level (none are shown on the 200 map)"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EA",
+      "nearGate": "GA",
+      "f": 0.666,
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "EB",
+      "nearGate": "GB",
+      "f": 0.847,
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "EC",
+      "nearGate": "GC",
+      "f": 0.202,
+      "levels": [
+        1,
+        2
+      ],
+      "unverified": [
+        "the Executive Suite holder elevators; for suite and club guests"
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30,
+    "stairsRide": 200,
+    "stairsRideSecs": 90
+  }
+}

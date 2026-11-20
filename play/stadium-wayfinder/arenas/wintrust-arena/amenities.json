@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "id": "wintrust-arena",
+  "version": "94ec6fe7fbcf",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "concession stands, portables, restrooms and premium areas by section (Chicago Sky 2026 gameday guide)",
+      "ref": "reference/gameday-guide-chicago-sky-2026.md"
+    },
+    {
+      "what": "family restroom near 120 (official A-Z guide)",
+      "ref": "reference/accessibility-guide-2026.md"
+    }
+  ],
+  "stands": [
+    {
+      "id": "concessions-115",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "115",
+      "items": [
+        "Hot dogs",
+        "Hamburgers",
+        "Chicken tenders",
+        "Plant-based chicken tenders",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "stand names aren't published; every stand is given the guide's general menu"
+      ]
+    },
+    {
+      "id": "concessions-119",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "119",
+      "items": [
+        "Hot dogs",
+        "Hamburgers",
+        "Chicken tenders",
+        "Plant-based chicken tenders",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "stand names aren't published; every stand is given the guide's general menu"
+      ]
+    },
+    {
+      "id": "concessions-127",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "127",
+      "items": [
+        "Hot dogs",
+        "Hamburgers",
+        "Chicken tenders",
+        "Plant-based chicken tenders",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "the guide says 127-128; placed at 127",
+        "stand names aren't published; every stand is given the guide's general menu"
+      ]
+    },
+    {
+      "id": "concessions-215",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "215",
+      "items": [
+        "Hot dogs",
+        "Hamburgers",
+        "Chicken tenders",
+        "Plant-based chicken tenders",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "stand names aren't published; every stand is given the guide's general menu"
+      ]
+    },
+    {
+      "id": "concessions-219",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "219",
+      "items": [
+        "Hot dogs",
+        "Hamburgers",
+        "Chicken tenders",
+        "Plant-based chicken tenders",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "stand names aren't published; every stand is given the guide's general menu"
+      ]
+    },
+    {
+      "id": "concessions-230",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "230",
+      "items": [
+        "Hot dogs",
+        "Hamburgers",
+        "Chicken tenders",
+        "Plant-based chicken tenders",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "stand names aren't published; every stand is given the guide's general menu"
+      ]
+    },
+    {
+      "id": "portable-stand-105",
+      "name": "Portable Stand (some dates)",
+      "kind": "food",
+      "section": "105",
+      "items": [
+        "Hot dogs",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "open on some dates only; menu is a guess"
+      ]
+    },
+    {
+      "id": "portable-stand-117",
+      "name": "Portable Stand (some dates)",
+      "kind": "food",
+      "section": "117",
+      "items": [
+        "Hot dogs",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "open on some dates only; menu is a guess"
+      ]
+    },
+    {
+      "id": "portable-stand-201",
+      "name": "Portable Stand (some dates)",
+      "kind": "food",
+      "section": "201",
+      "items": [
+        "Hot dogs",
+        "Garrett Popcorn",
+        "Pepsi products"
+      ],
+      "unverified": [
+        "the guide says 201-202; placed at 201",
+        "open on some dates only; menu is a guess"
+      ]
+    },
+    {
+      "id": "revolution-brewing-hero-deck-117",
+      "name": "Revolution Brewing Hero Deck",
+      "kind": "bar",
+      "section": "117",
+      "items": [
+        "Beer",
+        "Revolution Brewing craft beer"
+      ],
+      "unverified": [
+        "placed at 117 (reached from 115-119 and 215-219); menu inferred from the name"
+      ]
+    },
+    {
+      "id": "social-lounge-113",
+      "name": "Social Lounge",
+      "kind": "bar",
+      "section": "113",
+      "items": [
+        "Drinks"
+      ],
+      "unverified": [
+        "the guide only says it's behind 113; whether it serves drinks and who can get in are guesses"
+      ]
+    },
+    {
+      "id": "restroom-101",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "101",
+      "items": [
+        "Restroom"
+      ]
+    },
+    {
+      "id": "restroom-114",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "114",
+      "items": [
+        "Restroom"
+      ]
+    },
+    {
+      "id": "restroom-121",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "121",
+      "items": [
+        "Restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-120",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "120",
+      "items": [
+        "Family restroom",
+        "Companion restroom",
+        "Mamava nursing pod"
+      ],
+      "unverified": [
+        "the A-Z guide says near 120; the Sky guide says the southeast side of the 100 Level"
+      ]
+    },
+    {
+      "id": "restroom-214",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "214",
+      "items": [
+        "Restroom"
+      ]
+    },
+    {
+      "id": "restroom-220",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "220",
+      "items": [
+        "Restroom"
+      ]
+    },
+    {
+      "id": "restroom-228",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "228",
+      "items": [
+        "Restroom"
+      ]
+    }
+  ],
+  "popular": [
+    "Garrett Popcorn",
+    "Hot dogs",
+    "Hamburgers",
+    "Chicken tenders",
+    "Beer",
+    "Restroom"
+  ]
+}

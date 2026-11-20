@@ -1,0 +1,799 @@
+{
+  "schema": 1,
+  "id": "fenway-park",
+  "version": "fe22637a1239",
+  "lastVerified": "2026-11-10",
+  "sources": [
+    {
+      "what": "every section (Field Box, Loge Box, Right Field Box, Grandstand, Bleachers, Green Monster, EMC/Dell, Pavilion, Roof Box), compass (unofficial RateYourSeats chart, 2021)",
+      "ref": "reference/seating-chart-unofficial.jpg"
+    },
+    {
+      "what": "same chart with rows: which boxes sit in front of the grandstand",
+      "ref": "reference/seating-chart-rows-unofficial.jpg"
+    },
+    {
+      "what": "gates A-E with street corners, elevators at Gates B, D and E and what they reach, 20 Jersey Street escalators, Gate D ramp (official Red Sox accessibility and A-Z guides, 2026)",
+      "ref": "reference/accessibility-guide-2026.md"
+    },
+    {
+      "what": "Aura Club, Aura Pavilion, Dell Technologies Club (official Red Sox premium pages, 2026)",
+      "ref": "reference/premium-access-2026.md"
+    },
+    {
+      "what": "official 3D seat map (not saved; needs screenshots)",
+      "ref": "https://www.mlb.com/redsox/ballpark/seat-map"
+    }
+  ],
+  "name": "Fenway Park",
+  "city": "Boston",
+  "region": "MA",
+  "disclaimer": "Unofficial, not affiliated with Fenway Park or the Boston Red Sox.",
+  "streets": {
+    "north": "LANSDOWNE ST",
+    "south": "VAN NESS ST"
+  },
+  "numbering": {
+    "direction": "cw",
+    "startF": 0.155
+  },
+  "geometry": {
+    "shapeExp": 2.4,
+    "refRing": [
+      170,
+      170
+    ],
+    "court": [
+      120,
+      120
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "Main Level",
+      "sub": "Grandstand · Bleachers · Field Box · Loge Box",
+      "short": "Main",
+      "sections": [
+        "BL34",
+        "BL35",
+        "BL36",
+        "BL37",
+        "BL38",
+        "BL39",
+        "BL40",
+        "BL41",
+        "BL42",
+        "BL43",
+        "GS1",
+        "GS2",
+        "GS3",
+        "GS4",
+        "GS5",
+        "GS6",
+        "GS7",
+        "GS8",
+        "GS9",
+        "GS10",
+        "GS11",
+        "GS12",
+        "GS13",
+        "GS14",
+        "GS15",
+        "GS16",
+        "GS17",
+        "GS18",
+        "GS19",
+        "GS20",
+        "GS21",
+        "GS22",
+        "GS23",
+        "GS24",
+        "GS25",
+        "GS26",
+        "GS27",
+        "GS28",
+        "GS29",
+        "GS30",
+        "GS31",
+        "GS32",
+        "GS33"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          144,
+          144
+        ],
+        "seatOut": [
+          180,
+          180
+        ],
+        "concIn": [
+          182,
+          182
+        ],
+        "concOut": [
+          200,
+          200
+        ],
+        "tower": [
+          230,
+          230
+        ]
+      },
+      "viewBox": [
+        -262,
+        -262,
+        524,
+        524
+      ],
+      "fontSize": 4.5,
+      "span": {
+        "startF": 0.155,
+        "endF": 0.95
+      },
+      "tiers": [
+        {
+          "sections": [
+            "RFB87",
+            "RFB88",
+            "RFB89",
+            "RFB90",
+            "RFB91",
+            "RFB92",
+            "RFB93",
+            "RFB94",
+            "RFB95",
+            "RFB96",
+            "RFB97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
+            "147",
+            "148",
+            "149",
+            "150",
+            "151",
+            "152",
+            "153",
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165",
+            "166"
+          ],
+          "seatIn": [
+            120,
+            120
+          ],
+          "seatOut": [
+            142,
+            142
+          ],
+          "span": {
+            "startF": 0.34,
+            "endF": 0.935
+          }
+        },
+        {
+          "sections": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82"
+          ],
+          "seatIn": [
+            96,
+            96
+          ],
+          "seatOut": [
+            118,
+            118
+          ],
+          "span": {
+            "startF": 0.35,
+            "endF": 0.9
+          }
+        }
+      ],
+      "unverified": [
+        "positions read off the unofficial 2021 chart, with north up and home plate at about f 0.68 (west-southwest); spans stretched slightly so gates sit on them",
+        "the concourse runs from the bleachers (center field) round right field and home plate to left field, and does not continue behind the Green Monster",
+        "Grandstand 1-33 and Bleachers 34-43 are one clockwise numbering; Right Field Box 87-97 and Loge Box 98-166 form the ring in front of them, Field Box 1-82 the ring in front of that",
+        "Field, Loge and Right Field Box seats are entered from the main concourse"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Green Monster",
+      "sub": "Seats on top of the left-field wall",
+      "short": "GM",
+      "sections": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10"
+      ],
+      "restricted": {
+        "label": "Green Monster",
+        "needs": "a Green Monster ticket"
+      },
+      "rings": {
+        "seatIn": [
+          150,
+          150
+        ],
+        "seatOut": [
+          172,
+          172
+        ],
+        "concIn": [
+          174,
+          174
+        ],
+        "concOut": [
+          188,
+          188
+        ],
+        "tower": [
+          230,
+          230
+        ]
+      },
+      "viewBox": [
+        -262,
+        -262,
+        524,
+        524
+      ],
+      "fontSize": 7,
+      "span": {
+        "startF": 0.915,
+        "endF": 0.15
+      },
+      "unverified": [
+        "Green Monster seats assumed to need a Monster ticket",
+        "reached by stairs and the elevator at Gate E only; the guide says the Gate D elevators reach the Monster too, which this layout can't place (Gate D is behind home plate)"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Dell Technologies Club",
+      "sub": "Formerly the EMC Club · behind home plate",
+      "short": "Dell",
+      "sections": [
+        "DTC1",
+        "DTC2",
+        "DTC3",
+        "DTC4",
+        "DTC5",
+        "DTC6"
+      ],
+      "restricted": {
+        "label": "Dell Technologies Club",
+        "needs": "a Dell Technologies Club ticket"
+      },
+      "rings": {
+        "seatIn": [
+          150,
+          150
+        ],
+        "seatOut": [
+          172,
+          172
+        ],
+        "concIn": [
+          174,
+          174
+        ],
+        "concOut": [
+          188,
+          188
+        ],
+        "tower": [
+          230,
+          230
+        ]
+      },
+      "viewBox": [
+        -262,
+        -262,
+        524,
+        524
+      ],
+      "fontSize": 7,
+      "span": {
+        "startF": 0.62,
+        "endF": 0.74
+      },
+      "unverified": [
+        "section names DTC1-DTC6 stand for the chart's EMC1-EMC6; check what tickets say",
+        "only the club seats behind home plate are modeled; the suites along both baselines (L1-L24, R1-R21) are not",
+        "the guide says the Gate E elevator also reaches this level; here only Gate D and the 20 Jersey Street escalators do"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Aura Pavilion Level",
+      "sub": "Aura Pavilion · Aura Club · Pavilion Reserved",
+      "short": "Aura",
+      "sections": [
+        "PR15",
+        "PB13",
+        "PB11",
+        "PB9",
+        "PB7",
+        "PB5",
+        "PB3",
+        "PB1",
+        "AC1",
+        "AC2",
+        "AC3",
+        "AC4",
+        "AC5",
+        "PB2",
+        "PB4",
+        "PB6",
+        "PB8",
+        "PB10",
+        "PB12",
+        "PB14",
+        "PR16",
+        "PR18",
+        "PR20"
+      ],
+      "restricted": {
+        "label": "Aura Pavilion",
+        "needs": "an Aura Pavilion, Aura Club or Pavilion Reserved ticket"
+      },
+      "rings": {
+        "seatIn": [
+          166,
+          166
+        ],
+        "seatOut": [
+          186,
+          186
+        ],
+        "concIn": [
+          188,
+          188
+        ],
+        "concOut": [
+          200,
+          200
+        ],
+        "tower": [
+          230,
+          230
+        ]
+      },
+      "viewBox": [
+        -262,
+        -262,
+        524,
+        524
+      ],
+      "fontSize": 6,
+      "span": {
+        "startF": 0.49,
+        "endF": 0.94
+      },
+      "tiers": [
+        {
+          "sections": [
+            "PC1",
+            "PC3",
+            "PC5",
+            "PC7",
+            "PC9",
+            "PC11",
+            "PC13"
+          ],
+          "seatIn": [
+            150,
+            150
+          ],
+          "seatOut": [
+            164,
+            164
+          ],
+          "span": {
+            "startF": 0.5,
+            "endF": 0.625
+          },
+          "direction": "ccw"
+        },
+        {
+          "sections": [
+            "PC2",
+            "PC4",
+            "PC6",
+            "PC8",
+            "PC10",
+            "PC12",
+            "PC14"
+          ],
+          "seatIn": [
+            150,
+            150
+          ],
+          "seatOut": [
+            164,
+            164
+          ],
+          "span": {
+            "startF": 0.74,
+            "endF": 0.875
+          }
+        }
+      ],
+      "unverified": [
+        "Pavilion Box (PB) and Pavilion Club (PC) names come from the 2021 chart (then the State Street Pavilion); the official pages call the area Aura Pavilion, sections 1-14",
+        "AC1-AC5 are the Aura Club sections 1-5 behind home plate (the chart's HP1-HP5)",
+        "odd sections run toward first base, even toward third base, per the chart",
+        "only PR15, PR16, PR18 and PR20 appear on the chart",
+        "assumed only ticket holders on this level may enter it; the indoor Aura Club itself is for Aura Club seats only, which this app can't express"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Right Field Roof",
+      "sub": "Right Field Roof Box · Sam Adams Deck",
+      "short": "Roof",
+      "direction": "ccw",
+      "sections": [
+        "RB23",
+        "RB25",
+        "RB27",
+        "RB29",
+        "RB31",
+        "RB33",
+        "RB35",
+        "RB37",
+        "RB39",
+        "RB41",
+        "RB43"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          160,
+          160
+        ],
+        "seatOut": [
+          180,
+          180
+        ],
+        "concIn": [
+          182,
+          182
+        ],
+        "concOut": [
+          196,
+          196
+        ],
+        "tower": [
+          230,
+          230
+        ]
+      },
+      "viewBox": [
+        -262,
+        -262,
+        524,
+        524
+      ],
+      "fontSize": 7,
+      "span": {
+        "startF": 0.38,
+        "endF": 0.49
+      },
+      "unverified": [
+        "Roof Box numbers run from 23 by first base to 43 toward right field (chart)",
+        "assumed open to any ticket holder and not connected to the Aura Pavilion Level",
+        "called level 5 here; the Angry Orchard Terrace is on level 5 per the accessibility guide, the roof boxes may be on level 4"
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "GC",
+      "name": "Gate C",
+      "label": "C",
+      "f": 0.17,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "on Lansdowne Street behind the bleachers; position estimated"
+      ]
+    },
+    {
+      "id": "GB",
+      "name": "Gate B",
+      "label": "B",
+      "f": 0.385,
+      "levels": [
+        1,
+        5
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          5
+        ]
+      },
+      "unverified": [
+        "at Van Ness and Ipswich Streets (right field), opening onto the Big Concourse; position estimated",
+        "stairs from Gate B to the Right Field Roof are a guess"
+      ]
+    },
+    {
+      "id": "GD",
+      "name": "Gate D",
+      "label": "D",
+      "f": 0.63,
+      "levels": [
+        1,
+        3,
+        4
+      ],
+      "ramp": {
+        "levels": [
+          1,
+          3,
+          4
+        ]
+      },
+      "unverified": [
+        "at Jersey and Van Ness Streets behind home plate; position estimated; the guide says the ramp serves all levels"
+      ]
+    },
+    {
+      "id": "GJ",
+      "name": "20 Jersey Street",
+      "label": "20J",
+      "f": 0.705,
+      "levels": [
+        1,
+        3,
+        4
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          3,
+          4
+        ]
+      },
+      "unverified": [
+        "the entrance with the escalator to the Dell Technologies Level and the one on to the Aura Pavilion Level; position on Jersey Street estimated",
+        "assumed reachable from the main concourse (Jersey Street is inside the park on game days)"
+      ]
+    },
+    {
+      "id": "GA",
+      "name": "Gate A",
+      "label": "A",
+      "f": 0.865,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "at Jersey Street and Brookline Avenue (third base / left field); position estimated"
+      ]
+    },
+    {
+      "id": "GE",
+      "name": "Gate E",
+      "label": "E",
+      "f": 0.93,
+      "levels": [
+        1,
+        2,
+        4
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          2
+        ]
+      },
+      "unverified": [
+        "on Lansdowne Street near Brookline Avenue (left field); position estimated",
+        "stairs from here up to the Green Monster are a guess"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EB",
+      "nearGate": "GB",
+      "f": 0.395,
+      "levels": [
+        1,
+        5
+      ],
+      "unverified": [
+        "one elevator at Gate B to the right-field roof areas; exact spot unknown"
+      ]
+    },
+    {
+      "id": "ED",
+      "nearGate": "GD",
+      "f": 0.64,
+      "levels": [
+        1,
+        3,
+        4
+      ],
+      "unverified": [
+        "Gate D has three elevators; modeled as one; exact spot unknown"
+      ]
+    },
+    {
+      "id": "EE",
+      "nearGate": "GE",
+      "f": 0.92,
+      "levels": [
+        1,
+        2,
+        4
+      ],
+      "unverified": [
+        "one elevator at Gate E (the A-Z guide says between Gates A and E); exact spot unknown"
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30,
+    "rampRide": 200,
+    "rampRideSecs": 110
+  }
+}

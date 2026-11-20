@@ -1,0 +1,473 @@
+{
+  "schema": 1,
+  "id": "rate-field",
+  "version": "959af371bf16",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "sections on the 100, 300 and 500 Levels, gate positions, Rate Club, Stadium Club, Fan Deck (official seating chart, 2025-2026)",
+      "ref": "reference/seating-chart-2026.gif"
+    },
+    {
+      "what": "elevators (Gate 5, Stadium Club), escalators (Gates 3 and 5, 100/300/500), Gate 5 ramps, compass (official access guide and Ballpark Guide A-Z, 2026)",
+      "ref": "reference/accessibility-guide-2026.md"
+    },
+    {
+      "what": "300 Club Level needs a 300 Level ticket; Scout Club, Rate Club, suites and Stadium Club (official, 2026)",
+      "ref": "reference/premium-access-2026.md"
+    },
+    {
+      "what": "address (333 W 35th St), Dan Ryan Expressway on the east side",
+      "ref": "https://ballparksofbaseball.com/?p=2161"
+    }
+  ],
+  "name": "Rate Field",
+  "city": "Chicago",
+  "region": "IL",
+  "disclaimer": "Unofficial, not affiliated with Rate Field or the Chicago White Sox.",
+  "streets": {
+    "north": "W 35TH ST",
+    "south": "W PERSHING RD"
+  },
+  "numbering": {
+    "direction": "cw",
+    "startF": 0.397
+  },
+  "geometry": {
+    "shapeExp": 2.2,
+    "refRing": [
+      140,
+      140
+    ],
+    "court": [
+      84,
+      84
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "100 Level",
+      "sub": "Main concourse",
+      "short": "100",
+      "sections": [
+        "100",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "118",
+        "119",
+        "120",
+        "121",
+        "122",
+        "123",
+        "124",
+        "125",
+        "126",
+        "127",
+        "128",
+        "129",
+        "130",
+        "131",
+        "132",
+        "133",
+        "134",
+        "135",
+        "136",
+        "137",
+        "138",
+        "139",
+        "140",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "146",
+        "147",
+        "148",
+        "149",
+        "150",
+        "151",
+        "152",
+        "153",
+        "154",
+        "155",
+        "156",
+        "157",
+        "158",
+        "159",
+        "160",
+        "161",
+        "162",
+        "163",
+        "164"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          60,
+          60
+        ],
+        "seatOut": [
+          110,
+          110
+        ],
+        "concIn": [
+          114,
+          114
+        ],
+        "concOut": [
+          138,
+          138
+        ],
+        "tower": [
+          152,
+          152
+        ]
+      },
+      "viewBox": [
+        -200,
+        -200,
+        400,
+        400
+      ],
+      "fontSize": 6,
+      "span": {
+        "startF": 0.397,
+        "endF": 0.353
+      },
+      "loop": true,
+      "unverified": [
+        "the concourse is assumed to run all the way around behind the Fan Deck in center field",
+        "106 and 107 aren't seats on the chart (Patio, Miller Lite Landing, Leinenkugel's Craft Lodge); they're kept as spots because the concessions list uses them",
+        "sections are spaced evenly; on the chart the corner sections are a little wider"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "300 Club Level",
+      "sub": "Club seats, in-seat service",
+      "short": "300",
+      "sections": [
+        "311",
+        "312",
+        "314",
+        "316",
+        "318",
+        "320",
+        "322",
+        "324",
+        "326",
+        "328",
+        "329",
+        "330",
+        "334",
+        "335",
+        "336",
+        "338",
+        "340",
+        "342",
+        "344",
+        "346",
+        "348",
+        "350",
+        "352",
+        "354",
+        "356",
+        "357"
+      ],
+      "restricted": {
+        "label": "300 Club",
+        "needs": "a 300 Level ticket"
+      },
+      "rings": {
+        "seatIn": [
+          114,
+          114
+        ],
+        "seatOut": [
+          140,
+          140
+        ],
+        "concIn": [
+          144,
+          144
+        ],
+        "concOut": [
+          162,
+          162
+        ],
+        "tower": [
+          176,
+          176
+        ]
+      },
+      "viewBox": [
+        -215,
+        -215,
+        430,
+        430
+      ],
+      "fontSize": 6.5,
+      "span": {
+        "startF": 0.586,
+        "endF": 0.219
+      },
+      "unverified": [
+        "only the sections labeled on the chart are listed (mostly even numbers); there may be odd-numbered sections too",
+        "the concourse is assumed to run end to end, behind the Rate Club, from the right-field corner (Stadium Club) to left field (by 357)",
+        "330 and 334 sit on either side of the Rate Club, which isn't modeled, so they're drawn closer together than they are"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "500 Level",
+      "sub": "Upper deck",
+      "short": "500",
+      "sections": [
+        "506",
+        "507",
+        "508",
+        "509",
+        "510",
+        "512",
+        "514",
+        "516",
+        "518",
+        "520",
+        "522",
+        "524",
+        "526",
+        "527",
+        "528",
+        "529",
+        "530",
+        "531",
+        "533",
+        "534",
+        "535",
+        "536",
+        "537",
+        "538",
+        "540",
+        "542",
+        "544",
+        "546",
+        "548",
+        "550",
+        "552",
+        "554",
+        "555",
+        "556",
+        "557",
+        "558"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          150,
+          150
+        ],
+        "seatOut": [
+          200,
+          200
+        ],
+        "concIn": [
+          204,
+          204
+        ],
+        "concOut": [
+          224,
+          224
+        ],
+        "tower": [
+          238,
+          238
+        ]
+      },
+      "viewBox": [
+        -265,
+        -265,
+        530,
+        530
+      ],
+      "fontSize": 7.5,
+      "span": {
+        "startF": 0.525,
+        "endF": 0.225
+      },
+      "unverified": [
+        "the concourse is assumed to run end to end, from 506 in the right-field corner to 558 in left field, with no path behind the outfield",
+        "there's no 532 on the chart (531 and 533 sit either side of the line behind home plate)"
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "name": "Gate 1",
+      "label": "1",
+      "f": 0.494,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "position measured by eye from the seating chart (right-center field)"
+      ]
+    },
+    {
+      "id": "G2",
+      "name": "Gate 2",
+      "label": "2",
+      "f": 0.533,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "position measured by eye from the seating chart (right-field corner)"
+      ]
+    },
+    {
+      "id": "GSC",
+      "name": "Stadium Club elevator lobby",
+      "label": "SC",
+      "f": 0.589,
+      "levels": [
+        1,
+        2
+      ],
+      "entrance": false,
+      "unverified": [
+        "the guide puts the 100 Level lobby near section 110 and the club door in the 300 Level's right-field corner; one spot between the two is used for both"
+      ]
+    },
+    {
+      "id": "G3",
+      "name": "Gate 3",
+      "label": "3",
+      "f": 0.717,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unverified": [
+        "position measured by eye from the seating chart (first-base side)"
+      ]
+    },
+    {
+      "id": "G3H",
+      "name": "Gate 3½",
+      "label": "3½",
+      "f": 0.758,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "position measured by eye from the seating chart (home plate, first-base side)",
+        "official: the CIBC Scout Club and Conference & Learning Center entrance; it may not be open to every ticket holder"
+      ]
+    },
+    {
+      "id": "G4",
+      "name": "Gate 4",
+      "label": "4",
+      "f": 0.875,
+      "levels": [
+        1
+      ],
+      "unverified": [
+        "the Gate 4 elevators only serve suites, the Rate Club and the Fan Box (Suite Levels 200 and 400 aren't modeled), so no elevator is modeled here"
+      ]
+    },
+    {
+      "id": "G5",
+      "name": "Gate 5",
+      "label": "5",
+      "f": 0.014,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "escalator": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "ramp": {
+        "levels": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unverified": [
+        "the chart's label is in left field, the guide says the north side (35th St), and the Gate 5 ramps are 'near sections 137, 334 or 536'; the spot is a compromise",
+        "the ramps are modeled as one ramp linking 100, 300 and 500"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EG5",
+      "nearGate": "G5",
+      "f": 0.003,
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "unverified": [
+        "official: elevators at Gate 5 reach the levels; which ones exactly isn't stated"
+      ]
+    },
+    {
+      "id": "ESC",
+      "nearGate": "GSC",
+      "f": 0.592,
+      "levels": [
+        1,
+        2
+      ],
+      "unverified": [
+        "official: Stadium Club elevators, for Stadium Club members and guests with disabilities, reach the 100 Level and the 300 Level"
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "rampRide": 170,
+    "rampRideSecs": 90,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30
+  }
+}

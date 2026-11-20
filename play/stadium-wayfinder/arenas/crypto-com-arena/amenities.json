@@ -1,0 +1,653 @@
+{
+  "schema": 1,
+  "id": "crypto-com-arena",
+  "version": "1ae61877d00a",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "stands by section on the Main, Upper and Premier concourses (Lakers food and drink page, 2025-26)",
+      "ref": "reference/dining-guide-lakers-2025-26.md"
+    },
+    {
+      "what": "all-gender restrooms by aisle (official accessibility page)",
+      "ref": "reference/accessibility-guide-2026.md"
+    },
+    {
+      "what": "Lakers food and drink page",
+      "ref": "https://www.nba.com/lakers/tickets/food-and-drink"
+    }
+  ],
+  "stands": [
+    {
+      "id": "bud-light-seltzer-market-113",
+      "name": "Bud Light Seltzer Market",
+      "kind": "bar",
+      "section": "113",
+      "items": [
+        "Hard seltzer",
+        "Beer",
+        "Snacks",
+        "Gluten-free options"
+      ],
+      "unverified": [
+        "menu beyond 'gluten-free options' inferred from the name"
+      ]
+    },
+    {
+      "id": "deli-and-dash-115",
+      "name": "Deli & Dash",
+      "kind": "food",
+      "section": "115",
+      "items": [
+        "Sandwiches",
+        "Three cheese mac n cheese",
+        "Grab-and-go"
+      ],
+      "unverified": [
+        "menu beyond the mac n cheese inferred from the name"
+      ]
+    },
+    {
+      "id": "dirt-dog-102",
+      "name": "Dirt Dog",
+      "kind": "food",
+      "section": "102",
+      "items": [
+        "Bacon-wrapped hot dogs",
+        "LA street dog",
+        "Hot dogs",
+        "Elote"
+      ],
+      "unverified": [
+        "menu from Dirt Dog's usual offer"
+      ]
+    },
+    {
+      "id": "dirt-dog-112",
+      "name": "Dirt Dog",
+      "kind": "food",
+      "section": "112",
+      "items": [
+        "Bacon-wrapped hot dogs",
+        "LA street dog",
+        "Hot dogs",
+        "Elote"
+      ],
+      "unverified": [
+        "menu from Dirt Dog's usual offer"
+      ]
+    },
+    {
+      "id": "doritos-after-dark-116",
+      "name": "Doritos After Dark",
+      "kind": "food",
+      "section": "116",
+      "items": [
+        "Nachos",
+        "Snacks"
+      ],
+      "unverified": [
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "eats-106",
+      "name": "EATS",
+      "kind": "food",
+      "section": "106",
+      "items": [
+        "Hot dogs",
+        "Burgers",
+        "Chicken tenders",
+        "Fries",
+        "Snacks"
+      ],
+      "unverified": [
+        "menu inferred: a general concession stand"
+      ]
+    },
+    {
+      "id": "farmers-fridge-102",
+      "name": "Farmer's Fridge",
+      "kind": "food",
+      "section": "102",
+      "items": [
+        "Salads",
+        "Bowls",
+        "Healthy snacks"
+      ],
+      "unverified": [
+        "menu from Farmer's Fridge's usual offer"
+      ]
+    },
+    {
+      "id": "fresh-bros-109",
+      "name": "Fresh Bros",
+      "kind": "food",
+      "section": "109",
+      "items": [
+        "Pizza"
+      ],
+      "unverified": [
+        "listed 'across from 109'",
+        "menu from the Fresh Brothers pizza chain"
+      ]
+    },
+    {
+      "id": "golden-road-brew-house-118",
+      "name": "Golden Road Brew House",
+      "kind": "bar",
+      "section": "118",
+      "items": [
+        "Beer",
+        "California craft beer",
+        "Vegetarian empanadas",
+        "Table service"
+      ],
+      "unverified": [
+        "listed 'across from 118'"
+      ]
+    },
+    {
+      "id": "la-cooler-market-118",
+      "name": "LA Cooler Market",
+      "kind": "bar",
+      "section": "118",
+      "items": [
+        "Beer",
+        "Seltzer",
+        "Grab-and-go"
+      ],
+      "unverified": [
+        "listed 'across from 118'",
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "ludo-bird-119",
+      "name": "Ludo Bird",
+      "kind": "food",
+      "section": "119",
+      "items": [
+        "Fried chicken",
+        "Chicken sandwich",
+        "Chicken tenders"
+      ],
+      "unverified": [
+        "listed 'across from 119'"
+      ]
+    },
+    {
+      "id": "ludobab-117",
+      "name": "Ludobab",
+      "kind": "food",
+      "section": "117",
+      "items": [
+        "Mediterranean",
+        "Kebabs",
+        "Pita"
+      ],
+      "unverified": [
+        "listed 'across from 117'",
+        "menu beyond 'Mediterranean' inferred"
+      ]
+    },
+    {
+      "id": "salt-and-char-114",
+      "name": "Salt & Char",
+      "kind": "food",
+      "section": "114",
+      "items": [
+        "Burgers",
+        "Grill",
+        "Fries"
+      ],
+      "unverified": [
+        "listed 'across from 114'",
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "tap-haus-113",
+      "name": "Tap Haus",
+      "kind": "bar",
+      "section": "113",
+      "items": [
+        "Beer",
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "tap-haus-118",
+      "name": "Tap Haus",
+      "kind": "bar",
+      "section": "118",
+      "items": [
+        "Beer",
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "tostitos-cart-112",
+      "name": "Tostitos Cart",
+      "kind": "food",
+      "section": "112",
+      "items": [
+        "Nachos",
+        "Chips and salsa",
+        "Vegan options",
+        "Vegetarian options"
+      ]
+    },
+    {
+      "id": "trois-familia-117",
+      "name": "Trois Familia",
+      "kind": "food",
+      "section": "117",
+      "items": [
+        "French-Mexican",
+        "Tacos",
+        "Burritos"
+      ],
+      "unverified": [
+        "tacos and burritos inferred from 'French-Mexican'"
+      ]
+    },
+    {
+      "id": "wetzels-pretzels-103",
+      "name": "Wetzel's Pretzels",
+      "kind": "food",
+      "section": "103",
+      "items": [
+        "Pretzels",
+        "Pretzel dogs",
+        "Lemonade"
+      ]
+    },
+    {
+      "id": "wetzels-pretzels-112",
+      "name": "Wetzel's Pretzels",
+      "kind": "food",
+      "section": "112",
+      "items": [
+        "Pretzels",
+        "Pretzel dogs",
+        "Lemonade"
+      ]
+    },
+    {
+      "id": "michelob-ultra-club-market-100-level",
+      "name": "Michelob Ultra Club Market",
+      "kind": "bar",
+      "level": 1,
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Gluten-free options",
+        "21+"
+      ],
+      "unverified": [
+        "location: the Lakers page says both 'Figueroa Entrance' and 'Main Concourse, Aisle 3 / M4'"
+      ]
+    },
+    {
+      "id": "buss-stop-pr6",
+      "name": "Buss Stop",
+      "kind": "food",
+      "section": "PR6",
+      "items": [
+        "Hot dogs",
+        "Sandwiches",
+        "Snacks",
+        "Beer"
+      ],
+      "unverified": [
+        "listed 'across from PR6'",
+        "menu not listed; inferred"
+      ]
+    },
+    {
+      "id": "spotlight-grill-pr4",
+      "name": "Spotlight Grill",
+      "kind": "food",
+      "section": "PR4",
+      "items": [
+        "Burgers",
+        "Grill",
+        "Fries"
+      ],
+      "unverified": [
+        "listed 'across from PR4'",
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "fast-break-pr8",
+      "name": "Fast Break",
+      "kind": "food",
+      "section": "PR8",
+      "items": [
+        "Grab-and-go",
+        "Snacks",
+        "Drinks"
+      ],
+      "unverified": [
+        "listed 'across from PR8'",
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "skyline-grill-pr12",
+      "name": "Skyline Grill",
+      "kind": "food",
+      "section": "PR12",
+      "items": [
+        "Burgers",
+        "Grill",
+        "Fries"
+      ],
+      "unverified": [
+        "listed 'across from PR12'",
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "cookes-corner-pr15",
+      "name": "Cooke's Corner",
+      "kind": "food",
+      "section": "PR15",
+      "items": [
+        "Sandwiches",
+        "Snacks",
+        "Beer"
+      ],
+      "unverified": [
+        "listed 'across from PR15'",
+        "menu not listed; inferred"
+      ]
+    },
+    {
+      "id": "farmers-fridge-pr15",
+      "name": "Farmer's Fridge",
+      "kind": "food",
+      "section": "PR15",
+      "items": [
+        "Salads",
+        "Bowls",
+        "Healthy snacks"
+      ],
+      "unverified": [
+        "listed 'across from PR15'",
+        "menu from Farmer's Fridge's usual offer"
+      ]
+    },
+    {
+      "id": "salt-and-char-301",
+      "name": "Salt & Char",
+      "kind": "food",
+      "section": "301",
+      "items": [
+        "Burgers",
+        "Grill",
+        "Fries"
+      ],
+      "unverified": [
+        "listed 'across from 301'",
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "marg-bar-302",
+      "name": "Marg Bar",
+      "kind": "bar",
+      "section": "302",
+      "items": [
+        "Margaritas",
+        "Cocktails"
+      ]
+    },
+    {
+      "id": "cooler-by-budweiser-316",
+      "name": "Cooler By Budweiser",
+      "kind": "bar",
+      "section": "316",
+      "items": [
+        "Beer",
+        "Gluten-free options"
+      ]
+    },
+    {
+      "id": "wetzels-pretzels-316",
+      "name": "Wetzel's Pretzels",
+      "kind": "food",
+      "section": "316",
+      "items": [
+        "Pretzels",
+        "Pretzel dogs",
+        "Lemonade"
+      ]
+    },
+    {
+      "id": "the-spirited-mule-317",
+      "name": "The Spirited Mule",
+      "kind": "bar",
+      "section": "317",
+      "items": [
+        "Moscow mules",
+        "Cocktails"
+      ],
+      "unverified": [
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "eats-318",
+      "name": "EATS",
+      "kind": "food",
+      "section": "318",
+      "items": [
+        "Hot dogs",
+        "Burgers",
+        "Chicken tenders",
+        "Fries",
+        "Snacks"
+      ],
+      "unverified": [
+        "menu inferred: a general concession stand"
+      ]
+    },
+    {
+      "id": "tostitos-cart-319",
+      "name": "Tostitos Cart",
+      "kind": "food",
+      "section": "319",
+      "items": [
+        "Nachos",
+        "Chips and salsa",
+        "Vegan options",
+        "Vegetarian options"
+      ]
+    },
+    {
+      "id": "coca-cola-area-333",
+      "name": "Coca Cola Area",
+      "kind": "food",
+      "section": "333",
+      "items": [
+        "Soft drinks",
+        "Snacks",
+        "Vegan options",
+        "Gluten-free options",
+        "Vegetarian options"
+      ],
+      "unverified": [
+        "menu beyond the dietary options inferred"
+      ]
+    },
+    {
+      "id": "fuku-300-level",
+      "name": "fuku",
+      "kind": "food",
+      "level": 3,
+      "items": [
+        "Fried chicken",
+        "Chicken sandwich"
+      ],
+      "unverified": [
+        "listed 'beside 325', but the 2026 chart has no 325 (the San Manuel Club fills that end); probably near 324 or 329"
+      ]
+    },
+    {
+      "id": "blaze-pizza",
+      "name": "Blaze Pizza",
+      "kind": "food",
+      "items": [
+        "Pizza"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season"
+      ]
+    },
+    {
+      "id": "outtakes",
+      "name": "Outtakes",
+      "kind": "food",
+      "items": [
+        "Grab-and-go",
+        "Sandwiches",
+        "Snacks"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season",
+        "menu inferred"
+      ]
+    },
+    {
+      "id": "coca-cola-landing",
+      "name": "Coca Cola Landing",
+      "kind": "food",
+      "items": [
+        "Soft drinks",
+        "Snacks"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season",
+        "menu inferred"
+      ]
+    },
+    {
+      "id": "goose-island-brew-pub",
+      "name": "Goose Island Brew Pub",
+      "kind": "bar",
+      "items": [
+        "Beer",
+        "Salads",
+        "Buffalo cauliflower wrap"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season"
+      ]
+    },
+    {
+      "id": "goose-island-concession",
+      "name": "Goose Island Concession",
+      "kind": "bar",
+      "items": [
+        "Beer"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season"
+      ]
+    },
+    {
+      "id": "impact-sports-bar",
+      "name": "Impact Sports Bar",
+      "kind": "bar",
+      "items": [
+        "Beer",
+        "Cocktails",
+        "Market salad"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season"
+      ]
+    },
+    {
+      "id": "smokehouse-bbq",
+      "name": "SmokeHouse BBQ",
+      "kind": "food",
+      "items": [
+        "BBQ",
+        "Pulled pork",
+        "Brisket"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season",
+        "menu inferred from the name"
+      ]
+    },
+    {
+      "id": "wahoos-tacos-and-nachos",
+      "name": "Wahoo's Tacos & Nachos",
+      "kind": "food",
+      "items": [
+        "Tacos",
+        "Nachos",
+        "Burritos"
+      ],
+      "unverified": [
+        "named with no location; may be from an older season"
+      ]
+    },
+    {
+      "id": "all-gender-restroom-100-level",
+      "name": "All Gender Restroom",
+      "kind": "restroom",
+      "level": 1,
+      "items": [
+        "Restroom",
+        "Changing table"
+      ],
+      "unverified": [
+        "across from aisle M23; which section that is isn't known"
+      ]
+    },
+    {
+      "id": "all-gender-restroom-premier-level",
+      "name": "All Gender Restroom",
+      "kind": "restroom",
+      "level": 2,
+      "items": [
+        "Restroom",
+        "Changing table"
+      ],
+      "unverified": [
+        "across from Suite A1; which PR section that is isn't known"
+      ]
+    },
+    {
+      "id": "all-gender-restroom-300-level",
+      "name": "All Gender Restroom",
+      "kind": "restroom",
+      "level": 3,
+      "items": [
+        "Restroom",
+        "Changing table"
+      ],
+      "unverified": [
+        "across from aisle U31; which section that is isn't known"
+      ]
+    }
+  ],
+  "popular": [
+    "Hot dogs",
+    "Fried chicken",
+    "Pizza",
+    "Tacos",
+    "Nachos",
+    "Pretzels",
+    "Beer",
+    "Margaritas",
+    "Restroom"
+  ]
+}

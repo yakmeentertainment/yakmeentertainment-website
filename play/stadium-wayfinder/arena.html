@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stadium Wayfinder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+  <section class="panel" aria-label="Route controls">
+    <div>
+      <p class="sub"><a href="index.html" style="color:inherit">← All arenas</a></p>
+      <h1 id="arena-name">Loading…</h1>
+      <p class="sub">Get to a section, find food, or meet up with a friend.</p>
+    </div>
+
+    <div class="modes" role="tablist" aria-label="What you want to do">
+      <button type="button" role="tab" id="m-section" aria-selected="true">Section</button>
+      <button type="button" role="tab" id="m-food" aria-selected="false">Food &amp; drink</button>
+      <button type="button" role="tab" id="m-meet" aria-selected="false">Meet up</button>
+    </div>
+
+    <div class="pickers">
+      <div class="stack">
+        <div class="field">
+          <label for="from"><span class="dot you"></span>You are here</label>
+          <select id="from"></select>
+        </div>
+        <div class="field" id="to-field">
+          <label for="to"><span class="dot friend"></span><span id="to-lbl">Going to</span></label>
+          <select id="to"></select>
+        </div>
+      </div>
+      <button class="swap" id="swap" type="button" title="Swap the two spots" aria-label="Swap the two spots">⇅</button>
+    </div>
+
+    <div class="stack" id="food-ui" hidden>
+      <div class="field">
+        <label for="food-q">What are you hungry for?</label>
+        <input type="search" id="food-q" placeholder="" autocomplete="off">
+      </div>
+      <div class="chips" id="food-chips" aria-label="Popular searches"></div>
+      <div class="lbl">Closest to you</div>
+      <ul class="results" id="food-results"></ul>
+    </div>
+
+    <div class="mapmode" role="group" aria-label="What a tap on the map sets">
+      Tap the map to set:
+      <button class="chip" id="tap-from" type="button" aria-pressed="false"><span class="dot you"></span>My spot</button>
+      <button class="chip" id="tap-to" type="button" aria-pressed="true"><span class="dot friend"></span><span id="tap-to-lbl">Destination</span></button>
+    </div>
+
+    <label class="check" for="acc"><input type="checkbox" id="acc"> <span>Avoid stairs and escalators<span id="acc-where"></span></span></label>
+
+    <div class="meetbox" id="meetbox" hidden>
+      <div class="lbl">Meet here</div>
+      <div class="where" id="meet-where"></div>
+      <div class="times"><span><span class="dot you"></span> You: <b id="meet-you"></b></span><span><span class="dot friend"></span> Friend: <b id="meet-fr"></b></span></div>
+      <button class="copy" id="copy" type="button">Copy your friend's directions</button>
+      <span class="st-meta" id="copy-msg" aria-live="polite"></span>
+    </div>
+
+    <div class="summary" id="summary" aria-live="polite">
+      <div><b id="sum-time">–</b><span>walk</span></div>
+      <div><b id="sum-dist">–</b><span>distance</span></div>
+      <div><b id="sum-lv">–</b><span>levels</span></div>
+    </div>
+    <div class="note" id="note"></div>
+
+    <h2 id="you-h" hidden><span class="dot you"></span>Your directions</h2>
+    <ol class="steps" id="steps" aria-label="Your directions"></ol>
+    <h2 id="fr-h" hidden><span class="dot friend"></span>Your friend's directions</h2>
+    <ol class="steps fr" id="fr-steps" aria-label="Your friend's directions" hidden></ol>
+
+    <p class="fine" id="fine"></p>
+  </section>
+
+  <section class="mapwrap" aria-label="Arena map">
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <svg id="map" role="img" aria-label="Arena level map with route"></svg>
+    <div class="legend" id="legend">
+      <span><i style="background:var(--route)"></i>Your route</span>
+      <span id="lg-fr" hidden><i style="background:var(--friend)"></i>Friend's route</span>
+      <span><i style="background:var(--you)"></i>You</span>
+      <span><i style="background:var(--friend)"></i><span id="lg-dest">Destination</span></span>
+      <span id="lg-food" hidden>○ Other matches</span>
+      <span>▣ Gate</span>
+      <span>E Elevator</span>
+    </div>
+  </section>
+</div>
+
+<script type="module" src="js/arena-page.js"></script>
+</body>
+</html>

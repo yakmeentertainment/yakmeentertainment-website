@@ -1,0 +1,804 @@
+{
+  "schema": 1,
+  "id": "sofi-stadium",
+  "version": "20505b46d793",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "2025 menu items and corner locations (no stand sections)",
+      "ref": "reference/dining-guide-2025-notes.md"
+    },
+    {
+      "what": "concession, bar, beer and restroom icons by section (Levels 2, 4, 6 and 8, 2021)",
+      "ref": "reference/concourse-map-level-6-2021.jpg"
+    },
+    {
+      "what": "concession, bar and restroom icons on Level 3 and club names (2023)",
+      "ref": "reference/concourse-map-level-3-2023.pdf"
+    },
+    {
+      "what": "Level 8 icons",
+      "ref": "reference/concourse-map-level-8-2021.jpg"
+    },
+    {
+      "what": "Level 4 icons",
+      "ref": "reference/concourse-map-level-4-2021.jpg"
+    },
+    {
+      "what": "Level 2 icons and bar names",
+      "ref": "reference/concourse-map-level-2-2021.jpg"
+    },
+    {
+      "what": "official dining guide (app; stand names need a person to read)",
+      "ref": "https://dining.hollywoodparkca.com/"
+    }
+  ],
+  "stands": [
+    {
+      "id": "baja-c116",
+      "name": "Baja",
+      "kind": "food",
+      "section": "C116",
+      "items": [
+        "Tacos",
+        "Burritos"
+      ],
+      "unverified": [
+        "section from an old search snippet; menu guessed from the name"
+      ]
+    },
+    {
+      "id": "pizza-c126",
+      "name": "Pizza",
+      "kind": "food",
+      "section": "C126",
+      "items": [
+        "Pizza"
+      ],
+      "unverified": [
+        "section from an old search snippet"
+      ]
+    },
+    {
+      "id": "tequila-bar-101",
+      "name": "Tequila Bar",
+      "kind": "bar",
+      "section": "101",
+      "items": [
+        "Tequila",
+        "Margaritas"
+      ],
+      "unverified": [
+        "bar icon by the North End Zone Premier Lounge on the 2021 Level 2 map"
+      ]
+    },
+    {
+      "id": "the-hilt-wines-c125",
+      "name": "The Hilt Wines",
+      "kind": "bar",
+      "section": "C125",
+      "items": [
+        "Wine"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 2 map near the SoFi VIP Lobby"
+      ]
+    },
+    {
+      "id": "whisky-bar-c108",
+      "name": "Whisky Bar",
+      "kind": "bar",
+      "section": "C108",
+      "items": [
+        "Whisky",
+        "Cocktails"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 2 map near the Ticketmaster VIP Lobby"
+      ]
+    },
+    {
+      "id": "mexican-stand-level-2",
+      "name": "Google Cloud Club Mexican stand",
+      "kind": "food",
+      "level": 20,
+      "items": [
+        "Carne asada bowl",
+        "Pollo asado bowl",
+        "Al pastor bowl",
+        "Esquites",
+        "Tres leches"
+      ],
+      "unverified": [
+        "new for 2025; name and section unknown"
+      ]
+    },
+    {
+      "id": "treats-level-2",
+      "name": "Treats",
+      "kind": "food",
+      "level": 20,
+      "items": [
+        "Soft serve",
+        "Funnel cake",
+        "Cookies"
+      ],
+      "unverified": [
+        "new for 2025 in the Google Cloud Club; section unknown"
+      ]
+    },
+    {
+      "id": "canyon-211",
+      "name": "Canyon",
+      "kind": "food",
+      "section": "211",
+      "items": [
+        "Burgers",
+        "Burger of the month"
+      ],
+      "unverified": [
+        "section from an old search snippet; menu is a guess"
+      ]
+    },
+    {
+      "id": "olvera-st-203",
+      "name": "Olvera St.",
+      "kind": "food",
+      "section": "203",
+      "items": [
+        "Tacos",
+        "Al pastor torta"
+      ],
+      "unverified": [
+        "section from an old search snippet; menu guessed from the name"
+      ]
+    },
+    {
+      "id": "concessions-207",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "207",
+      "items": [
+        "LA Street Dog",
+        "Beef sliders",
+        "Pizza"
+      ],
+      "unverified": [
+        "icon on the 2023 Level 3 map; menu from the 2025 list of general-concourse items"
+      ]
+    },
+    {
+      "id": "restrooms-205",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "205",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2023 Level 3 map"
+      ]
+    },
+    {
+      "id": "ultra-pure-gold-bar-vip219",
+      "name": "ULTRA Pure Gold Bar",
+      "kind": "bar",
+      "section": "VIP219",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "on the 2023 Level 3 map in the Toyota Patio area; menu is a guess"
+      ]
+    },
+    {
+      "id": "corona-beach-house-225",
+      "name": "Corona Beach House bar",
+      "kind": "bar",
+      "section": "225",
+      "items": [
+        "Corona",
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "bar icon in the Corona Beach House; menu is a guess"
+      ]
+    },
+    {
+      "id": "gallagher-club-bar-vip246",
+      "name": "The Gallagher Club bar",
+      "kind": "bar",
+      "section": "VIP246",
+      "items": [
+        "Beer",
+        "Wine",
+        "Cocktails"
+      ],
+      "unverified": [
+        "bar icon in The Gallagher Club; menu is a guess"
+      ]
+    },
+    {
+      "id": "ultra-club-bar-239",
+      "name": "ULTRA Club bar",
+      "kind": "bar",
+      "section": "239",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "bar icon in the ULTRA Club; menu is a guess"
+      ]
+    },
+    {
+      "id": "olvera-st-232",
+      "name": "Olvera St.",
+      "kind": "food",
+      "section": "232",
+      "items": [
+        "Tacos",
+        "Al pastor torta"
+      ],
+      "unverified": [
+        "section from an old search snippet; menu guessed from the name"
+      ]
+    },
+    {
+      "id": "concessions-229",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "229",
+      "items": [
+        "LA Street Dog",
+        "Beef sliders",
+        "Pizza"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 4 map (SoFi Circle); menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-235",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "235",
+      "items": [
+        "LA Street Dog",
+        "Burger of the month"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 4 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "beer-228",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "228",
+      "items": [
+        "Beer"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 4 map"
+      ]
+    },
+    {
+      "id": "restrooms-230",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "230",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 4 map (SoFi Circle)"
+      ]
+    },
+    {
+      "id": "canyon-314",
+      "name": "Canyon",
+      "kind": "food",
+      "section": "314",
+      "items": [
+        "Burgers",
+        "Burger of the month",
+        "LA Street Dog"
+      ],
+      "unverified": [
+        "main-concourse stand at 314 from an old search snippet; a concession icon is there on the 2021 Level 6 map; menu is a guess"
+      ]
+    },
+    {
+      "id": "canyon-340",
+      "name": "Canyon",
+      "kind": "food",
+      "section": "340",
+      "items": [
+        "Burgers",
+        "Burger of the month",
+        "LA Street Dog"
+      ],
+      "unverified": [
+        "main-concourse stand at 340 from an old search snippet; a concession icon is there on the 2021 Level 6 map; menu is a guess"
+      ]
+    },
+    {
+      "id": "concessions-306",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "306",
+      "items": [
+        "LA Street Dog",
+        "Beef sliders",
+        "Pizza"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-319",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "319",
+      "items": [
+        "LA Street Dog",
+        "Al pastor torta"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-326",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "326",
+      "items": [
+        "LA Street Dog",
+        "Beef sliders"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-333",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "333",
+      "items": [
+        "LA Street Dog",
+        "Pizza",
+        "Burger of the month"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-346",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "346",
+      "items": [
+        "LA Street Dog",
+        "Al pastor torta"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-353",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "353",
+      "items": [
+        "LA Street Dog",
+        "Beef sliders"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "pacifico-patio-307",
+      "name": "Pacifico Patio",
+      "kind": "bar",
+      "section": "307",
+      "items": [
+        "Pacifico",
+        "Beer"
+      ],
+      "unverified": [
+        "named on the 2021 Level 6 map; menu guessed from the name"
+      ]
+    },
+    {
+      "id": "beer-329",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "329",
+      "items": [
+        "Beer"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map"
+      ]
+    },
+    {
+      "id": "beer-343",
+      "name": "Beer",
+      "kind": "bar",
+      "section": "343",
+      "items": [
+        "Beer"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map"
+      ]
+    },
+    {
+      "id": "bar-331",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "331",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 6 map"
+      ]
+    },
+    {
+      "id": "snacks-312",
+      "name": "Snacks",
+      "kind": "food",
+      "section": "312",
+      "items": [
+        "Popcorn",
+        "Pretzels",
+        "Candy"
+      ],
+      "unverified": [
+        "snack icon on the 2021 Level 6 map; items guessed"
+      ]
+    },
+    {
+      "id": "snacks-335",
+      "name": "Snacks",
+      "kind": "food",
+      "section": "335",
+      "items": [
+        "Popcorn",
+        "Pretzels",
+        "Candy"
+      ],
+      "unverified": [
+        "snack icon by the Pepsi Zone on the 2021 Level 6 map; items guessed"
+      ]
+    },
+    {
+      "id": "restrooms-316",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "316",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 6 map"
+      ]
+    },
+    {
+      "id": "restrooms-303",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "303",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 6 map"
+      ]
+    },
+    {
+      "id": "restrooms-327",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "327",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 6 map"
+      ]
+    },
+    {
+      "id": "restrooms-345",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "345",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 6 map"
+      ]
+    },
+    {
+      "id": "concessions-404",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "404",
+      "items": [
+        "LA Street Dog",
+        "Beef sliders"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-456",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "456",
+      "items": [
+        "LA Street Dog",
+        "Pizza"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-513",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "513",
+      "items": [
+        "LA Street Dog",
+        "Burger of the month"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-516",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "516",
+      "items": [
+        "LA Street Dog",
+        "Al pastor torta"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-541",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "541",
+      "items": [
+        "LA Street Dog",
+        "Burger of the month"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-538",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "538",
+      "items": [
+        "LA Street Dog",
+        "Al pastor torta"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-428",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "428",
+      "items": [
+        "LA Street Dog",
+        "Pizza"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "concessions-528",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "528",
+      "items": [
+        "LA Street Dog",
+        "Beef sliders"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map; menu from the 2025 general-concourse list"
+      ]
+    },
+    {
+      "id": "bar-514",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "514",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "bar-540",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "540",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "icon on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "bar-400",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "400",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "icon by the Pechanga Zone on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "bar-430",
+      "name": "Bar",
+      "kind": "bar",
+      "section": "430",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "icon by the Cedars-Sinai Zone on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "restrooms-509",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "509",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "restrooms-545",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "545",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "restrooms-520",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "520",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "restrooms-535",
+      "name": "Restrooms",
+      "kind": "restroom",
+      "section": "535",
+      "items": [
+        "Men's restroom",
+        "Women's restroom",
+        "Family restroom"
+      ],
+      "unverified": [
+        "icons on the 2021 Level 8 map"
+      ]
+    },
+    {
+      "id": "grab-and-go-market-southeast",
+      "name": "Southeast grab-and-go market",
+      "kind": "food",
+      "items": [
+        "Hot dogs",
+        "Nachos",
+        "Sushi",
+        "Salads",
+        "Drinks"
+      ],
+      "unverified": [
+        "new for 2025 in the southeast corner; level and section unknown"
+      ]
+    },
+    {
+      "id": "cocktail-bar-northwest",
+      "name": "Northwest cocktail bar",
+      "kind": "bar",
+      "items": [
+        "Cocktails"
+      ],
+      "unverified": [
+        "new for 2025 in the northwest corner; level and section unknown"
+      ]
+    },
+    {
+      "id": "cocktail-bar-southeast",
+      "name": "Southeast cocktail bar",
+      "kind": "bar",
+      "items": [
+        "Cocktails"
+      ],
+      "unverified": [
+        "new for 2025 in the southeast corner; level and section unknown"
+      ]
+    }
+  ],
+  "popular": [
+    "Street dog",
+    "Sliders",
+    "Pizza",
+    "Tacos",
+    "Beer",
+    "Restroom"
+  ]
+}

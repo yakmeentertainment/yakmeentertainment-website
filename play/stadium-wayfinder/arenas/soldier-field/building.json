@@ -1,0 +1,730 @@
+{
+  "schema": 1,
+  "id": "soldier-field",
+  "version": "a8fe911f2ebd",
+  "lastVerified": "2026-11-08",
+  "sources": [
+    {
+      "what": "seating chart and gate positions, football layout (2022)",
+      "ref": "reference/seating-chart-2022.jpg"
+    },
+    {
+      "what": "section lists for every level, accessible seating (2016)",
+      "ref": "reference/accessibility-guide-ada-map-2016.pdf"
+    },
+    {
+      "what": "elevators, gates and United Club access (venue site)",
+      "ref": "reference/accessibility-and-gates-soldierfield-com.md"
+    },
+    {
+      "what": "gates, elevators, United Club sections, family restrooms (Bears A-Z guide)",
+      "ref": "reference/gameday-guide-chicagobears-com.md"
+    },
+    {
+      "what": "which concourse each block of sections uses; ramps and stairs",
+      "ref": "https://www.chicagofirefc.com/matchday/safety"
+    },
+    {
+      "what": "suite levels and club elevator banks",
+      "ref": "reference/premium-access-suite-levels.jpg"
+    }
+  ],
+  "name": "Soldier Field",
+  "city": "Chicago",
+  "region": "IL",
+  "disclaimer": "Unofficial, not affiliated with Soldier Field, the Chicago Park District, the Chicago Bears or Chicago Fire FC.",
+  "streets": {
+    "north": "MCFETRIDGE DR",
+    "south": "WALDRON DR"
+  },
+  "numbering": {
+    "direction": "cw",
+    "startF": 0.075
+  },
+  "geometry": {
+    "shapeExp": 3.2,
+    "refRing": [
+      116,
+      145
+    ],
+    "court": [
+      50,
+      94
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "100 Level",
+      "sub": "Lower bowl · Mezzanine concourse",
+      "short": "100",
+      "sections": [
+        "101",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "117",
+        "119",
+        "120",
+        "121",
+        "122",
+        "123",
+        "124",
+        "125",
+        "126",
+        "128",
+        "130",
+        "131",
+        "132",
+        "133",
+        "134",
+        "136",
+        "138",
+        "140",
+        "141",
+        "142",
+        "143",
+        "144",
+        "146",
+        "148",
+        "149",
+        "150",
+        "151",
+        "152",
+        "153",
+        "154",
+        "155"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          40,
+          62
+        ],
+        "seatOut": [
+          100,
+          128
+        ],
+        "concIn": [
+          104,
+          132
+        ],
+        "concOut": [
+          128,
+          158
+        ],
+        "tower": [
+          142,
+          172
+        ]
+      },
+      "viewBox": [
+        -196,
+        -212,
+        392,
+        424
+      ],
+      "fontSize": 8
+    },
+    {
+      "level": 2,
+      "name": "United Club 200",
+      "sub": "East side club",
+      "short": "C200",
+      "span": {
+        "startF": 0.08,
+        "endF": 0.372
+      },
+      "sections": [
+        "202",
+        "203",
+        "204",
+        "205",
+        "206",
+        "207",
+        "208",
+        "209",
+        "210",
+        "211",
+        "212",
+        "213",
+        "214",
+        "215",
+        "216"
+      ],
+      "restricted": {
+        "label": "United Club",
+        "needs": "a United Club ticket (Sections 202–216 or 301–317)"
+      },
+      "rings": {
+        "seatIn": [
+          104,
+          132
+        ],
+        "seatOut": [
+          132,
+          165
+        ],
+        "concIn": [
+          136,
+          169
+        ],
+        "concOut": [
+          156,
+          190
+        ],
+        "tower": [
+          170,
+          204
+        ]
+      },
+      "viewBox": [
+        -222,
+        -240,
+        444,
+        480
+      ],
+      "fontSize": 8
+    },
+    {
+      "level": 3,
+      "name": "200 Level",
+      "sub": "Colonnades and Media Deck",
+      "short": "200",
+      "span": {
+        "startF": 0.372,
+        "endF": 0.085
+      },
+      "sections": [
+        "218",
+        "219",
+        "220",
+        "221",
+        "222",
+        "223",
+        "224",
+        "225",
+        "226",
+        "228",
+        "230",
+        "231",
+        "232",
+        "233",
+        "234",
+        "235",
+        "237",
+        "239",
+        "240",
+        "241",
+        "242",
+        "243",
+        "244",
+        "246",
+        "248",
+        "249",
+        "250",
+        "251",
+        "252",
+        "253",
+        "254",
+        "255",
+        "256"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          104,
+          132
+        ],
+        "seatOut": [
+          132,
+          165
+        ],
+        "concIn": [
+          136,
+          169
+        ],
+        "concOut": [
+          156,
+          190
+        ],
+        "tower": [
+          170,
+          204
+        ]
+      },
+      "viewBox": [
+        -222,
+        -240,
+        444,
+        480
+      ],
+      "fontSize": 7.6
+    },
+    {
+      "level": 4,
+      "name": "United Club 300",
+      "sub": "East side club",
+      "short": "C300",
+      "span": {
+        "startF": 0.082,
+        "endF": 0.359
+      },
+      "sections": [
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317"
+      ],
+      "restricted": {
+        "label": "United Club",
+        "needs": "a United Club ticket (Sections 202–216 or 301–317)"
+      },
+      "rings": {
+        "seatIn": [
+          136,
+          169
+        ],
+        "seatOut": [
+          194,
+          228
+        ],
+        "concIn": [
+          198,
+          232
+        ],
+        "concOut": [
+          216,
+          252
+        ],
+        "tower": [
+          230,
+          266
+        ]
+      },
+      "viewBox": [
+        -286,
+        -302,
+        572,
+        604
+      ],
+      "fontSize": 9
+    },
+    {
+      "level": 5,
+      "name": "300 Level",
+      "sub": "Colonnades",
+      "short": "300",
+      "span": {
+        "startF": 0.359,
+        "endF": 0.069
+      },
+      "sections": [
+        "318",
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "324",
+        "325",
+        "326",
+        "330",
+        "331",
+        "332",
+        "333",
+        "334",
+        "335",
+        "336",
+        "337",
+        "338",
+        "339",
+        "340",
+        "341",
+        "342",
+        "343",
+        "344",
+        "348",
+        "349",
+        "350",
+        "351",
+        "352",
+        "353",
+        "354",
+        "355",
+        "356"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          136,
+          169
+        ],
+        "seatOut": [
+          194,
+          228
+        ],
+        "concIn": [
+          198,
+          232
+        ],
+        "concOut": [
+          216,
+          252
+        ],
+        "tower": [
+          230,
+          266
+        ]
+      },
+      "viewBox": [
+        -286,
+        -302,
+        572,
+        604
+      ],
+      "fontSize": 9
+    },
+    {
+      "level": 6,
+      "name": "400 Level",
+      "sub": "Upper West grandstand",
+      "short": "400",
+      "span": {
+        "startF": 0.591,
+        "endF": 0.933
+      },
+      "sections": [
+        "427",
+        "428",
+        "429",
+        "430",
+        "431",
+        "432",
+        "433",
+        "434",
+        "435",
+        "436",
+        "437",
+        "438",
+        "439",
+        "440",
+        "441",
+        "442",
+        "443",
+        "444",
+        "445",
+        "446",
+        "447"
+      ],
+      "restricted": null,
+      "rings": {
+        "seatIn": [
+          220,
+          256
+        ],
+        "seatOut": [
+          262,
+          300
+        ],
+        "concIn": [
+          266,
+          304
+        ],
+        "concOut": [
+          282,
+          320
+        ],
+        "tower": [
+          296,
+          334
+        ]
+      },
+      "viewBox": [
+        -350,
+        -370,
+        700,
+        740
+      ],
+      "fontSize": 10
+    }
+  ],
+  "gates": [
+    {
+      "id": "G0",
+      "name": "Gate 0",
+      "label": "0",
+      "f": 0.493,
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "G3",
+      "name": "Gate 3",
+      "label": "3",
+      "f": 0.557,
+      "levels": [
+        1,
+        3,
+        5
+      ],
+      "ramp": {
+        "levels": [
+          1,
+          3,
+          5
+        ]
+      },
+      "unverified": [
+        "ramp from the 100 Level concourse to the South Colonnade (200 and 300 end zone)"
+      ]
+    },
+    {
+      "id": "G6",
+      "name": "Gate 6",
+      "label": "6",
+      "f": 0.421,
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "G8",
+      "name": "Gate 8",
+      "label": "8",
+      "f": 0.38,
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "G9",
+      "name": "Gate 9",
+      "label": "9",
+      "f": 0.65,
+      "levels": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          3,
+          5
+        ]
+      },
+      "unverified": [
+        "stairs to the Media Deck and the west 300s"
+      ]
+    },
+    {
+      "id": "G14",
+      "name": "Gate 14",
+      "label": "14",
+      "f": 0.342,
+      "levels": [
+        1,
+        2,
+        4
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          2,
+          4
+        ]
+      },
+      "escalator": {
+        "levels": [
+          2,
+          4
+        ]
+      },
+      "unverified": [
+        "club stairs and escalators at the south end of the United Club"
+      ]
+    },
+    {
+      "id": "G17",
+      "name": "Gate 17",
+      "label": "17",
+      "f": 0.716,
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "G23",
+      "name": "Gate 23",
+      "label": "23",
+      "f": 0.813,
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "G31",
+      "name": "Gate 31",
+      "label": "31",
+      "f": 0.866,
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "G38",
+      "name": "Gate 38",
+      "label": "38",
+      "f": 0.146,
+      "levels": [
+        1,
+        2,
+        4
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          2,
+          4
+        ]
+      },
+      "escalator": {
+        "levels": [
+          2,
+          4
+        ]
+      },
+      "unverified": [
+        "club stairs and escalators at the north end of the United Club"
+      ]
+    },
+    {
+      "id": "G45",
+      "name": "Gate 45",
+      "label": "45",
+      "f": 0.917,
+      "levels": [
+        1,
+        6
+      ],
+      "stairs": {
+        "levels": [
+          1,
+          6
+        ]
+      },
+      "unverified": [
+        "stairs or ramps from Gate 45 up to the Upper West (400 Level)"
+      ]
+    },
+    {
+      "id": "G47",
+      "name": "Gate 47",
+      "label": "47",
+      "f": 0.96,
+      "levels": [
+        1,
+        3,
+        5
+      ],
+      "ramp": {
+        "levels": [
+          1,
+          3,
+          5
+        ]
+      },
+      "unverified": [
+        "ramp from the 100 Level concourse to the North Colonnade (200 and 300 end zone)"
+      ]
+    },
+    {
+      "id": "G50",
+      "name": "Gate 50",
+      "label": "50",
+      "f": 0.083,
+      "levels": [
+        1
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EL2",
+      "nearGate": "G9",
+      "f": 0.62,
+      "levels": [
+        1,
+        3,
+        6
+      ],
+      "unverified": [
+        "Elevator 2 is behind Section 128 (one venue page says 131)"
+      ]
+    },
+    {
+      "id": "ECN",
+      "nearGate": "G38",
+      "f": 0.16,
+      "levels": [
+        1,
+        2,
+        4
+      ],
+      "unverified": [
+        "north United Club elevator bank, for club ticket holders"
+      ]
+    },
+    {
+      "id": "ECS",
+      "nearGate": "G14",
+      "f": 0.33,
+      "levels": [
+        1,
+        2,
+        4
+      ],
+      "unverified": [
+        "south United Club elevator bank, for club ticket holders"
+      ]
+    }
+  ],
+  "costs": {
+    "escalatorRide": 110,
+    "elevatorRide": 60,
+    "elevatorWait": 75,
+    "walkFtPerSec": 3.2,
+    "escRideSecs": 35,
+    "elevRideSecs": 25,
+    "elevDoorSecs": 30,
+    "rampRide": 150,
+    "rampRideSecs": 90,
+    "stairsRide": 120,
+    "stairsRideSecs": 60
+  }
+}

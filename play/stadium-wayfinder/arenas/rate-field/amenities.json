@@ -1,0 +1,1718 @@
+{
+  "schema": 1,
+  "id": "rate-field",
+  "version": "5868a9b45fa1",
+  "lastVerified": "2026-11-09",
+  "sources": [
+    {
+      "what": "named stands, items by section and bars on the 100, 300 and 500 Levels (official concessions page, 2026)",
+      "ref": "reference/dining-guide-2026.md"
+    },
+    {
+      "what": "companion washroom near 106, First Aid behind home plate",
+      "ref": "reference/accessibility-guide-2026.md"
+    }
+  ],
+  "stands": [
+    {
+      "id": "wingman-101",
+      "name": "Wingman",
+      "kind": "food",
+      "section": "101",
+      "items": [
+        "Wings",
+        "BBQ sandwich",
+        "BBQ nachos",
+        "BBQ mac & cheese",
+        "Fries"
+      ]
+    },
+    {
+      "id": "jibaritos-102",
+      "name": "Jibaritos",
+      "kind": "food",
+      "section": "102",
+      "items": [
+        "Jibarito (plantain steak sandwich)"
+      ],
+      "unverified": [
+        "the 100 Level item list says 102; the What's New list says 136"
+      ]
+    },
+    {
+      "id": "jibaritos-136",
+      "name": "Jibaritos",
+      "kind": "food",
+      "section": "136",
+      "items": [
+        "Jibarito (plantain steak sandwich)"
+      ],
+      "unverified": [
+        "the What's New list says 136; the 100 Level item list says 102"
+      ]
+    },
+    {
+      "id": "coffee-and-cream-105",
+      "name": "Coffee & Cream",
+      "kind": "food",
+      "section": "105",
+      "items": [
+        "Soft serve",
+        "Specialty coffee",
+        "Hot chocolate",
+        "Root beer float",
+        "ICEE",
+        "Ice cream novelties"
+      ]
+    },
+    {
+      "id": "leinenkugels-craft-lodge-107",
+      "name": "Leinenkugel's Craft Lodge",
+      "kind": "bar",
+      "section": "107",
+      "items": [
+        "Full bar",
+        "Craft beer",
+        "Frozen cocktails",
+        "Lemonade",
+        "Burgers",
+        "Pizza",
+        "Italian beef",
+        "Wings"
+      ],
+      "unverified": [
+        "official: on the field level, down the stairs at section 107 (open to everyone)"
+      ]
+    },
+    {
+      "id": "bar-109",
+      "name": "Bar 109",
+      "kind": "bar",
+      "section": "109",
+      "items": [
+        "Draft beer",
+        "Craft beer",
+        "Canned beer",
+        "Cocktails",
+        "Wine",
+        "Mocktails"
+      ]
+    },
+    {
+      "id": "sweet-and-savory-stand-110",
+      "name": "Sweet and Savory Stand",
+      "kind": "food",
+      "section": "110",
+      "items": [
+        "Fuku chicken sandwich",
+        "Fuku chicken tenders",
+        "Loaded fries",
+        "Waffle",
+        "Fried pickles"
+      ]
+    },
+    {
+      "id": "machete-111",
+      "name": "Machete",
+      "kind": "food",
+      "section": "111",
+      "items": [
+        "Giant quesadilla"
+      ]
+    },
+    {
+      "id": "specialty-dogs-113",
+      "name": "Specialty Dogs",
+      "kind": "food",
+      "section": "113",
+      "items": [
+        "Fajita dog",
+        "Sonoran dog",
+        "Pineapple slaw dog",
+        "Corn dog",
+        "Funnel cake"
+      ]
+    },
+    {
+      "id": "buenos-nachos-123",
+      "name": "Buenos Nachos",
+      "kind": "food",
+      "section": "123",
+      "items": [
+        "Helmet nachos",
+        "Loaded nachos"
+      ]
+    },
+    {
+      "id": "burger-barn-126",
+      "name": "Burger Barn",
+      "kind": "food",
+      "section": "126",
+      "items": [
+        "Two Bagger Smash Burger",
+        "Comiskey Burger"
+      ]
+    },
+    {
+      "id": "chisox-bar-and-grill-137",
+      "name": "ChiSox Bar & Grill",
+      "kind": "bar",
+      "section": "137",
+      "items": [
+        "Full bar",
+        "Beer",
+        "Bar food"
+      ],
+      "unverified": [
+        "official: at Gate 5, reached from inside by the Gate 5 ramps near 137, 334 or 536; placed at 137"
+      ]
+    },
+    {
+      "id": "cuban-sandwich-portable-148",
+      "name": "Cuban Sandwich Portable",
+      "kind": "food",
+      "section": "148",
+      "items": [
+        "Cuban sandwich"
+      ]
+    },
+    {
+      "id": "polombia-152",
+      "name": "Polombia",
+      "kind": "food",
+      "section": "152",
+      "items": [
+        "Arepa burger",
+        "Emparogi",
+        "Sal Chi Papa"
+      ]
+    },
+    {
+      "id": "buenos-nachos-153",
+      "name": "Buenos Nachos",
+      "kind": "food",
+      "section": "153",
+      "items": [
+        "Helmet nachos",
+        "Loaded nachos"
+      ]
+    },
+    {
+      "id": "luckys-154",
+      "name": "Lucky's",
+      "kind": "food",
+      "section": "154",
+      "items": [
+        "Korean dog",
+        "Tonkatsu dog",
+        "Stir fry noodles",
+        "Soba noodles",
+        "Bubble waffles",
+        "Muneshot sushi push-pop",
+        "Corn dog",
+        "Funnel cake"
+      ]
+    },
+    {
+      "id": "la-esquinita-boricua-155",
+      "name": "La Esquinita Boricua",
+      "kind": "food",
+      "section": "155",
+      "items": [
+        "Puerto Rican rice bowls"
+      ]
+    },
+    {
+      "id": "topo-chico-hard-seltzer-cantina-159",
+      "name": "Topo Chico Hard Seltzer Cantina",
+      "kind": "bar",
+      "section": "159",
+      "items": [
+        "Hard seltzer",
+        "Campfire milkshake"
+      ]
+    },
+    {
+      "id": "buenos-nachos-160",
+      "name": "Buenos Nachos",
+      "kind": "food",
+      "section": "160",
+      "items": [
+        "Helmet nachos",
+        "Loaded nachos",
+        "Plant-based chorizo nachos"
+      ]
+    },
+    {
+      "id": "beggars-pizza-pub-163",
+      "name": "Beggars Pizza Pub",
+      "kind": "bar",
+      "section": "163",
+      "items": [
+        "Pizza",
+        "Beer",
+        "Mixed drinks"
+      ],
+      "unverified": [
+        "the What's New list says 163; the Bars list says 164"
+      ]
+    },
+    {
+      "id": "tres-agaves-bar-164",
+      "name": "Tres Agaves Bar",
+      "kind": "bar",
+      "section": "164",
+      "items": [
+        "Margaritas",
+        "Tequila",
+        "Mixed drinks",
+        "Frozen cocktails"
+      ],
+      "unverified": [
+        "official: 'center field under the Fan Deck, field side'; placed at 164"
+      ]
+    },
+    {
+      "id": "muneshot-sushi-100-level",
+      "name": "Muneshot Sushi",
+      "kind": "food",
+      "level": 1,
+      "items": [
+        "Sushi",
+        "Sushi rolls"
+      ],
+      "unverified": [
+        "official: '100 LVL Right Field Concourse', no section"
+      ]
+    },
+    {
+      "id": "the-rotation-320",
+      "name": "The Rotation",
+      "kind": "food",
+      "section": "320",
+      "items": [
+        "BBQ sliders",
+        "Tacos",
+        "Lo mein",
+        "Dim sum",
+        "All-Star Chicago Lineup",
+        "Cookie dough"
+      ]
+    },
+    {
+      "id": "club-concessions-329",
+      "name": "Club Concessions",
+      "kind": "food",
+      "section": "329",
+      "items": [
+        "Italian beef",
+        "Smashburger",
+        "Veggie burger",
+        "Tenders",
+        "Fries",
+        "Hot dog",
+        "Polish sausage",
+        "Helmet nachos",
+        "Soft serve",
+        "Pretzel",
+        "Garrett popcorn",
+        "Cotton candy",
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "db-kaplans-express-330",
+      "name": "DB Kaplan's Express",
+      "kind": "food",
+      "section": "330",
+      "items": [
+        "Muffaletta",
+        "Turkey sandwich",
+        "Carrot cake"
+      ]
+    },
+    {
+      "id": "the-rotation-344",
+      "name": "The Rotation",
+      "kind": "food",
+      "section": "344",
+      "items": [
+        "BBQ sliders",
+        "Tacos",
+        "Lo mein",
+        "Dim sum",
+        "All-Star Chicago Lineup",
+        "Cookie dough"
+      ]
+    },
+    {
+      "id": "club-concessions-346",
+      "name": "Club Concessions",
+      "kind": "food",
+      "section": "346",
+      "items": [
+        "Italian beef",
+        "Smashburger",
+        "Veggie burger",
+        "Tenders",
+        "Fries",
+        "Hot dog",
+        "Polish sausage",
+        "Helmet nachos",
+        "Soft serve",
+        "Pretzel",
+        "Garrett popcorn",
+        "Cotton candy",
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "skyline-bar-354",
+      "name": "Skyline Bar",
+      "kind": "bar",
+      "section": "354",
+      "items": [
+        "Steakburger",
+        "Pizza",
+        "Southside Supreme pizza",
+        "Tenders",
+        "Fries",
+        "Hot dog",
+        "Helmet nachos",
+        "ICEE",
+        "Draft beer",
+        "Craft beer",
+        "Seltzers",
+        "Mixed drinks",
+        "Wine"
+      ]
+    },
+    {
+      "id": "club-bar-316",
+      "name": "Club Bar",
+      "kind": "bar",
+      "section": "316",
+      "items": [
+        "Canned beer",
+        "Craft beer",
+        "Seltzers",
+        "Canned cocktails",
+        "Cookies",
+        "Desserts"
+      ]
+    },
+    {
+      "id": "club-bar-320",
+      "name": "Club Bar",
+      "kind": "bar",
+      "section": "320",
+      "items": [
+        "Draft beer",
+        "Craft beer",
+        "Seltzers",
+        "Canned cocktails",
+        "Mixed drinks",
+        "Wine"
+      ]
+    },
+    {
+      "id": "club-bar-340",
+      "name": "Club Bar",
+      "kind": "bar",
+      "section": "340",
+      "items": [
+        "Draft beer",
+        "Craft beer",
+        "Seltzers",
+        "Canned cocktails",
+        "Mixed drinks",
+        "Wine"
+      ],
+      "unverified": [
+        "wine: the page says 'section 240', taken to mean 340"
+      ]
+    },
+    {
+      "id": "club-bar-350",
+      "name": "Club Bar",
+      "kind": "bar",
+      "section": "350",
+      "items": [
+        "Canned beer",
+        "Craft beer",
+        "Seltzers",
+        "Canned cocktails",
+        "Cookies",
+        "Desserts"
+      ]
+    },
+    {
+      "id": "stadium-club-bar-311",
+      "name": "Stadium Club Bar",
+      "kind": "bar",
+      "section": "311",
+      "items": [
+        "Chicken & waffle",
+        "Meatball sandwich",
+        "Roast pork sandwich",
+        "Full bar"
+      ],
+      "unverified": [
+        "in the Stadium Club, off the 300 Level's right-field corner; placed at 311",
+        "needs a Stadium Club ticket, not just a 300 Level ticket"
+      ]
+    },
+    {
+      "id": "polombia-518",
+      "name": "Polombia",
+      "kind": "food",
+      "section": "518",
+      "items": [
+        "Arepa burger",
+        "Emparogi",
+        "Sal Chi Papa"
+      ]
+    },
+    {
+      "id": "buenos-nachos-529",
+      "name": "Buenos Nachos",
+      "kind": "food",
+      "section": "529",
+      "items": [
+        "Helmet nachos",
+        "Loaded nachos",
+        "Frozen cocktails",
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "burger-barn-534",
+      "name": "Burger Barn",
+      "kind": "food",
+      "section": "534",
+      "items": [
+        "Comiskey Burger",
+        "Nachos & cheese"
+      ]
+    },
+    {
+      "id": "cuban-sandwich-portable-536",
+      "name": "Cuban Sandwich Portable",
+      "kind": "food",
+      "section": "536",
+      "items": [
+        "Cuban sandwich"
+      ]
+    },
+    {
+      "id": "muneshot-sushi-500-level",
+      "name": "Muneshot Sushi",
+      "kind": "food",
+      "level": 3,
+      "items": [
+        "Sushi",
+        "Sushi rolls"
+      ],
+      "unverified": [
+        "official: '500 LVL Left Field Concourse', no section"
+      ]
+    },
+    {
+      "id": "concessions-102",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "102",
+      "items": [
+        "Hot dog",
+        "Impossible dog",
+        "Bratwurst",
+        "Polish sausage",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Peanuts",
+        "Cotton candy",
+        "Cracker Jack",
+        "Ice cream novelties",
+        "Mini Melts",
+        "Coffee",
+        "Hot cocoa",
+        "ICEE"
+      ]
+    },
+    {
+      "id": "concessions-103",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "103",
+      "items": [
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-104",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "104",
+      "items": [
+        "Elote",
+        "Garrett popcorn",
+        "Peanuts",
+        "Pickle bites"
+      ]
+    },
+    {
+      "id": "concessions-109",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "109",
+      "items": [
+        "Comiskey Dog",
+        "Corned beef sandwich",
+        "Turkey club",
+        "Veggie sandwich",
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-112",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "112",
+      "items": [
+        "Hot dog",
+        "Impossible dog",
+        "Bratwurst",
+        "Polish sausage",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Peanuts",
+        "Cracker Jack",
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-114",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "114",
+      "items": [
+        "Rainbow Cone"
+      ]
+    },
+    {
+      "id": "concessions-115",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "115",
+      "items": [
+        "Bratwurst",
+        "Italian sausage",
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-116",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "116",
+      "items": [
+        "Nachos & cheese"
+      ]
+    },
+    {
+      "id": "concessions-117",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "117",
+      "items": [
+        "Garrett popcorn",
+        "Peanuts",
+        "Pickle bites"
+      ]
+    },
+    {
+      "id": "concessions-120",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "120",
+      "items": [
+        "Italian beef",
+        "Hot dog",
+        "Polish sausage",
+        "Pierogies"
+      ]
+    },
+    {
+      "id": "concessions-121",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "121",
+      "items": [
+        "Italian ice"
+      ]
+    },
+    {
+      "id": "concessions-122",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "122",
+      "items": [
+        "Hot dog",
+        "Cheeseburger",
+        "Impossible burger",
+        "Chicken tenders",
+        "Fries",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Peanuts",
+        "Cracker Jack",
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-123",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "123",
+      "items": [
+        "Comiskey Dog",
+        "Salad",
+        "Wrap",
+        "Pickle bites",
+        "Cotton candy",
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-124",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "124",
+      "items": [
+        "Pizza",
+        "Cotton candy",
+        "Ice cream novelties",
+        "Soft serve",
+        "Coffee",
+        "Hot cocoa",
+        "Root beer float",
+        "ICEE"
+      ]
+    },
+    {
+      "id": "concessions-125",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "125",
+      "items": [
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-127",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "127",
+      "items": [
+        "Elote",
+        "Churros",
+        "Horchata"
+      ]
+    },
+    {
+      "id": "concessions-129",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "129",
+      "items": [
+        "Garrett popcorn",
+        "Peanuts",
+        "Pickle bites"
+      ]
+    },
+    {
+      "id": "concessions-130",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "130",
+      "items": [
+        "Hot dog",
+        "Impossible dog",
+        "Bratwurst",
+        "Polish sausage",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Peanuts",
+        "Cracker Jack",
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-131",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "131",
+      "items": [
+        "Hot dog",
+        "Polish sausage",
+        "Pierogies"
+      ]
+    },
+    {
+      "id": "concessions-132",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "132",
+      "items": [
+        "Garrett popcorn"
+      ]
+    },
+    {
+      "id": "concessions-133",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "133",
+      "items": [
+        "Garrett popcorn",
+        "Peanuts",
+        "Pickle bites"
+      ]
+    },
+    {
+      "id": "concessions-135",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "135",
+      "items": [
+        "Churros"
+      ]
+    },
+    {
+      "id": "concessions-136",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "136",
+      "items": [
+        "Peanuts",
+        "Cotton candy",
+        "Cracker Jack",
+        "Ice cream novelties",
+        "Mini Melts",
+        "ICEE"
+      ]
+    },
+    {
+      "id": "concessions-139",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "139",
+      "items": [
+        "Tacos",
+        "Tortas",
+        "Bratwurst",
+        "Italian sausage"
+      ]
+    },
+    {
+      "id": "concessions-140",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "140",
+      "items": [
+        "Hot dog",
+        "Cheeseburger",
+        "Impossible burger",
+        "Chicken tenders",
+        "Fries",
+        "Garrett popcorn",
+        "Peanuts",
+        "Cracker Jack",
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-141",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "141",
+      "items": [
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-143",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "143",
+      "items": [
+        "Salad",
+        "Wrap",
+        "Pickle bites",
+        "Cotton candy",
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-144",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "144",
+      "items": [
+        "Elote",
+        "Cotton candy",
+        "Cracker Jack",
+        "Ice cream novelties",
+        "Soft serve",
+        "ICEE"
+      ]
+    },
+    {
+      "id": "concessions-145",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "145",
+      "items": [
+        "Nachos & cheese",
+        "Italian ice"
+      ]
+    },
+    {
+      "id": "concessions-147",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "147",
+      "items": [
+        "Garrett popcorn",
+        "Peanuts",
+        "Pickle bites"
+      ]
+    },
+    {
+      "id": "concessions-149",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "149",
+      "items": [
+        "Italian beef"
+      ]
+    },
+    {
+      "id": "concessions-150",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "150",
+      "items": [
+        "Hot dog",
+        "Polish sausage",
+        "Pierogies"
+      ]
+    },
+    {
+      "id": "concessions-151",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "151",
+      "items": [
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-152",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "152",
+      "items": [
+        "Hot dog",
+        "Impossible dog",
+        "Italian sausage",
+        "Polish sausage",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Peanuts",
+        "Cracker Jack",
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-154",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "154",
+      "items": [
+        "Coffee",
+        "Hot cocoa"
+      ]
+    },
+    {
+      "id": "concessions-155",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "155",
+      "items": [
+        "Comiskey Dog"
+      ]
+    },
+    {
+      "id": "concessions-156",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "156",
+      "items": [
+        "Nachos & cheese",
+        "Peanuts",
+        "Cotton candy",
+        "Cracker Jack",
+        "Ice cream novelties",
+        "Mini Melts",
+        "ICEE"
+      ]
+    },
+    {
+      "id": "concessions-157",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "157",
+      "items": [
+        "Tacos",
+        "Tortas"
+      ]
+    },
+    {
+      "id": "concessions-158",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "158",
+      "items": [
+        "Churros",
+        "Garrett popcorn",
+        "Peanuts",
+        "Pickle bites"
+      ]
+    },
+    {
+      "id": "concessions-159",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "159",
+      "items": [
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-160",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "160",
+      "items": [
+        "Hot dog",
+        "Impossible dog",
+        "Cheeseburger",
+        "Impossible burger",
+        "Chicken tenders",
+        "Empanadas",
+        "Bratwurst",
+        "Polish sausage",
+        "Fries",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Peanuts",
+        "Cracker Jack"
+      ]
+    },
+    {
+      "id": "concessions-161",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "161",
+      "items": [
+        "Peanuts"
+      ]
+    },
+    {
+      "id": "concessions-163",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "163",
+      "items": [
+        "Italian beef",
+        "Chicken sandwich",
+        "Fries"
+      ]
+    },
+    {
+      "id": "concessions-164",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "164",
+      "items": [
+        "Nachos & cheese",
+        "Helmet nachos"
+      ]
+    },
+    {
+      "id": "concessions-509",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "509",
+      "items": [
+        "Garrett popcorn"
+      ]
+    },
+    {
+      "id": "concessions-510",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "510",
+      "items": [
+        "Hot dog",
+        "Bratwurst",
+        "Polish sausage",
+        "Garrett popcorn",
+        "Soft pretzel"
+      ]
+    },
+    {
+      "id": "concessions-522",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "522",
+      "items": [
+        "Pizza",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Ice cream novelties",
+        "Soft serve"
+      ]
+    },
+    {
+      "id": "concessions-524",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "524",
+      "items": [
+        "Hot dog",
+        "Comiskey Dog",
+        "Polish sausage",
+        "Loaded fries",
+        "Fried pickles",
+        "Rainbow Cone"
+      ]
+    },
+    {
+      "id": "concessions-526",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "526",
+      "items": [
+        "Elote",
+        "Nachos & cheese"
+      ]
+    },
+    {
+      "id": "concessions-527",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "527",
+      "items": [
+        "Garrett popcorn"
+      ]
+    },
+    {
+      "id": "concessions-528",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "528",
+      "items": [
+        "Bratwurst",
+        "Italian sausage"
+      ]
+    },
+    {
+      "id": "concessions-531",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "531",
+      "items": [
+        "Hot dog",
+        "Corn dog",
+        "Polish sausage",
+        "Funnel cake"
+      ]
+    },
+    {
+      "id": "concessions-533",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "533",
+      "items": [
+        "Italian beef"
+      ]
+    },
+    {
+      "id": "concessions-535",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "535",
+      "items": [
+        "Churros",
+        "Ice cream novelties",
+        "Mini Melts"
+      ]
+    },
+    {
+      "id": "concessions-537",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "537",
+      "items": [
+        "Garrett popcorn"
+      ]
+    },
+    {
+      "id": "concessions-538",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "538",
+      "items": [
+        "Hot dog",
+        "Comiskey Dog",
+        "Impossible dog",
+        "Polish sausage",
+        "Garrett popcorn",
+        "Soft pretzel",
+        "Ice cream novelties",
+        "Soft serve"
+      ]
+    },
+    {
+      "id": "concessions-542",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "542",
+      "items": [
+        "Garrett popcorn"
+      ]
+    },
+    {
+      "id": "concessions-544",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "544",
+      "items": [
+        "Comiskey Dog",
+        "Cheeseburger",
+        "Impossible burger",
+        "Chicken sandwich",
+        "Chicken tenders",
+        "Fries"
+      ]
+    },
+    {
+      "id": "concessions-546",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "546",
+      "items": [
+        "Nachos & cheese"
+      ]
+    },
+    {
+      "id": "concessions-550",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "550",
+      "items": [
+        "Nachos & cheese"
+      ]
+    },
+    {
+      "id": "concessions-555",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "555",
+      "items": [
+        "Hot dog",
+        "Bratwurst",
+        "Polish sausage",
+        "Garrett popcorn",
+        "Soft pretzel"
+      ]
+    },
+    {
+      "id": "concessions-556",
+      "name": "Concessions",
+      "kind": "food",
+      "section": "556",
+      "items": [
+        "Garrett popcorn"
+      ]
+    },
+    {
+      "id": "drinks-101",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "101",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-102",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "102",
+      "items": [
+        "Draft beer",
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-103",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "103",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-104",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "104",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-106",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "106",
+      "items": [
+        "Draft beer",
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-110",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "110",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-112",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "112",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-115",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "115",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-117",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "117",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-122",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "122",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-123",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "123",
+      "items": [
+        "Craft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-124",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "124",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-125",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "125",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-129",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "129",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-130",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "130",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-133",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "133",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-136",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "136",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-140",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "140",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-141",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "141",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-143",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "143",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-147",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "147",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-151",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "151",
+      "items": [
+        "Mixed drinks"
+      ]
+    },
+    {
+      "id": "drinks-152",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "152",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-154",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "154",
+      "items": [
+        "Draft beer",
+        "Craft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-158",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "158",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-159",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "159",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-160",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "160",
+      "items": [
+        "Draft beer",
+        "Mixed drinks",
+        "Frozen cocktails"
+      ]
+    },
+    {
+      "id": "drinks-161",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "161",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-163",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "163",
+      "items": [
+        "Draft beer",
+        "Wine",
+        "Lemonade"
+      ]
+    },
+    {
+      "id": "drinks-509",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "509",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-510",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "510",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-516",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "516",
+      "items": [
+        "Mixed drinks"
+      ]
+    },
+    {
+      "id": "drinks-522",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "522",
+      "items": [
+        "Draft beer",
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-524",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "524",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-527",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "527",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-530",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "530",
+      "items": [
+        "Draft beer",
+        "Craft beer",
+        "Mixed drinks"
+      ]
+    },
+    {
+      "id": "drinks-535",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "535",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-537",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "537",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "drinks-538",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "538",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-540",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "540",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-542",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "542",
+      "items": [
+        "Craft beer"
+      ]
+    },
+    {
+      "id": "drinks-544",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "544",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-548",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "548",
+      "items": [
+        "Mixed drinks"
+      ]
+    },
+    {
+      "id": "drinks-555",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "555",
+      "items": [
+        "Draft beer"
+      ]
+    },
+    {
+      "id": "drinks-556",
+      "name": "Drinks",
+      "kind": "bar",
+      "section": "556",
+      "items": [
+        "Draft beer",
+        "Wine"
+      ]
+    },
+    {
+      "id": "companion-washroom-106",
+      "name": "Companion washroom",
+      "kind": "restroom",
+      "section": "106",
+      "items": [
+        "Companion washroom",
+        "Ask the Guest Service Representative near 106"
+      ]
+    },
+    {
+      "id": "first-aid-companion-restroom-132",
+      "name": "First Aid (companion restroom)",
+      "kind": "restroom",
+      "section": "132",
+      "items": [
+        "First Aid",
+        "Companion restroom"
+      ],
+      "unverified": [
+        "official: a First Aid booth on the 100 Level behind home plate; placed at 132"
+      ]
+    }
+  ],
+  "popular": [
+    "italian beef",
+    "elote",
+    "hot dog",
+    "comiskey dog",
+    "nachos",
+    "tacos",
+    "pizza",
+    "beer"
+  ]
+}

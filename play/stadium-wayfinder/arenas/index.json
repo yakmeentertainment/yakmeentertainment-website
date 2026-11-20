@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "generated": "2026-11-10T13:55:40.858Z",
+  "arenas": [
+    {
+      "id": "american-family-field",
+      "name": "American Family Field",
+      "city": "Milwaukee",
+      "region": "WI",
+      "files": {
+        "building": "a0f4fc02987a",
+        "amenities": "9ff8e8959419"
+      }
+    },
+    {
+      "id": "benchmark-international-arena",
+      "name": "Benchmark International Arena",
+      "city": "Tampa",
+      "region": "FL",
+      "files": {
+        "building": "02cce988b178",
+        "amenities": "dd2dd1d5321c"
+      }
+    },
+    {
+      "id": "crypto-com-arena",
+      "name": "Crypto.com Arena",
+      "city": "Los Angeles",
+      "region": "CA",
+      "files": {
+        "building": "c40af9243b58",
+        "amenities": "1ae61877d00a"
+      }
+    },
+    {
+      "id": "fenway-park",
+      "name": "Fenway Park",
+      "city": "Boston",
+      "region": "MA",
+      "files": {
+        "building": "fe22637a1239",
+        "amenities": "322b91e49c95"
+      }
+    },
+    {
+      "id": "lambeau-field",
+      "name": "Lambeau Field",
+      "city": "Green Bay",
+      "region": "WI",
+      "files": {
+        "building": "fd4a8b832361",
+        "amenities": "cd2a8da07f82"
+      }
+    },
+    {
+      "id": "madison-square-garden",
+      "name": "Madison Square Garden",
+      "city": "New York",
+      "region": "NY",
+      "files": {
+        "building": "85462cfafe4e",
+        "amenities": "8679a1c32b3d"
+      }
+    },
+    {
+      "id": "michigan-stadium",
+      "name": "Michigan Stadium",
+      "city": "Ann Arbor",
+      "region": "MI",
+      "files": {
+        "building": "146626c082f9",
+        "amenities": "f4a57831298e"
+      }
+    },
+    {
+      "id": "rate-field",
+      "name": "Rate Field",
+      "city": "Chicago",
+      "region": "IL",
+      "files": {
+        "building": "959af371bf16",
+        "amenities": "5868a9b45fa1"
+      }
+    },
+    {
+      "id": "sofi-stadium",
+      "name": "SoFi Stadium",
+      "city": "Inglewood",
+      "region": "CA",
+      "files": {
+        "building": "3aaa54eae045",
+        "amenities": "20505b46d793"
+      }
+    },
+    {
+      "id": "soldier-field",
+      "name": "Soldier Field",
+      "city": "Chicago",
+      "region": "IL",
+      "files": {
+        "building": "a8fe911f2ebd",
+        "amenities": "6349e0788f4d"
+      }
+    },
+    {
+      "id": "united-center",
+      "name": "United Center",
+      "city": "Chicago",
+      "region": "IL",
+      "files": {
+        "building": "679f9e5466c2",
+        "amenities": "815a692a75de"
+      }
+    },
+    {
+      "id": "wintrust-arena",
+      "name": "Wintrust Arena",
+      "city": "Chicago",
+      "region": "IL",
+      "files": {
+        "building": "c0769f45cbc3",
+        "amenities": "94ec6fe7fbcf"
+      }
+    },
+    {
+      "id": "wrigley-field",
+      "name": "Wrigley Field",
+      "city": "Chicago",
+      "region": "IL",
+      "files": {
+        "building": "75ec3647ca95",
+        "amenities": "976ce4b9b374"
+      }
+    }
+  ]
+}

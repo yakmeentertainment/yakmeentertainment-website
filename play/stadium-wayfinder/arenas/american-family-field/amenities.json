@@ -1,0 +1,657 @@
+{
+  "schema": 1,
+  "id": "american-family-field",
+  "version": "9ff8e8959419",
+  "lastVerified": "2026-11-08",
+  "sources": [
+    {
+      "what": "stand sections from the Brewers' 2026 postseason menu (FOX6), The Alley and Annex locations, vendor names by level",
+      "ref": "reference/dining-notes-2025-2026.md"
+    },
+    {
+      "what": "family restrooms by section",
+      "ref": "reference/accessibility-guide-mlb-com.md"
+    }
+  ],
+  "stands": [
+    {
+      "id": "wisco-supper-club-111",
+      "name": "Wisco Supper Club",
+      "kind": "food",
+      "section": "111",
+      "items": [
+        "Pasties",
+        "Wagyu pasty"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "ians-pizza-106",
+      "name": "Ian's Pizza",
+      "kind": "food",
+      "section": "106",
+      "items": [
+        "Pizza",
+        "Oktoberfest slice"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "ians-pizza-208",
+      "name": "Ian's Pizza",
+      "kind": "food",
+      "section": "208",
+      "items": [
+        "Pizza",
+        "Oktoberfest slice"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "burger-stand-108",
+      "name": "Burger Stand",
+      "kind": "food",
+      "section": "108",
+      "items": [
+        "Burgers",
+        "Big Chew Burger"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "burger-stand-125",
+      "name": "Burger Stand",
+      "kind": "food",
+      "section": "125",
+      "items": [
+        "Burgers",
+        "Big Chew Burger"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "dippin-dots-125",
+      "name": "Dippin' Dots",
+      "kind": "food",
+      "section": "125",
+      "items": [
+        "Ice cream",
+        "Dippin' Dots",
+        "Soft serve floats"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "topped-dog-208",
+      "name": "Topped Dog",
+      "kind": "food",
+      "section": "208",
+      "items": [
+        "Hot dogs",
+        "Topped hot dogs"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "cheese-curds-214",
+      "name": "Cheese Curds",
+      "kind": "food",
+      "section": "214",
+      "items": [
+        "Cheese curds",
+        "Brat rangoons"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "cheese-curds-223",
+      "name": "Cheese Curds",
+      "kind": "food",
+      "section": "223",
+      "items": [
+        "Cheese curds",
+        "Brat rangoons"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "baked-potato-216",
+      "name": "Baked Potato",
+      "kind": "food",
+      "section": "216",
+      "items": [
+        "Baked potatoes",
+        "Monkey bread"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "cocktails-110",
+      "name": "Cocktail Stand",
+      "kind": "bar",
+      "section": "110",
+      "items": [
+        "Cocktails",
+        "Maple whiskey sour",
+        "Apple cider mule"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "cocktails-125",
+      "name": "Cocktail Stand",
+      "kind": "bar",
+      "section": "125",
+      "items": [
+        "Cocktails",
+        "Maple whiskey sour",
+        "Apple cider mule"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "cocktails-420",
+      "name": "Cocktail Stand",
+      "kind": "bar",
+      "section": "420",
+      "items": [
+        "Cocktails",
+        "Maple whiskey sour",
+        "Apple cider mule"
+      ],
+      "unverified": [
+        "location from FOX6's 2026 postseason menu (sent by the Brewers); the regular-season stand may differ"
+      ]
+    },
+    {
+      "id": "k-and-l-bbq-233",
+      "name": "K&L's BBQ",
+      "kind": "food",
+      "section": "233",
+      "items": [
+        "BBQ",
+        "Brisket sandwich",
+        "Pulled pork",
+        "Burgers",
+        "Elote",
+        "Mac and cheese"
+      ],
+      "unverified": [
+        "The Alley is on the left field Loge Level (Brewers release); Section 233 is a guess"
+      ]
+    },
+    {
+      "id": "chuchos-red-tacos-233",
+      "name": "Chucho's Red Tacos",
+      "kind": "food",
+      "section": "233",
+      "items": [
+        "Tacos",
+        "Birria tacos",
+        "Birria nachos"
+      ],
+      "unverified": [
+        "The Alley is on the left field Loge Level (Brewers release); Section 233 is a guess"
+      ]
+    },
+    {
+      "id": "hidden-kitchen-mke-233",
+      "name": "Hidden Kitchen MKE",
+      "kind": "food",
+      "section": "233",
+      "items": [
+        "Lobster roll",
+        "Lobster hush puppies",
+        "Fries"
+      ],
+      "unverified": [
+        "The Alley is on the left field Loge Level (Brewers release); Section 233 is a guess"
+      ]
+    },
+    {
+      "id": "barons-gelato-233",
+      "name": "Baron's Gelato",
+      "kind": "food",
+      "section": "233",
+      "items": [
+        "Gelato",
+        "Ice cream"
+      ],
+      "unverified": [
+        "The Alley is on the left field Loge Level (Brewers release); Section 233 is a guess"
+      ]
+    },
+    {
+      "id": "nadi-plates-233",
+      "name": "Nadi Plates",
+      "kind": "food",
+      "section": "233",
+      "items": [],
+      "unverified": [
+        "The Alley is on the left field Loge Level (Brewers release); Section 233 is a guess; menu not published"
+      ]
+    },
+    {
+      "id": "the-alley-bar-233",
+      "name": "The Alley Bar",
+      "kind": "bar",
+      "section": "233",
+      "items": [
+        "Beer",
+        "Cocktails"
+      ],
+      "unverified": [
+        "The Alley is on the left field Loge Level (Brewers release); Section 233 is a guess"
+      ]
+    },
+    {
+      "id": "bebe-zito-206",
+      "name": "Bebe Zito",
+      "kind": "food",
+      "section": "206",
+      "items": [
+        "Burgers",
+        "Ice cream",
+        "Milkshakes",
+        "Chicken tenders",
+        "Sandwiches"
+      ],
+      "unverified": [
+        "the 3rd St. Market Hall Annex is on the right field Loge Level (Brewers release); Section 206 is a guess"
+      ]
+    },
+    {
+      "id": "kompali-tacos-206",
+      "name": "Kompali Tacos",
+      "kind": "food",
+      "section": "206",
+      "items": [
+        "Tacos",
+        "Nachos"
+      ],
+      "unverified": [
+        "the 3rd St. Market Hall Annex is on the right field Loge Level (Brewers release); Section 206 is a guess"
+      ]
+    },
+    {
+      "id": "drip-chocolate-206",
+      "name": "Drip Chocolate",
+      "kind": "food",
+      "section": "206",
+      "items": [
+        "Desserts",
+        "Cheesecake",
+        "Boba"
+      ],
+      "unverified": [
+        "the 3rd St. Market Hall Annex is on the right field Loge Level (Brewers release); Section 206 is a guess"
+      ]
+    },
+    {
+      "id": "can-d-shop-206",
+      "name": "Can-D Shop",
+      "kind": "food",
+      "section": "206",
+      "items": [
+        "Candy"
+      ],
+      "unverified": [
+        "the 3rd St. Market Hall Annex is on the right field Loge Level (Brewers release); Section 206 is a guess"
+      ]
+    },
+    {
+      "id": "anytime-arepa-206",
+      "name": "Anytime Arepa",
+      "kind": "food",
+      "section": "206",
+      "items": [
+        "Arepas"
+      ],
+      "unverified": [
+        "the 3rd St. Market Hall Annex is on the right field Loge Level (Brewers release); Section 206 is a guess; menu inferred from the name"
+      ]
+    },
+    {
+      "id": "smokin-jacks-bbq-206",
+      "name": "Smokin' Jack's BBQ",
+      "kind": "food",
+      "section": "206",
+      "items": [
+        "BBQ"
+      ],
+      "unverified": [
+        "the 3rd St. Market Hall Annex is on the right field Loge Level (Brewers release); Section 206 is a guess; menu inferred from the name"
+      ]
+    },
+    {
+      "id": "creta-206",
+      "name": "Creta",
+      "kind": "food",
+      "section": "206",
+      "items": [],
+      "unverified": [
+        "the 3rd St. Market Hall Annex is on the right field Loge Level (Brewers release); Section 206 is a guess; menu not published"
+      ]
+    },
+    {
+      "id": "family-restroom-116",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "116",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-206",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "206",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-230",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "230",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-419",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "419",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "family-restroom-426",
+      "name": "Family Restroom",
+      "kind": "restroom",
+      "section": "426",
+      "items": [
+        "Restroom",
+        "Family restroom"
+      ]
+    },
+    {
+      "id": "barrel-bar-field",
+      "name": "Barrel Bar",
+      "kind": "bar",
+      "items": [
+        "Beer"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section",
+        "menu inferred from the name"
+      ],
+      "level": 1
+    },
+    {
+      "id": "bernies-chalet-field",
+      "name": "Bernie's Chalet",
+      "kind": "bar",
+      "items": [],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section; Bernie's Chalet is in left field"
+      ],
+      "level": 1
+    },
+    {
+      "id": "bloody-mary-cart-field",
+      "name": "Bloody Mary Cart",
+      "kind": "bar",
+      "items": [
+        "Bloody Marys"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section"
+      ],
+      "level": 1
+    },
+    {
+      "id": "chicken-stand-field",
+      "name": "Chicken Stand",
+      "kind": "food",
+      "items": [
+        "Chicken tenders"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section",
+        "menu inferred from the name"
+      ],
+      "level": 1
+    },
+    {
+      "id": "custard-stand-field",
+      "name": "Custard Stand",
+      "kind": "food",
+      "items": [
+        "Frozen custard",
+        "Ice cream"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section",
+        "menu inferred from the name"
+      ],
+      "level": 1
+    },
+    {
+      "id": "flips-mini-donuts-field",
+      "name": "Flip's Mini Donuts",
+      "kind": "food",
+      "items": [
+        "Mini donuts"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section"
+      ],
+      "level": 1
+    },
+    {
+      "id": "leinenkugels-barrel-yard",
+      "name": "J. Leinenkugel's Barrel Yard",
+      "kind": "bar",
+      "items": [
+        "Beer"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section; the seating map shows it in left field",
+        "menu inferred from the name"
+      ],
+      "level": 1
+    },
+    {
+      "id": "johnsonville-sausages-field",
+      "name": "Johnsonville Sausages",
+      "kind": "food",
+      "items": [
+        "Brats",
+        "Sausages",
+        "Hot dogs"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section",
+        "menu inferred from the name"
+      ],
+      "level": 1
+    },
+    {
+      "id": "marketplace-field",
+      "name": "Marketplace",
+      "kind": "food",
+      "items": [],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section; menu not published"
+      ],
+      "level": 1
+    },
+    {
+      "id": "outdoor-bar-field",
+      "name": "Outdoor Bar",
+      "kind": "bar",
+      "items": [
+        "Beer"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Field Level with no section",
+        "menu inferred from the name"
+      ],
+      "level": 1
+    },
+    {
+      "id": "chicken-stand-loge",
+      "name": "Chicken Stand",
+      "kind": "food",
+      "items": [
+        "Chicken tenders"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Loge Level with no section",
+        "menu inferred from the name"
+      ],
+      "level": 2
+    },
+    {
+      "id": "marketplace-loge",
+      "name": "Marketplace",
+      "kind": "food",
+      "items": [],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Loge Level with no section; menu not published"
+      ],
+      "level": 2
+    },
+    {
+      "id": "barrelmans-market-terrace",
+      "name": "Barrelman's Market",
+      "kind": "food",
+      "items": [],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Terrace Level with no section; menu not published"
+      ],
+      "level": 4
+    },
+    {
+      "id": "bloody-mary-cart-terrace",
+      "name": "Bloody Mary Cart",
+      "kind": "bar",
+      "items": [
+        "Bloody Marys"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Terrace Level with no section"
+      ],
+      "level": 4
+    },
+    {
+      "id": "heavenly-roasted-nuts-terrace",
+      "name": "Heavenly Roasted Nuts",
+      "kind": "food",
+      "items": [
+        "Roasted nuts"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Terrace Level with no section"
+      ],
+      "level": 4
+    },
+    {
+      "id": "liquor-bar-terrace",
+      "name": "Liquor Bar",
+      "kind": "bar",
+      "items": [
+        "Cocktails"
+      ],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Terrace Level with no section",
+        "menu inferred from the name"
+      ],
+      "level": 4
+    },
+    {
+      "id": "marketplace-terrace",
+      "name": "Marketplace",
+      "kind": "food",
+      "items": [],
+      "unverified": [
+        "location unknown: Ticketmaster (2026-10-23) lists it on the Terrace Level with no section; menu not published"
+      ],
+      "level": 4
+    },
+    {
+      "id": "skyy-lounge",
+      "name": "SKYY Lounge",
+      "kind": "bar",
+      "items": [
+        "Cocktails",
+        "Beer",
+        "Wine"
+      ],
+      "unverified": [
+        "location unknown: the PNC Club Level's indoor lounge, for club ticket holders",
+        "menu inferred from the name"
+      ],
+      "level": 3
+    },
+    {
+      "id": "fair-foods",
+      "name": "Fair Foods",
+      "kind": "food",
+      "items": [
+        "Funnel cake fries",
+        "Cream puffs",
+        "Deep-fried Kringle",
+        "Corn dogs",
+        "Nachos on a stick",
+        "Brisket waffle"
+      ],
+      "unverified": [
+        "location unknown: new for 2026 (Urban Milwaukee), level not given"
+      ]
+    }
+  ],
+  "popular": [
+    "Cheese curds",
+    "Brats",
+    "Hot dogs",
+    "Pizza",
+    "Burgers",
+    "Tacos",
+    "Cocktails",
+    "Restroom"
+  ]
+}
