@@ -18,6 +18,16 @@ const PROJECTS = [
     shape: "portrait"
   },
   {
+    section: "games",
+    title: "Shake & Pop",
+    blurb: "Shake your phone to build up the fizz, then hit OPEN the moment you stop and watch the soda blast sky-high. Ten levels from an 8 oz bottle to a MEGA 10 liter. On a computer, wiggle the mouse to shake.",
+    tags: ["Party", "10 levels", "Best on phone"],
+    thumb: "assets/shake-pop-thumb.svg",
+    play: "play/shake-and-pop.html",
+    apk: "",
+    shape: "portrait"
+  },
+  {
     section: "apps",
     title: "Stadium Wayfinder",
     blurb: "Pick a stadium, then get turn-by-turn directions to your section, the closest food and drinks, or a fair spot to meet a friend. 13 venues, including the United Center, Soldier Field, Wrigley, Lambeau, Fenway, MSG and SoFi.",
