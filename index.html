@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>YakMe</title>
+<meta name="description" content="YakMe Games, YakMe Animations and YakMe Apps. Play in your browser or download for Android.">
+<meta name="theme-color" content="#02040f">
+<link rel="icon" href="assets/face.webp">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="locked" data-page="home">
+
+<!-- splash: same as the YakMe Games app splash, then ENTER -->
+<div id="splash" role="dialog" aria-label="YakMe Games">
+  <div class="brand" id="brand" aria-hidden="true"></div>
+  <div class="stage" id="stage">
+    <div class="comp">
+      <img class="face" id="face" alt="" src="assets/face.webp">
+      <img class="skull" id="skull" alt="" src="assets/skull.webp">
+    </div>
+  </div>
+  <div class="enter-slot"><button id="enter" type="button">Enter</button></div>
+</div>
+
+<div class="site" id="site" aria-hidden="true">
+  <div class="hero">
+    <h1>YakMe</h1>
+    <p>Games, animations and apps. Play right here in your browser, or grab the Android APK.</p>
+  </div>
+  <div class="tiles" id="tiles"></div>
+</div>
+
+<script src="assets/projects.js"></script>
+<script src="assets/site.js"></script>
+<script>
+const CONFIG = {
+  companyName: "YakMe Games",
+  faceScale: 0.5,
+  skullOpacity: 0.5,
+  skullHoldSeconds: 2,
+  enterDelayMs: 600          // ENTER fades in this long after the name lands
+};
+
+(function(){
+"use strict";
+const $=id=>document.getElementById(id);
+const root=document.documentElement.style;
+
+/* ---------- splash animation ---------- */
+const T_FACE_IN=0.7, T_SK_HOLD_END=T_FACE_IN+CONFIG.skullHoldSeconds, T_SK_GONE=T_SK_HOLD_END+0.45;
+const T_FLASH=T_SK_GONE+0.4, T_FLASH_END=T_FLASH+0.85;
+const KEYS=[
+ {t:0,fo:0,fb:.50,sk:0},{t:T_FACE_IN,fo:1,fb:.92,sk:1},{t:T_SK_HOLD_END,fo:1,fb:.95,sk:1},
+ {t:T_SK_GONE,fo:1,fb:1.0,sk:0},{t:T_FLASH-0.2,fo:1,fb:1.0,sk:0},{t:T_FLASH,fo:1,fb:1.08,sk:0},{t:T_FLASH_END,fo:1,fb:1.0,sk:0}
+];
+const TEXT_AT=T_FLASH+0.1, END_T=T_FLASH_END;
+root.setProperty('--scale',CONFIG.faceScale);
+const splash=$('splash'),brand=$('brand'),face=$('face'),skull=$('skull'),enter=$('enter');
+
+[...CONFIG.companyName].forEach((ch,i)=>{const s=document.createElement('span');
+  if(ch===' '){s.className='sp';s.innerHTML='&nbsp;'}else s.textContent=ch;
+  s.style.setProperty('--i',i);brand.appendChild(s);});
+
+const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2, lerp=(a,b,t)=>a+(b-a)*t;
+function sample(t){
+  if(t<=KEYS[0].t)return{...KEYS[0]};
+  for(let i=1;i<KEYS.length;i++)if(t<=KEYS[i].t){const a=KEYS[i-1],b=KEYS[i],k=ease((t-a.t)/(b.t-a.t)),o={};
+    for(const p in a)o[p]=lerp(a[p],b[p],k);return o;}
+  return{...KEYS[KEYS.length-1]};
+}
+let seed=1;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+function render(t){
+  const s=sample(t),moving=s.sk>0.02&&s.sk<0.98,fk=moving?(rnd()-.5)*.18:0;
+  root.setProperty('--sk',(Math.max(0,Math.min(1,s.sk+(s.sk>0?fk:0)))*CONFIG.skullOpacity).toFixed(3));
+  root.setProperty('--fo',s.fo.toFixed(3));root.setProperty('--fb',s.fb.toFixed(3));
+  const j=moving&&rnd()>.78?(rnd()-.5)*10:0;
+  face.style.transform=j?`translateX(${j}px)`:'';skull.style.transform=j?`translateX(${j*1.3}px)`:'';
+}
+let t0=0,raf=0,done=false,textShown=false,entered=false;
+function showText(){if(!textShown){textShown=true;brand.classList.add('show')}}
+function finish(){
+  if(done)return;done=true;cancelAnimationFrame(raf);render(END_T);showText();
+  setTimeout(()=>{enter.classList.add('on');enter.focus({preventScroll:true});},CONFIG.enterDelayMs+700);
+}
+function frame(now){
+  if(!t0)t0=now;const t=(now-t0)/1000;
+  if(t>=TEXT_AT)showText();
+  if(t>=END_T){finish();return;}
+  render(t);raf=requestAnimationFrame(frame);
+}
+function boot(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){finish();return;}
+  raf=requestAnimationFrame(frame);
+}
+splash.addEventListener('click',e=>{if(e.target!==enter&&!done)finish();});
+function enterSite(){
+  if(entered)return;entered=true;
+  try{sessionStorage.setItem('yakmeEntered','1')}catch(e){}
+  splash.classList.add('leaving');document.body.classList.remove('locked');
+  $('site').removeAttribute('aria-hidden');
+  setTimeout(()=>{splash.style.display='none';},650);
+}
+enter.addEventListener('click',e=>{e.stopPropagation();enterSite();});
+document.addEventListener('keydown',e=>{if(!entered&&done&&(e.key==='Enter'||e.key===' ')){e.preventDefault();enterSite();}});
+let seen=false;try{seen=sessionStorage.getItem('yakmeEntered')==='1'}catch(e){}
+if(seen){entered=true;splash.style.display='none';document.body.classList.remove('locked');$('site').removeAttribute('aria-hidden');}
+else if(face.complete)boot();else{face.addEventListener('load',boot);face.addEventListener('error',boot);}
+
+})();
+</script>
+</body>
+</html>
