@@ -1,49 +1,51 @@
-YAKME WEBSITE
-=============
+YAKME ENTERTAINMENT WEBSITE  (yakmeentertainment.com)
+=========================================================
 
-What's in here
---------------
-index.html                        Splash -> ENTER -> home page with three tiles
-games.html                        YakMe Games page
-animations.html                   YakMe Animations page
-apps.html                         YakMe Apps page
-assets/projects.js                THE LIST of games, animations and apps (edit this one)
-assets/site.css, site.js          Shared look and code for every page
-assets/face.webp, skull.webp      Splash images (same as the app splash)
-assets/tony-thumb.jpg             Card picture for Tony El Barracho
-assets/wayfinder-icon.svg         Card picture for Stadium Wayfinder
-play/tony-el-barracho.html        Browser version of the game
-play/stadium-wayfinder/          Browser version of Stadium Wayfinder (13 stadiums)
-downloads/                        Put your APK files here
+How it's organized
+------------------
+This repo (yakmeentertainment.github.io) is the website itself: the splash,
+the home page and the Games / Animations / Apps pages.
 
-Putting it online
------------------
-Upload everything in this folder (keep the folders as they are) to your host.
-Any static host works: Netlify (drag and drop the folder), Cloudflare Pages,
-GitHub Pages, or the file manager of whoever sold you the domain.
-index.html must be at the top level.
+Every game, app and animation lives in its OWN repo, named by section:
+  games-...       e.g. games-shake-and-pop    -> yakmeentertainment.com/games-shake-and-pop/
+  apps-...        e.g. apps-stadium-wayfinder -> yakmeentertainment.com/apps-stadium-wayfinder/
+  animations-...  (none yet)
 
-Adding an APK when it's ready
------------------------------
-1. Copy the file into downloads/, e.g. downloads/tony-el-barracho.apk
-2. Open assets/projects.js and fill in that project's apk line:
-     apk: "downloads/tony-el-barracho.apk",
-   The button switches from "APK coming soon" to "Download APK" by itself.
+Files in this repo
+------------------
+index.html            Splash (cartoon face + skull) -> ENTER -> home page
+games.html            YakMe Games page
+animations.html       YakMe Animations page
+apps.html             YakMe Apps page
+assets/projects.js    THE LIST of games, animations and apps (edit this one)
+assets/site.css/.js   Shared look and code for every page
+assets/mascot.svg     The animated cartoon face (splash + header logo)
+assets/*-thumb.*      Card pictures
+CNAME                 Tells GitHub this site is yakmeentertainment.com (don't delete)
 
-Adding a new game, animation or app
+Updating a game or app
+----------------------
+Open its own repo -> Add file -> Upload files -> drag in the changed files
+(drag what's INSIDE the folder, not the folder itself) -> Commit changes.
+The site updates in a minute or two. Nothing here needs to change.
+
+Adding a new game, app or animation
 -----------------------------------
-1. Put its HTML file in play/ and a picture in assets/
-2. In assets/projects.js, copy one of the entries and set section to
-   "games", "animations" or "apps". It shows up on that page and on
-   the home tile automatically.
-   shape: "portrait" = phone-shaped (like Tony), "wide" = full width.
+1. Create a new PUBLIC repo named games-<name>, apps-<name> or animations-<name>
+   (tick "Add README").
+2. Upload its files with index.html at the top level.
+3. Settings -> Pages -> Branch: main, / (root) -> Save.
+4. Add a card in assets/projects.js here:
+     play: "/games-<name>/",
+     apk:  "/games-<name>/<name>.apk"   (or "" for "APK coming soon")
+5. Add a card picture to assets/.
 
-Changing the splash
--------------------
-CONFIG near the bottom of index.html holds the splash name and timing,
-same settings as the app splash. The splash plays once per visit;
-going back to Home from another page skips it.
+Adding an APK
+-------------
+Upload the .apk into that game's/app's own repo, then set its apk line in
+assets/projects.js. The button switches from "APK coming soon" to "Download APK".
 
-Direct links
-------------
-yourdomain.com/games.html#play-tony-el-barracho opens the game straight away.
+Seeing changes
+--------------
+Browsers keep the old files for up to 10 minutes. Open a new tab/window or
+press Ctrl+F5 to see changes right away.
