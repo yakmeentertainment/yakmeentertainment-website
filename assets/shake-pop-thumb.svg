@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#162864"/><stop offset="1" stop-color="#5c3478"/></linearGradient>
+<linearGradient id="gey" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#c98a3e"/><stop offset=".4" stop-color="#ead2a6"/><stop offset="1" stop-color="#fffaf0"/></linearGradient>
+<linearGradient id="tbl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5a34"/><stop offset="1" stop-color="#4a2c18"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#sky)"/>
+<g fill="#fff" opacity=".6"><circle cx="90" cy="60" r="2"/><circle cx="700" cy="90" r="1.6"/><circle cx="620" cy="40" r="1.2"/><circle cx="160" cy="150" r="1.4"/><circle cx="740" cy="200" r="1.8"/><circle cx="40" cy="260" r="1.2"/></g>
+<rect y="430" width="800" height="70" fill="url(#tbl)"/><rect y="430" width="800" height="5" fill="#b07a4c"/>
+<path d="M540 300 C528 220 500 120 470 40 Q545 10 620 40 C590 120 560 220 552 300 Z" fill="url(#gey)"/>
+<g fill="#fffaf0"><circle cx="490" cy="40" r="34"/><circle cx="545" cy="22" r="38"/><circle cx="600" cy="40" r="32"/><circle cx="520" cy="62" r="26"/><circle cx="575" cy="62" r="26"/></g>
+<g fill="#fff8ec" opacity=".85"><circle cx="455" cy="95" r="6"/><circle cx="640" cy="110" r="5"/><circle cx="430" cy="150" r="4"/><circle cx="660" cy="170" r="6"/><circle cx="470" cy="200" r="3.5"/><circle cx="630" cy="235" r="4"/></g>
+<g transform="translate(546 432)">
+<path d="M-12 -278 L-12 -240 C-12 -205 -38 -212 -38 -168 L-38 -18 Q-38 0 -30 0 L30 0 Q38 0 38 -18 L38 -168 C38 -212 12 -205 12 -240 L12 -278 Z" fill="rgba(200,230,255,.18)" stroke="#dff5ff" stroke-width="3"/>
+<path d="M-37 -150 L37 -150 L37 -14 Q37 -2 28 -2 L-28 -2 Q-37 -2 -37 -14 Z" fill="#5a230e"/>
+<rect x="-38" y="-144" width="76" height="60" fill="#e8283d"/><text x="0" y="-104" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="20" fill="#fff" text-anchor="middle">FIZZ</text>
+</g>
+<g transform="translate(150 70)" font-family="Arial Black,Impact,Arial,sans-serif" font-weight="900" text-anchor="middle">
+<text x="80" y="90" font-size="92" fill="#b3122a">SHAKE</text><text x="80" y="84" font-size="92" fill="#fff">SHAKE</text>
+<text x="80" y="190" font-size="92" fill="#a3142a">&amp; POP</text><text x="80" y="184" font-size="92" fill="#ffd23f">&amp; POP</text>
+</g>
+<g transform="translate(150 300) scale(1.25)">
+<path d="M8 20h24l4 6v62l-4 6H8l-4-6V26z" fill="#e8283d" stroke="#ffb3bb" stroke-width="1"/><path d="M8 20h24l4 6H4z" fill="#cfd6df"/><path d="M4 88h32l-4 6H8z" fill="#aab3bf"/><path d="M4 52q16-10 32 0v8q-16-10-32 0z" fill="#fff"/><text x="20" y="77" font-size="9" font-weight="900" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif">FIZZ</text></g>
+</svg>
