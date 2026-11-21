@@ -96,6 +96,16 @@ const PROJECTS = [
     play: "/apps-stadium-wayfinder/",
     apk: "/apps-stadium-wayfinder/stadium-wayfinder.apk",
     shape: "wide"
+  },
+  {
+    section: "animations",
+    title: "Episode 1: 1, 2, 3",
+    blurb: "Tony is seven, and his older brothers Martin and Gil never want to play with him. Until today. A true story and the first episode of the Tony series, shown as an animated storyboard.",
+    tags: ["Episode 1", "True story", "Storyboard"],
+    thumb: "assets/episode-1-thumb.svg",
+    play: "play/episode-1.html",
+    apk: "",
+    shape: "wide"
   }
   // Animations go here too, e.g.
   // { section:"animations", title:"My Animation", blurb:"...", tags:["Short"], thumb:"assets/x.jpg", play:"play/x.html", apk:"", shape:"wide" }
