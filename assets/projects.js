@@ -48,6 +48,16 @@ const PROJECTS = [
     shape: "portrait"
   },
   {
+    section: "games",
+    title: "Brother Brawl",
+    blurb: "Four brothers, one house. Pick Pelou (30), Martin (20), Gil (15) or Tony (10) and fight the other three through the living room, the kitchen and the backyard. Every brother has his own special: Pelou's belly flop, Martin's dorm suplex, Gil's surprise wedgie and Tony's \"I'm telling Mom!\". Win with every brother to earn his crown.",
+    tags: ["Fighting", "4 brothers", "Best on phone"],
+    thumb: "assets/brother-brawl-thumb.jpg",
+    play: "/games-brother-brawl/",
+    apk: "",
+    shape: "portrait"
+  },
+  {
     section: "apps",
     title: "Stadium Wayfinder",
     blurb: "Pick a stadium, then get turn-by-turn directions to your section, the closest food and drinks, or a fair spot to meet a friend. 13 venues, including the United Center, Soldier Field, Wrigley, Lambeau, Fenway, MSG and SoFi.",
