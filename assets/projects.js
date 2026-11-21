@@ -58,6 +58,16 @@ const PROJECTS = [
     shape: "portrait"
   },
   {
+    section: "games",
+    title: "Cabin Life",
+    blurb: "You're alone in a cabin by the lake. Chop wood and keep the bonfire going, fish or hunt when you're hungry, and filter and boil lake water before you drink it. Bears raid camp when you least expect it, and when the power goes out you'd better have candles. How many days can you last?",
+    tags: ["Survival", "Endless", "Best on phone"],
+    thumb: "assets/cabin-life-thumb.svg",
+    play: "/games-cabin-life/",
+    apk: "",
+    shape: "portrait"
+  },
+  {
     section: "apps",
     title: "Stadium Wayfinder",
     blurb: "Pick a stadium, then get turn-by-turn directions to your section, the closest food and drinks, or a fair spot to meet a friend. 13 venues, including the United Center, Soldier Field, Wrigley, Lambeau, Fenway, MSG and SoFi.",

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1430"/><stop offset=".65" stop-color="#3a2f5c"/><stop offset="1" stop-color="#c2603e"/></linearGradient>
+<radialGradient id="fireglow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffb347" stop-opacity=".55"/><stop offset="1" stop-color="#ff7a1a" stop-opacity="0"/></radialGradient>
+<radialGradient id="winglow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffd36b" stop-opacity=".5"/><stop offset="1" stop-color="#ffd36b" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="500" fill="url(#sky)"/>
+<g fill="#fff"><circle cx="60" cy="40" r="2"/><circle cx="160" cy="90" r="1.5"/><circle cx="300" cy="30" r="2"/><circle cx="430" cy="70" r="1.5"/><circle cx="520" cy="25" r="2"/><circle cx="700" cy="60" r="1.5"/><circle cx="760" cy="120" r="1.5"/><circle cx="380" cy="130" r="1.2"/></g>
+<circle cx="575" cy="205" r="24" fill="#eef2f8"/><circle cx="586" cy="197" r="22" fill="#272352"/>
+<path d="M0 290 Q120 220 260 270 T520 255 T800 275 V330 H0Z" fill="#1c2530"/>
+<rect y="310" width="800" height="190" fill="#1b2416"/>
+<ellipse cx="660" cy="395" rx="170" ry="52" fill="#2c3d5e"/>
+<path d="M570 390 h60 M650 405 h50 M590 415 h36" stroke="#fff" stroke-opacity=".2" stroke-width="3"/>
+<g fill="#0c140e">
+<polygon points="30,180 -5,320 65,320"/><polygon points="30,150 5,250 55,250"/>
+<polygon points="350,200 315,320 385,320"/><polygon points="350,170 325,260 375,260"/>
+<polygon points="410,215 380,320 440,320"/>
+<polygon points="780,170 735,315 825,315"/><polygon points="780,140 750,240 810,240"/>
+</g>
+<circle cx="230" cy="350" r="90" fill="url(#winglow)"/>
+<rect x="80" y="310" width="210" height="120" fill="#3a2616"/>
+<g stroke="#000" stroke-opacity=".25" stroke-width="2"><line x1="80" y1="330" x2="290" y2="330"/><line x1="80" y1="352" x2="290" y2="352"/><line x1="80" y1="374" x2="290" y2="374"/><line x1="80" y1="396" x2="290" y2="396"/><line x1="80" y1="418" x2="290" y2="418"/></g>
+<polygon points="62,314 185,236 308,314" fill="#2a1a10"/>
+<rect x="240" y="244" width="20" height="40" fill="#444"/>
+<rect x="105" y="355" width="44" height="75" fill="#24160c"/>
+<rect x="200" y="340" width="56" height="42" fill="#ffd36b" stroke="#24160c" stroke-width="5"/>
+<line x1="228" y1="340" x2="228" y2="382" stroke="#24160c" stroke-width="3"/>
+<circle cx="440" cy="420" r="120" fill="url(#fireglow)"/>
+<line x1="410" y1="450" x2="470" y2="428" stroke="#5c3a19" stroke-width="12" stroke-linecap="round"/>
+<line x1="410" y1="428" x2="470" y2="450" stroke="#4a2f14" stroke-width="12" stroke-linecap="round"/>
+<path d="M418 446 Q412 400 440 360 Q470 400 462 446Z" fill="#ff7a1a"/>
+<path d="M427 446 Q426 414 440 392 Q456 416 453 446Z" fill="#ffd34d"/>
+<g transform="translate(560 330)" fill="#120b06">
+<ellipse cx="0" cy="30" rx="50" ry="30"/><circle cx="-46" cy="8" r="21"/><circle cx="-57" cy="-10" r="8"/><circle cx="-36" cy="-12" r="8"/>
+<rect x="-34" y="46" width="15" height="22" rx="5"/><rect x="22" y="46" width="15" height="22" rx="5"/>
+<circle cx="-52" cy="4" r="2.5" fill="#ffcf6b"/>
+</g>
+<text x="400" y="148" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="88" fill="#140c06" opacity=".6">CABIN LIFE</text>
+<text x="400" y="142" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="88" fill="#f3e3c8">CABIN LIFE</text>
+</svg>
