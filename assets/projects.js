@@ -68,6 +68,16 @@ const PROJECTS = [
     shape: "portrait"
   },
   {
+    section: "games",
+    title: "Lucky Loon Pull Tabs",
+    blurb: "Belly up to the Lucky Loon and buy pull tabs a buck at a time. Peel the tabs and line up three in a row to win, and keep an eye on the flare to see which big winners are still in the box. When you go broke, the bartender spots you a twenty. Play money only.",
+    tags: ["Bar game", "Play money", "Best on phone"],
+    thumb: "assets/pull-tabs-thumb.svg",
+    play: "/games-pull-tabs/",
+    apk: "",
+    shape: "portrait"
+  },
+  {
     section: "apps",
     title: "Stadium Wayfinder",
     blurb: "Pick a stadium, then get turn-by-turn directions to your section, the closest food and drinks, or a fair spot to meet a friend. 13 venues, including the United Center, Soldier Field, Wrigley, Lambeau, Fenway, MSG and SoFi.",
