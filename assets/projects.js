@@ -78,6 +78,16 @@ const PROJECTS = [
     shape: "portrait"
   },
   {
+    section: "games",
+    title: "Slingshot Showdown",
+    blurb: "Pull back the sling and bonk the critters and folks wandering across the field. The farther the target, the bigger the points: 10 up close, 100 way out by the tree line, triple for the golden ones. And a certain cartoon face pops up in the corner to trash-talk every miss.",
+    tags: ["Arcade", "60-second rounds", "Best on phone"],
+    thumb: "assets/slingshot-thumb.jpg", thumbTop: true,
+    play: "/games-slingshot-showdown/",
+    apk: "",
+    shape: "portrait"
+  },
+  {
     section: "apps",
     title: "Stadium Wayfinder",
     blurb: "Pick a stadium, then get turn-by-turn directions to your section, the closest food and drinks, or a fair spot to meet a friend. 13 venues, including the United Center, Soldier Field, Wrigley, Lambeau, Fenway, MSG and SoFi.",
